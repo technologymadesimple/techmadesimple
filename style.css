@@ -412,6 +412,8 @@ a.outline {
   display: flex;
   flex-direction: column;
   overflow: hidden;       /* clip rounded corners; body handles scrolling */
+  padding: 25px;
+  padding-top: 45px;
 }
 .popup-content.large { max-width: 880px; }
 
