@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scam Email Simulator — Technology Made Simple</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .tool-header { display: flex; align-items: center; gap: 14px; margin-bottom: 20px; }
+    .tool-header .t-back { font-family: 'Courier Prime', monospace; font-size: 0.78rem; color: #2c6e8a; text-decoration: none; }
+    .tool-header .t-back:hover { text-decoration: underline; }
+    .score-display {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 18px;
+      font-family: 'Courier Prime', monospace;
+      font-size: 0.85rem;
+      color: #4a4035;
+    }
+    .score-display span strong { color: #2c6e8a; font-size: 1.1rem; }
+    .progress-dots {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+    .dot {
+      width: 28px;
+      height: 6px;
+      border-radius: 3px;
+      background: #d8d0c4;
+      transition: background 0.3s;
+    }
+    .dot.correct { background: #16a34a; }
+    .dot.wrong   { background: #dc2626; }
+    .dot.active  { background: #2c6e8a; }
+    .email-flags {
+      margin: 14px 0;
+      padding: 12px 16px;
+      background: #fef9ee;
+      border: 1px solid #e8d888;
+      border-radius: 4px;
+      font-family: 'Courier Prime', monospace;
+      font-size: 0.78rem;
+      color: #7a5800;
+    }
+    .verdict-panel {
+      margin-top: 18px;
+      padding: 18px 22px;
+      border-radius: 6px;
+      font-family: 'Courier Prime', monospace;
+      font-size: 0.82rem;
+      line-height: 1.6;
+      display: none;
+    }
+    .verdict-panel.is-scam { background: #fcd8d8; border: 1px solid #e88a8a; color: #6a0f10; }
+    .verdict-panel.is-safe { background: #c8f0d8; border: 1px solid #5abf80; color: #0a3d20; }
+    .verdict-panel .verdict-title { font-size: 1rem; font-weight: 700; margin-bottom: 6px; }
+    .final-score {
+      text-align: center;
+      padding: 40px 20px;
+      display: none;
+    }
+    .final-score .fs-icon { font-size: 3rem; margin-bottom: 12px; }
+    .final-score h3 { font-size: 1.5rem; font-weight: 400; margin-bottom: 8px; }
+    .final-score .fs-num { font-family: 'Courier Prime', monospace; font-size: 2.4rem; font-weight: 700; color: #2c6e8a; margin-bottom: 12px; }
+    .final-score p { font-size: 0.95rem; color: #4a4035; line-height: 1.65; margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Bridging Digital Awareness</div>
+  <h1>Technology <span>Made Simple</span></h1>
+  <div class="subline">friendly guides for every age — learn at your own pace.</div>
+</header>
+
+<nav>
+  <div class="nav-items">
+    <a href="index.html#about">About</a>
+    <a href="index.html#pathways">Get Started</a>
+    <div class="dropdown">
+      <a href="pathways.html">Pathways ▾</a>
+      <div class="dropdown-menu">
+        <a href="path-beginner.html">Beginner</a>
+        <a href="path-safety.html">Safety</a>
+        <a href="path-jobs.html">Jobs</a>
+        <a href="path-school.html">School</a>
+        <a href="path-ai.html">AI Literacy ✦</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <a href="tools.html">Interactive Tools ▾</a>
+      <div class="dropdown-menu">
+        <a href="tool-password.html">Password Checker</a>
+        <a href="tool-jargon.html">Jargon Decoder</a>
+        <a href="tool-ai-game.html">Ai or Human?</a>
+        <a href="tool-quizzes.html">Knowledge Quizzes</a>
+        <a href="tool-scam.html">Scam Email Simulator</a>
+      </div>
+    </div>
+    <a href="get-involved.html">Get Involved</a>
+  </div>
+</nav>
+
+
+<div class="page-intro">
+  <a href="tools.html" class="back-link">← All Tools</a>
+  <div class="pathway-eyebrow">Scam Email Simulator</div>
+  <h2>Spot the Scam</h2>
+  <p>Read each email carefully. Tap any part that looks suspicious — red flags will highlight and explain why. Then decide: is this a scam or real? Work through all 4 examples to build your instincts.</p>
+</div>
+
+<section>
+  <div id="gameArea">
+    <div class="score-display">
+      <span>Score: <strong id="scoreNum">0</strong></span>
+      <span>Email: <strong id="emailNum">1</strong> of 4</span>
+    </div>
+    <div class="progress-dots">
+      <div class="dot active" id="dot0"></div>
+      <div class="dot" id="dot1"></div>
+      <div class="dot" id="dot2"></div>
+      <div class="dot" id="dot3"></div>
+    </div>
+
+    <div class="scam-email">
+      <div class="email-header">
+        <div class="email-field">From: <span id="emailFrom"></span></div>
+        <div class="email-field">To: <span>you@email.com</span></div>
+        <div class="email-subject" id="emailSubject"></div>
+      </div>
+      <div id="emailFlags" class="email-flags" style="display:none;">
+         Tip: Click or tap any underlined text to reveal a red flag.
+      </div>
+      <div id="emailBody"></div>
+      <div class="scam-nav" style="margin-top: 18px;">
+        <button class="btn-primary" onclick="submitVerdict(true)">This is a scam</button>
+        <button class="btn-outline" onclick="submitVerdict(false)">This looks real</button>
+      </div>
+      <div class="verdict-panel" id="verdictPanel"></div>
+    </div>
+  </div>
+
+  <div class="final-score" id="finalScore">
+    <div class="fs-icon" id="finalIcon"></div>
+    <h3 id="finalTitle"></h3>
+    <div class="fs-num" id="finalNum"></div>
+    <p id="finalMsg"></p>
+    <button class="btn-primary" onclick="restart()">Try Again →</button>
+    &nbsp;
+    <a href="path-safety.html" class="btn-outline">Review Safety Lessons</a>
+  </div>
+
+  <div class="tip" style="margin-top: 24px;">
+    <div>
+      <h4>Real red flags to watch for</h4>
+      <p>Fake domain names (paypa1 vs paypal), urgency and threats, requests for personal info, suspicious links, and unexpected money offers. If anything feels off — don't click.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  Technology Made Simple is student-led project. &nbsp;·&nbsp; free for everyone to use
+</footer>
+
+<script>
+const scamEmails = [
+  {
+    isScam: true,
+    from: "security-alert@paypa1-accounts.com",
+    subject: "⚠️ Urgent: Your account has been suspended",
+    body: `Dear Valued Customer,<br><br>
+We have detected <span class="scam-clue" data-tip="Scare tactics that demand immediate action are a classic scam trick.">suspicious activity on your account and it has been temporarily suspended.</span>
+You must <span class="scam-clue" data-tip="Legitimate companies never ask you to verify details via an email link.">verify your identity immediately</span> to avoid permanent closure.<br><br>
+Click the link below to restore access:<br>
+<span class="scam-clue" data-tip="'paypa1' uses the number 1 instead of the letter l — a very common trick to fake a real company's domain.">www.paypa1-accounts.com/verify-now</span><br><br>
+You have <span class="scam-clue" data-tip="Fake urgency is designed to pressure you into acting before you think.">24 hours to respond</span> before your account is permanently deleted.<br><br>
+Regards,<br>PayPal Security Team`,
+    verdict: "Scam. Red flags: the domain 'paypa1' uses the number 1 instead of the letter L. Real PayPal emails come from @paypal.com only. No legitimate company emails you a link and demands you act within 24 hours."
+  },
+  {
+    isScam: false,
+    from: "no-reply@amazon.com",
+    subject: "Your Amazon order #112-4857291 has shipped",
+    body: `Hello,<br><br>
+Your order has shipped and is on its way!<br><br>
+<strong>Order #112-4857291</strong><br>
+Estimated delivery: Tuesday, April 15<br><br>
+You can track your package at any time by visiting Your Orders on Amazon.com.<br><br>
+Thank you for shopping with us.<br><br>
+Amazon Customer Service`,
+    verdict: "Real. This email comes from the official amazon.com domain, contains no suspicious links, does not ask for personal information, and simply confirms an order you placed. It tells you to visit Amazon directly to track your package — not via a link."
+  },
+  {
+    isScam: true,
+    from: "irs-refund-dept@gov-tax-refund.net",
+    subject: "You are owed a tax refund of $847.00 — claim now",
+    body: `Dear Taxpayer,<br><br>
+After reviewing your records, the <span class="scam-clue" data-tip="The real IRS domain is irs.gov — not gov-tax-refund.net. Always check the sender's address carefully.">IRS Department of Revenue</span> has determined that you are owed a refund of <span class="scam-clue" data-tip="Unexpected money offers are a common lure in phishing scams.">$847.00</span>.<br><br>
+To receive your refund, you must <span class="scam-clue" data-tip="The IRS never asks for bank details or Social Security numbers over email. Ever.">confirm your bank account number and Social Security Number</span> using the secure form below:<br><br>
+<span class="scam-clue" data-tip="This URL has nothing to do with the real IRS website (irs.gov).">http://claim-your-refund.net/irs-form</span><br><br>
+Failure to respond within 48 hours will result in forfeiture of your refund.<br><br>
+IRS Refund Processing Division`,
+    verdict: "Scam. The IRS never contacts you by email about refunds. They never ask for SSNs or bank details by email. The domain 'gov-tax-refund.net' is fake — the real IRS only uses irs.gov."
+  },
+  {
+    isScam: false,
+    from: "support@zoom.us",
+    subject: "Your Zoom meeting recording is ready",
+    body: `Hi there,<br><br>
+Your cloud recording from the meeting <strong>Team Weekly Check-in</strong> on April 8, 2025 is now available.<br><br>
+You can access your recording by signing in to your Zoom account at zoom.us and visiting the Recordings section.<br><br>
+This recording will be available for 30 days.<br><br>
+The Zoom Team`,
+    verdict: "Real. It's from the official zoom.us domain, doesn't include any clickable suspicious links, doesn't ask for personal information, and simply tells you to sign in to your own Zoom account. No urgency, no threats, no unusual requests."
+  }
+];
+
+let idx = 0;
+let score = 0;
+let answered = false;
+
+function loadEmail() {
+  answered = false;
+  const e = scamEmails[idx];
+  document.getElementById('emailFrom').textContent = e.from;
+  document.getElementById('emailSubject').textContent = e.subject;
+  document.getElementById('emailBody').innerHTML = e.body;
+  document.getElementById('emailNum').textContent = idx + 1;
+
+  const vp = document.getElementById('verdictPanel');
+  vp.style.display = 'none';
+  vp.className = 'verdict-panel';
+
+  const hasClues = e.body.includes('scam-clue');
+  document.getElementById('emailFlags').style.display = hasClues ? 'block' : 'none';
+
+  document.querySelectorAll('.scam-clue').forEach(el => {
+    el.style.borderBottom = '2px dashed #2c6e8a';
+    el.style.cursor = 'pointer';
+    el.addEventListener('click', function() {
+      this.style.background = '#fef0cc';
+      this.style.borderColor = '#c88a00';
+      this.style.borderRadius = '2px';
+      this.title = this.dataset.tip || '';
+      // Show tooltip
+      const tip = document.createElement('div');
+      tip.style.cssText = 'position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#1a1a1a;color:#fff;padding:10px 16px;border-radius:6px;font-family:Courier Prime,monospace;font-size:0.78rem;max-width:340px;text-align:center;z-index:999;line-height:1.5;';
+      tip.textContent = this.dataset.tip;
+      document.body.appendChild(tip);
+      setTimeout(() => tip.remove(), 3500);
+    });
+  });
+
+  // Update dots
+  for (let i = 0; i < 4; i++) {
+    const d = document.getElementById('dot'+i);
+    d.className = 'dot' + (i === idx ? ' active' : i < idx ? (scamEmails[i].isScam === (i < idx ? true : false) ? '' : '') : '');
+  }
+  document.getElementById('dot'+idx).className = 'dot active';
+}
+
+function submitVerdict(userSaysScam) {
+  if (answered) return;
+  answered = true;
+  const e = scamEmails[idx];
+  const correct = (userSaysScam === e.isScam);
+  if (correct) score++;
+
+  const dot = document.getElementById('dot'+idx);
+  dot.className = 'dot ' + (correct ? 'correct' : 'wrong');
+
+  const vp = document.getElementById('verdictPanel');
+  vp.innerHTML = '<div class="verdict-title">' + (correct ? '✓ Correct!' : '✗ Not quite.') + '</div>' + e.verdict;
+  vp.className = 'verdict-panel ' + (e.isScam ? 'is-scam' : 'is-safe');
+  vp.style.display = 'block';
+  document.getElementById('scoreNum').textContent = score;
+
+  setTimeout(() => {
+    idx++;
+    if (idx < scamEmails.length) {
+      loadEmail();
+    } else {
+      showFinal();
+    }
+  }, 3500);
+}
+
+function showFinal() {
+  document.getElementById('gameArea').style.display = 'none';
+  const fs = document.getElementById('finalScore');
+  fs.style.display = 'block';
+  const pct = Math.round((score / scamEmails.length) * 100);
+  let icon, title, msg;
+  if (pct === 100)    { icon='🏆'; title='Perfect!';  msg='You caught every scam and correctly identified the real emails. You have sharp instincts — keep spreading the word!'; }
+  else if (pct >= 75) { icon='🌟'; title='Well done!'; msg='You got most of them right. Review the ones you missed and look out for those red flags next time.'; }
+  else if (pct >= 50) { icon='👍'; title='Good effort!'; msg='Scams are designed to fool people — this is exactly why practicing matters. Try again and focus on the sender\'s email address and urgency language.'; }
+  else                { icon='📚'; title='Keep practicing.'; msg='These examples are intentionally tricky. Review the Safety Path for tips on spotting scams, then try again.'; }
+  document.getElementById('finalIcon').textContent = icon;
+  document.getElementById('finalTitle').textContent = title;
+  document.getElementById('finalNum').textContent = score + ' / ' + scamEmails.length;
+  document.getElementById('finalMsg').textContent = msg;
+}
+
+function restart() {
+  idx = 0; score = 0; answered = false;
+  document.getElementById('scoreNum').textContent = '0';
+  document.getElementById('gameArea').style.display = 'block';
+  document.getElementById('finalScore').style.display = 'none';
+  for (let i = 0; i < 4; i++) document.getElementById('dot'+i).className = 'dot';
+  loadEmail();
+}
+
+loadEmail();
+</script>
+</body>
+</html>

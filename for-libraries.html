@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For Libraries — Technology Made Simple</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .toolkit-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 18px;
+      margin-top: 28px;
+    }
+    .toolkit-card {
+      background: #fffdf8;
+      border: 1.5px solid #c8c0b0;
+      border-top: 4px solid #2c6e8a;
+      border-radius: 6px;
+      padding: 22px;
+    }
+    .toolkit-card .tk-icon { font-size: 1.8rem; margin-bottom: 10px; }
+    .toolkit-card h3 { font-size: 1.15rem; font-weight: 500; margin-bottom: 8px; color: #111; }
+    .toolkit-card p { font-size: 0.9rem; color: #4a4035; line-height: 1.65; margin-bottom: 14px; }
+    .session-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 24px;
+      font-size: 0.9rem;
+    }
+    .session-table th {
+      background: #2c6e8a;
+      color: #fff;
+      font-family: 'Courier Prime', monospace;
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 10px 14px;
+      text-align: left;
+    }
+    .session-table td {
+      padding: 11px 14px;
+      border-bottom: 1px solid #e0d8ce;
+      color: #2c2820;
+      line-height: 1.5;
+      vertical-align: top;
+    }
+    .session-table tr:last-child td { border-bottom: none; }
+    .session-table tr:nth-child(even) td { background: #f7f4ef; }
+    .faq-item { margin-bottom: 18px; }
+    .faq-item h4 { font-family: 'Courier Prime', monospace; font-size: 0.95rem; font-weight: 700; color: #2c6e8a; margin-bottom: 5px; }
+    .faq-item p { font-size: 0.95rem; color: #3a3328; line-height: 1.65; }
+    .contact-block {
+      background: #2c6e8a;
+      color: #fff;
+      border-radius: 6px;
+      padding: 32px;
+      text-align: center;
+      margin-top: 36px;
+    }
+    .contact-block h3 { font-size: 1.4rem; font-weight: 400; margin-bottom: 10px; }
+    .contact-block p { font-size: 0.95rem; opacity: 0.9; margin-bottom: 20px; line-height: 1.65; }
+    .contact-block a.btn-light {
+      display: inline-block;
+      background: #fff;
+      color: #2c6e8a;
+      font-family: 'Courier Prime', monospace;
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      padding: 11px 24px;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .contact-block a.btn-light:hover { background: #edf4f8; }
+    .badge-new {
+      display: inline-block;
+      font-family: 'Courier Prime', monospace;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      background: #d4f0e4;
+      color: #0d4a2c;
+      border: 1px solid #5ab880;
+      border-radius: 3px;
+      padding: 2px 7px;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+    .print-list { margin-top: 16px; display: flex; flex-direction: column; gap: 10px; }
+    .print-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #fffdf8;
+      border: 1.5px solid #c8c0b0;
+      border-radius: 4px;
+      padding: 12px 16px;
+      font-size: 0.9rem;
+      color: #2c2820;
+    }
+    .print-item .pi-icon { font-size: 1.2rem; flex-shrink: 0; }
+    .print-item .pi-desc { flex: 1; line-height: 1.5; }
+    .print-item .pi-tag {
+      font-family: 'Courier Prime', monospace;
+      font-size: 0.7rem;
+      color: #6a6255;
+      border: 1px solid #c8c0b0;
+      border-radius: 3px;
+      padding: 2px 7px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Bridging Digital Awareness</div>
+  <h1>Technology <span>Made Simple</span></h1>
+  <div class="subline">friendly guides for every age — learn at your own pace.</div>
+</header>
+
+<nav>
+  <div class="nav-items">
+    <a href="index.html#about">About</a>
+    <a href="index.html#pathways">Get Started</a>
+    <div class="dropdown">
+      <span class="nav-link">Pathways</span>
+      <div class="dropdown-menu">
+        <a href="path-beginner.html">Beginner</a>
+        <a href="path-safety.html">Safety</a>
+        <a href="path-jobs.html">Jobs</a>
+        <a href="path-school.html">School</a>
+        <a href="path-ai.html">AI Literacy ✦</a>
+      </div>
+    </div>
+    <a href="tools.html">Interactive Tools</a>
+    <a href="modules.html">Modules</a>
+    <a href="get-involved.html">Get Involved</a>
+    <a href="for-libraries.html">For Libraries</a>
+  </div>
+</nav>
+
+<div class="page-intro">
+  <div class="pathway-eyebrow">
+    🏛️ Library &amp; Educator Toolkit
+  </div>
+  <h2>Ready to Use in Your Library or Classroom</h2>
+  <p>This site was built to work alongside library services — not replace them. Every resource here is free, requires no login, no download, and works on any computer or phone. Here's everything you need to run a session or share this with your patrons.</p>
+</div>
+
+<section>
+  <h2>What This Site Offers Libraries</h2>
+  <p>Both Arapahoe Libraries and Aurora Public Library do excellent technology work — but neither currently offers a self-paced digital literacy curriculum patrons can follow at home or at a library computer independently. That's the gap this site fills.</p>
+
+  <div class="toolkit-grid">
+
+    <div class="toolkit-card">
+      <div class="tk-icon">🛤️</div>
+      <h3>Guided Learning Pathways</h3>
+      <p>Five structured paths — Beginner, Safety, Jobs, School, and AI Literacy — each with 5–7 short lessons that build on each other. Patrons can start and stop at any time, and revisit any lesson as many times as they like.</p>
+      <a href="index.html#pathways" class="btn-primary">View Pathways</a>
+    </div>
+
+    <div class="toolkit-card">
+      <div class="tk-icon">🧰</div>
+      <h3>Interactive Practice Tools</h3>
+      <p>A scam email simulator, password strength checker, five knowledge quizzes, and a jargon decoder. All run in the browser — no login, no setup. Designed for use on library public computers.</p>
+      <a href="tools.html" class="btn-primary">Open Tools</a>
+    </div>
+
+    <div class="toolkit-card">
+      <div class="tk-icon">⚡</div>
+      <h3>Workshop Modules</h3>
+      <p>Four standalone 30–45 minute modules (Avoid Scams, Send Your First Email, Apply for Jobs, Support Online School) designed for a single group session. Run them start-to-finish or mix and match.</p>
+      <a href="modules.html" class="btn-primary">View Modules</a>
+    </div>
+
+    <div class="toolkit-card">
+      <div class="tk-icon">🤖</div>
+      <h3>AI Literacy <span class="badge-new">New</span></h3>
+      <p>A 5-lesson path on understanding AI tools, spotting deepfakes, and protecting privacy — something neither major library system in this area currently offers. Especially relevant for seniors and adults re-entering the workforce.</p>
+      <a href="path-ai.html" class="btn-primary">View AI Path</a>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Session Formats</h2>
+  <p>You can run a one-off session or build these into a recurring program. Here are three ready-to-use formats:</p>
+
+  <table class="session-table">
+    <thead>
+      <tr>
+        <th>Format</th>
+        <th>Time</th>
+        <th>Best For</th>
+        <th>What to Use</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Drop-In Introduction</strong></td>
+        <td>30 min</td>
+        <td>Seniors, first-time patrons</td>
+        <td>Open one Module (e.g., Avoid Scams). Walk through together on the projector. Let participants try the Scam Simulator on their own computers.</td>
+      </tr>
+      <tr>
+        <td><strong>Guided Pathway Session</strong></td>
+        <td>60 min</td>
+        <td>Adults, job seekers, parents</td>
+        <td>Choose a pathway (Safety or Jobs). Walk through Lessons 1–3 as a group. Assign Lessons 4–5 as homework. Share the site URL for at-home review.</td>
+      </tr>
+      <tr>
+        <td><strong>Ongoing Digital Literacy Series</strong></td>
+        <td>Weekly, 45 min</td>
+        <td>Committed learners, community groups</td>
+        <td>One pathway per 5-week series. One lesson per week, with 15 minutes of group discussion. Use the quizzes as a check-in at the start of each session.</td>
+      </tr>
+      <tr>
+        <td><strong>AI Literacy Workshop</strong> <span class="badge-new">New</span></td>
+        <td>60 min</td>
+        <td>Adults, seniors, staff training</td>
+        <td>Open the AI Literacy path. Complete Lessons 1–3 together (understanding AI, using AI tools, spotting deepfakes). Discuss one real example from local news. Continue with Lessons 4–5 independently.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Print Resources</h2>
+  <p>Print these to hand out at sessions or post on library bulletin boards. Each is formatted to fit on a single sheet of paper.</p>
+
+  <div class="print-list">
+
+    <div class="print-item">
+      <div class="pi-icon">📄</div>
+      <div class="pi-desc">
+        <strong>Scam Warning Signs — Quick Reference</strong><br>
+        The 6 most important red flags, in large print. Ideal for seniors or as a handout after the Safety path.
+      </div>
+      <div class="pi-tag">1 page · Print-ready</div>
+    </div>
+
+    <div class="print-item">
+      <div class="pi-icon">📄</div>
+      <div class="pi-desc">
+        <strong>Strong Password Checklist</strong><br>
+        A simple yes/no checklist for evaluating any password. Pairs with Lesson 2 of the Safety path.
+      </div>
+      <div class="pi-tag">1 page · Print-ready</div>
+    </div>
+
+    <div class="print-item">
+      <div class="pi-icon">📄</div>
+      <div class="pi-desc">
+        <strong>Getting Started Online — Beginner Pathways Map</strong><br>
+        A visual overview of all five learning pathways, with recommended order and time estimates.
+      </div>
+      <div class="pi-tag">1 page · Print-ready</div>
+    </div>
+
+    <div class="print-item">
+      <div class="pi-icon">📄</div>
+      <div class="pi-desc">
+        <strong>AI Tools — What to Share and What to Keep Private</strong><br>
+        A simple two-column reference for AI safety. Pairs with Lesson 4 of the AI Literacy path.
+      </div>
+      <div class="pi-tag">1 page · Print-ready</div>
+    </div>
+
+  </div>
+
+  <div class="tip" style="margin-top:24px;">
+    <div class="icon">✉️</div>
+    <div>
+      <h4>Get the print files</h4>
+      <p>Email us to receive the print-ready PDF versions of all four handouts. We'll send them within 48 hours, free of charge.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <h4>Does anything require a library card or login?</h4>
+    <p>No. Everything on this site — every lesson, quiz, and tool — is free and accessible without any account. Patrons can use it directly on library computers, on their phones, or at home.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>Can we add a link to this site from our library website?</h4>
+    <p>Absolutely — that's exactly what we're asking for. A link from your Technology Help or Digital Literacy resources page would help the most people find it. No permission needed.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>Can I use this content in my sessions without crediting the site?</h4>
+    <p>Yes. This is a student-led community project and the goal is impact, not credit. If you adapt any content for your own printed materials, a small 'adapted from technologymadesimple.org' note is appreciated but not required.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>Can someone from your team come run a session at our branch?</h4>
+    <p>Yes — reach out using the form below and we'll do our best to schedule a visit to your branch. We're local to the Centennial/Aurora area.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>How is the AI Literacy path different from other resources?</h4>
+    <p>Most digital literacy resources were built before the current wave of AI tools and don't cover topics like deepfakes, AI privacy risks, or how to use ChatGPT safely. This path is written specifically for general audiences who want practical guidance, not technical theory.</p>
+  </div>
+
+  <div class="faq-item">
+    <h4>Is this affiliated with any library or school?</h4>
+    <p>This is an independent student-led project, not officially affiliated with any library or district. We're happy to discuss formal partnerships if there's a mutual interest.</p>
+  </div>
+
+</section>
+
+<section>
+  <div class="contact-block">
+    <h3>Ready to partner or have a question?</h3>
+    <p>We'd love to bring a session to your library, add a resource to your website, or simply hear what would make this more useful for your patrons.</p>
+    <a href="mailto:hello@technologymadesimple.org?subject=Library%20Partnership%20Inquiry" class="btn-light">📧 Email Us to Partner</a>
+  </div>
+</section>
+
+<footer>
+  made with ❤️ by the <strong>media &amp; technology club</strong> &nbsp;·&nbsp; free for everyone to use
+</footer>
+
+</body>
+</html>

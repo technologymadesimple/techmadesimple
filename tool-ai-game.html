@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI or Human? — Technology Made Simple</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .game-wrap { max-width: 700px; margin: 0 auto; }
+    .game-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      font-family: 'Courier Prime', monospace;
+      font-size: 0.82rem;
+      color: #6a6255;
+    }
+    .game-meta strong { color: #2c6e8a; font-size: 1rem; }
+    .progress-row { display: flex; gap: 6px; margin-bottom: 20px; }
+    .prog-dot { flex: 1; height: 5px; border-radius: 3px; background: #d8d0c4; transition: background 0.3s; }
+    .prog-dot.ai-dot    { background: #7c3aed; }
+    .prog-dot.human-dot { background: #059669; }
+    .prog-dot.active    { background: #2c6e8a; }
+    .content-card {
+      background: #fffdf8;
+      border: 1.5px solid #c8c0b0;
+      border-radius: 8px;
+      padding: 28px 26px;
+      margin-bottom: 20px;
+      position: relative;
+      min-height: 120px;
+    }
+    .content-type-label {
+      font-family: 'Courier Prime', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #6a6255;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .content-card p {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #1a1a1a;
+      margin: 0;
+    }
+    .vote-row {
+      display: flex;
+      gap: 14px;
+      margin-top: 20px;
+    }
+    .vote-btn {
+      flex: 1;
+      padding: 14px;
+      border-radius: 6px;
+      border: 2px solid transparent;
+      font-family: 'Courier Prime', monospace;
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      transition: all 0.15s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .vote-ai    { background: #f3f0ff; border-color: #7c3aed; color: #4c1d95; }
+    .vote-human { background: #f0fdf4; border-color: #059669; color: #064e3b; }
+    .vote-ai:hover    { background: #7c3aed; color: #fff; }
+    .vote-human:hover { background: #059669; color: #fff; }
+    .vote-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .reveal-panel {
+      border-radius: 6px;
+      padding: 20px 22px;
+      margin-top: 18px;
+      display: none;
+    }
+    .reveal-panel.is-ai    { background: #f3f0ff; border: 1.5px solid #7c3aed; }
+    .reveal-panel.is-human { background: #f0fdf4; border: 1.5px solid #059669; }
+    .reveal-title {
+      font-family: 'Courier Prime', monospace;
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .reveal-title.ai-title    { color: #4c1d95; }
+    .reveal-title.human-title { color: #064e3b; }
+    .reveal-panel p { font-size: 0.9rem; line-height: 1.65; color: #2c2820; margin: 0; }
+    .reveal-panel .clue-list {
+      margin-top: 10px;
+      padding-left: 18px;
+      font-size: 0.88rem;
+      color: #3a3328;
+      line-height: 2;
+    }
+    .next-btn-row { display: flex; justify-content: flex-end; margin-top: 14px; }
+    .score-bar { display: flex; justify-content: space-between; font-family: 'Courier Prime', monospace; font-size: 0.78rem; color: #6a6255; margin-bottom: 10px; }
+    .final-screen { text-align: center; padding: 20px 0; display: none; }
+    .final-screen .f-icon { font-size: 3rem; margin-bottom: 12px; }
+    .final-screen h3 { font-size: 1.5rem; font-weight: 400; margin-bottom: 8px; }
+    .final-screen .f-score { font-family: 'Courier Prime', monospace; font-size: 2.4rem; font-weight: 700; color: #2c6e8a; margin: 10px 0; }
+    .final-screen p { font-size: 0.95rem; color: #4a4035; line-height: 1.65; margin-bottom: 20px; max-width: 480px; margin-left: auto; margin-right: auto; }
+    .breakdown { display: flex; justify-content: center; gap: 24px; margin-bottom: 24px; }
+    .breakdown-item { text-align: center; }
+    .breakdown-item .bi-num { font-family: 'Courier Prime', monospace; font-size: 1.6rem; font-weight: 700; }
+    .breakdown-item .bi-label { font-size: 0.78rem; color: #6a6255; font-family: 'Courier Prime', monospace; text-transform: uppercase; letter-spacing: 0.08em; }
+    .ai-color { color: #7c3aed; }
+    .human-color { color: #059669; }
+    @media (max-width: 480px) { .vote-btn { font-size: 0.8rem; padding: 12px 8px; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Bridging Digital Awareness</div>
+  <h1>Technology <span>Made Simple</span></h1>
+  <div class="subline">friendly guides for every age — learn at your own pace.</div>
+</header>
+
+<nav>
+  <div class="nav-items">
+    <a href="index.html#about">About</a>
+    <a href="index.html#pathways">Get Started</a>
+    <div class="dropdown">
+      <a href="pathways.html">Pathways ▾</a>
+      <div class="dropdown-menu">
+        <a href="path-beginner.html">Beginner</a>
+        <a href="path-safety.html">Safety</a>
+        <a href="path-jobs.html">Jobs</a>
+        <a href="path-school.html">School</a>
+        <a href="path-ai.html">AI Literacy ✦</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <a href="tools.html">Interactive Tools ▾</a>
+      <div class="dropdown-menu">
+        <a href="tool-password.html">Password Checker</a>
+        <a href="tool-jargon.html">Jargon Decoder</a>
+        <a href="tool-ai-game.html">Ai or Human?</a>
+        <a href="tool-quizzes.html">Knowledge Quizzes</a>
+        <a href="tool-scam.html">Scam Email Simulator</a>
+      </div>
+    </div>
+    <a href="get-involved.html">Get Involved</a>
+  </div>
+</nav>
+
+
+<div class="page-intro">
+  <a href="tools.html" class="back-link">← All Tools</a>
+  <div class="pathway-eyebrow"> AI or Human?</div>
+  <h2>Can You Tell the Difference?</h2>
+  <p>Read each piece of writing and decide: was it written by a real person, or generated by AI? After your guess, you'll see the answer and the exact clues that give it away. 12 examples across different types of content.</p>
+</div>
+
+<section>
+  <div class="game-wrap" id="gameWrap">
+    <div class="game-meta">
+      <span>Example <strong id="exNum">1</strong> of 12</span>
+      <span>Score: <strong id="scoreNum">0</strong></span>
+    </div>
+    <div class="progress-row" id="progressRow"></div>
+
+    <div class="content-card">
+      <div class="content-type-label" id="contentType"></div>
+      <p id="contentText"></p>
+    </div>
+
+    <div class="vote-row">
+      <button class="vote-btn vote-ai"    onclick="guess('ai')"    id="btnAI"> This is AI</button>
+      <button class="vote-btn vote-human" onclick="guess('human')" id="btnHuman"> This is Human</button>
+    </div>
+
+    <div class="reveal-panel" id="revealPanel">
+      <div class="reveal-title" id="revealTitle"></div>
+      <p id="revealText"></p>
+      <ul class="clue-list" id="revealClues"></ul>
+    </div>
+    <div class="next-btn-row" id="nextRow" style="display:none;">
+      <button class="btn-primary" onclick="advance()">Next Example →</button>
+    </div>
+  </div>
+
+  <div class="final-screen" id="finalScreen">
+    <div class="f-icon" id="fIcon"></div>
+    <h3 id="fTitle"></h3>
+    <div class="f-score" id="fScore"></div>
+    <div class="breakdown">
+      <div class="breakdown-item">
+        <div class="bi-num ai-color" id="aiRight">–</div>
+        <div class="bi-label"> AI identified</div>
+      </div>
+      <div class="breakdown-item">
+        <div class="bi-num human-color" id="humanRight">–</div>
+        <div class="bi-label"> Human identified</div>
+      </div>
+    </div>
+    <p id="fMsg"></p>
+    <button class="btn-primary" onclick="restart()">Play Again →</button>
+    &nbsp;
+    <a href="path-ai.html" class="btn-outline">Learn More About AI</a>
+  </div>
+
+  <div class="tip" style="margin-top: 28px;">
+    <div class="icon">💡</div>
+    <div>
+      <h4>Why this matters</h4>
+      <p>AI-generated content is now everywhere — in social media, product reviews, news articles, and emails. Learning to spot the patterns helps you make better decisions about what to trust and what to share.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  Technology Made Simple is student-led project. &nbsp;·&nbsp; free for everyone to use
+</footer>
+
+<script>
+const examples = [
+  {
+    type: " Restaurant Review",
+    label: "ai",
+    text: "I recently had the pleasure of dining at La Maison Bistro and I must say the experience was absolutely delightful. The ambiance was inviting, the service was attentive and professional, and the cuisine struck a perfect balance between classic techniques and modern innovation. The salmon was particularly noteworthy, cooked to perfection with a beautiful crust. I would highly recommend this establishment to anyone looking for a refined yet approachable dining experience. Five stars.",
+    reveal: "This was written by AI.",
+    explanation: "Phrases like 'I must say,' 'absolutely delightful,' and 'refined yet approachable' are classic AI writing patterns. The review is perfectly balanced — all positive, no specific complaints or personal memories, no concrete details about the atmosphere. Real reviews tend to mention one specific thing that went slightly wrong.",
+    clues: ["No specific complaint or imperfection — real reviews almost always have one", "'Attentive and professional' is vague corporate-speak", "No personal anecdote or specific memory ('my husband's steak', 'our anniversary dinner')"]
+  },
+  {
+    type: " Restaurant Review",
+    label: "human",
+    text: "ok so the pasta was genuinely incredible but our server disappeared for like 25 mins when we needed the check?? 4 stars because the food was worth it but bring a book if you need your change lol. Also the tiramisu was enormous, split it with 3 people and we still had leftovers",
+    reveal: "This was written by a human.",
+    explanation: "Specific frustrations, informal punctuation, humor, and very concrete details (25 mins, split between 3 people, leftovers) are all hallmarks of authentic human writing. The overall structure — praise, specific complaint, compromise verdict — mirrors how people actually tell stories.",
+    clues: ["Lowercase + '??' = genuine texting-style frustration", "Specific number: '25 mins', '3 people' — AI tends to be vague", "The punchline ('bring a book') is too specific and absurdist to be generated"]
+  },
+  {
+    type: " Social Media Post",
+    label: "ai",
+    text: "In today's fast-paced world, it's more important than ever to take time for yourself. Self-care isn't selfish — it's essential. Whether it's a morning walk, a good book, or simply pausing to breathe, these small moments of mindfulness can transform your entire day. Remember: you can't pour from an empty cup. 💙 #selfcare #wellness #mindfulness",
+    reveal: "This was written by AI.",
+    explanation: "'In today's fast-paced world' is almost never written by a real person — it's one of the most common AI opener phrases. The post is generic, has no personal story or specific experience, and ends with perfectly on-brand hashtags. The 'empty cup' phrase is an overused motivational cliché.",
+    clues: ["'In today's fast-paced world' = textbook AI opener", "Three perfectly chosen hashtags with zero personality", "No personal story — just abstract statements"]
+  },
+  {
+    type: " Social Media Post",
+    label: "human",
+    text: "spilled an entire iced coffee on my laptop this morning, everything is fine, it's all fine, i am FINE, currently writing this from my phone while it dries upside down on a towel and praying to every deity i know about",
+    reveal: "This was written by a human.",
+    explanation: "The chaotic, escalating repetition ('fine, it's all fine, i am FINE'), the lowercase style, and the very specific detail of the laptop drying upside down on a towel are all unmistakably human. The humor comes from genuine panic — something AI produces as a concept but rarely captures this authentically.",
+    clues: ["Escalating capitalization for emphasis: 'i am FINE'", "'praying to every deity' is too specific and panicked for AI", "The detail 'upside down on a towel' is the kind of thing only someone actually doing it would write"]
+  },
+  {
+    type: " Professional Email",
+    label: "ai",
+    text: "I hope this message finds you well. I am writing to follow up regarding the proposal I submitted last Tuesday. I wanted to ensure that you had received the documents and to inquire whether you might have any questions or require any additional information. Please do not hesitate to reach out at your earliest convenience. I look forward to hearing from you.",
+    reveal: "This was written by AI.",
+    explanation: "'I hope this message finds you well' is one of the most recognizable AI email openers. The message is overly formal for someone following up on their own proposal — no mention of what the proposal was about, no specific date, no personality. Real professionals are usually more direct.",
+    clues: ["'I hope this message finds you well' = classic AI email opener", "No specific reference to what the proposal actually covers", "'Do not hesitate to reach out at your earliest convenience' = overly formal filler"]
+  },
+  {
+    type: " Text to a Friend",
+    label: "human",
+    text: "okay so I'm in the checkout line at king soopers and I just realized I forgot my wallet in the car do u think the cashier would accept vibes as payment because I have a lot of those",
+    reveal: "This was written by a human.",
+    explanation: "'Vibes as payment' is the kind of specific, absurdist humor that emerges from a real moment of stress. The run-on sentence, the specific store name (King Soopers is a regional Colorado grocery chain), and the casual texting style are all natural. AI would probably suggest going back to the car.",
+    clues: ["Specific store name — AI tends to say 'grocery store' generically", "The punchline ('I have a lot of those') is self-aware and situationally funny", "Run-on sentence structure mirrors how people actually text mid-panic"]
+  },
+  {
+    type: " Product Description",
+    label: "ai",
+    text: "Introducing the UltraComfort Pro Mattress — engineered for the modern sleeper. Featuring a proprietary 7-layer foam system designed to provide optimal pressure relief and spinal alignment, the UltraComfort Pro adapts to your body's unique contours throughout the night. Wake up refreshed, rejuvenated, and ready to take on the day. Available in Twin, Full, Queen, and King sizes. Experience sleep, reimagined.",
+    reveal: "This was written by AI.",
+    explanation: "'Proprietary,' 'optimal,' 'unique contours,' and 'Experience [noun], reimagined' are signature AI marketing patterns. The description covers everything perfectly without a single claim you could actually verify — no specific materials, no real measurements, no honest trade-offs.",
+    clues: ["'Experience sleep, reimagined' = classic AI brand tagline format", "'Proprietary' and 'optimal' together = AI marketing speak", "No concrete, verifiable claim — just polished vagueness"]
+  },
+  {
+    type: " Personal Essay Excerpt",
+    label: "human",
+    text: "My grandmother never taught me to make pierogi — not really. She'd let me stand next to her while she made them, occasionally letting me fold one while she watched with the specific look of someone trying very hard not to correct a child. I learned by osmosis and by eating enough of her failed experiments (there weren't many) to understand what I was going for.",
+    reveal: "This was written by a human.",
+    explanation: "The parenthetical aside '(there weren't many)' is a deeply human touch — a small self-correction that reveals personality and love simultaneously. The specific detail of 'the look of someone trying very hard not to correct a child' is too emotionally precise for AI to generate without being told explicitly to do so.",
+    clues: ["'(there weren't many)' — a spontaneous parenthetical that reveals character", "'the specific look of someone trying very hard not to correct a child' is too precise an observation for AI", "No tidy moral or lesson at the end — real memories don't have conclusions"]
+  },
+  {
+    type: " Motivational Post",
+    label: "ai",
+    text: "Success is not a destination; it is a journey. Every setback is a setup for a comeback. Embrace the challenges, trust the process, and never stop believing in your ability to rise above adversity. Your potential is limitless. The only barrier between you and your goals is the one you build in your mind. 🔥",
+    reveal: "This was written by AI.",
+    explanation: "This is almost a checklist of AI motivational content: the 'not a destination' framing, 'setback is a setup for a comeback,' 'trust the process,' 'limitless potential,' and the fire emoji closer. Every sentence is a standalone cliché — they're all individually recognizable, which is exactly what AI combines.",
+    clues: ["'Setback is a setup for a comeback' = recycled motivational poster", "'Your potential is limitless' — real coaches give specific advice, not slogans", "Fire emoji at the end of a perfectly structured list = AI social media formula"]
+  },
+  {
+    type: " Book Review",
+    label: "human",
+    text: "I read the first 200 pages in one sitting and the next 100 with increasing dread because I knew I was running out of book. Then I hit the ending and sat there for a solid minute just going 'what.' I've recommended it to three people since then and I'm a little worried about what that says about me as a person.",
+    reveal: "This was written by a human.",
+    explanation: "The structure mirrors how people actually tell stories about books — building toward the ending reveal, then the self-aware observation about recommending it. 'Sat there for a solid minute just going what' is the kind of speechlessness only a real person describes this way. The final sentence is self-deprecating and specific.",
+    clues: ["'A solid minute just going what' — AI would say 'I was speechless'", "The self-aware worry about recommending it is too specific a character observation", "No description of the plot or themes — just the emotional experience"]
+  },
+  {
+    type: " News Summary",
+    label: "ai",
+    text: "Local authorities announced on Tuesday the implementation of a new initiative aimed at addressing the growing concerns surrounding digital literacy among underserved communities. The program, which is expected to launch in the coming months, will provide residents with access to educational resources and workshops designed to enhance technological proficiency. Officials stated that the initiative represents a significant step forward in bridging the digital divide.",
+    reveal: "This was written by AI.",
+    explanation: "'Aimed at addressing the growing concerns surrounding,' 'designed to enhance technological proficiency,' and 'a significant step forward in bridging the digital divide' are all AI-typical bureaucratic phrasing. No named officials, no specific budget, no specific location, no direct quotes — just smooth, vague positive framing.",
+    clues: ["No named sources — real journalism names people", "'Bridging the digital divide' = AI loves this phrase", "No specific detail: when exactly, where, how much — all vague"]
+  },
+  {
+    type: " Tech Support Forum Post",
+    label: "human",
+    text: "I've been fighting with this printer for 45 minutes. I've reinstalled the drivers twice. I've turned it off and on. I've asked my husband who 'knows about computers' (he does not know about computers). At this point I'm going to print everything at Walgreens forever.",
+    reveal: "This was written by a human.",
+    explanation: "The escalating frustration, the parenthetical jab at the husband, and 'print everything at Walgreens forever' as the nuclear option are all classic human venting. Real frustration has a specific, escalating, slightly absurdist quality that AI rarely replicates without being told to. The scare quotes around 'knows about computers' show real relationship knowledge.",
+    clues: ["Parenthetical '(he does not know about computers)' = genuine exasperation", "'Print everything at Walgreens forever' is too specific and resigned to be AI", "Escalating list structure mirrors how people actually complain out loud"]
+  }
+];
+
+let idx = 0;
+let score = 0;
+let aiRight = 0;
+let humanRight = 0;
+
+function initProgress() {
+  const row = document.getElementById('progressRow');
+  row.innerHTML = '';
+  for (let i = 0; i < examples.length; i++) {
+    const d = document.createElement('div');
+    d.className = 'prog-dot' + (i === 0 ? ' active' : '');
+    d.id = 'pd' + i;
+    row.appendChild(d);
+  }
+}
+
+function load() {
+  const ex = examples[idx];
+  document.getElementById('exNum').textContent = idx + 1;
+  document.getElementById('contentType').textContent = ex.type;
+  document.getElementById('contentText').textContent = ex.text;
+  document.getElementById('revealPanel').style.display = 'none';
+  document.getElementById('nextRow').style.display = 'none';
+  document.getElementById('btnAI').disabled = false;
+  document.getElementById('btnHuman').disabled = false;
+
+  // Update progress dots
+  for (let i = 0; i < examples.length; i++) {
+    const d = document.getElementById('pd' + i);
+    if (i < idx) {
+      // already answered — color set during guess
+    } else if (i === idx) {
+      d.className = 'prog-dot active';
+    } else {
+      d.className = 'prog-dot';
+    }
+  }
+}
+
+function guess(choice) {
+  const ex = examples[idx];
+  const correct = (choice === ex.label);
+  if (correct) {
+    score++;
+    if (ex.label === 'ai') aiRight++;
+    else humanRight++;
+  }
+
+  document.getElementById('scoreNum').textContent = score;
+  document.getElementById('btnAI').disabled = true;
+  document.getElementById('btnHuman').disabled = true;
+
+  // Color the progress dot
+  const dot = document.getElementById('pd' + idx);
+  if (correct) {
+    dot.className = 'prog-dot ' + (ex.label === 'ai' ? 'ai-dot' : 'human-dot');
+  } else {
+    dot.style.background = '#dc2626';
+  }
+
+  // Show reveal
+  const panel = document.getElementById('revealPanel');
+  panel.className = 'reveal-panel ' + (ex.label === 'ai' ? 'is-ai' : 'is-human');
+
+  const titleEl = document.getElementById('revealTitle');
+  const correctMark = correct ? '✓ Correct! ' : '✗ Not quite. ';
+  titleEl.className = 'reveal-title ' + (ex.label === 'ai' ? 'ai-title' : 'human-title');
+  titleEl.textContent = correctMark + ex.reveal;
+
+  document.getElementById('revealText').textContent = ex.explanation;
+  document.getElementById('revealClues').innerHTML = ex.clues.map(c => `<li>${c}</li>`).join('');
+  panel.style.display = 'block';
+
+  if (idx < examples.length - 1) {
+    document.getElementById('nextRow').style.display = 'flex';
+  } else {
+    setTimeout(showFinal, 2000);
+  }
+}
+
+function advance() {
+  idx++;
+  load();
+}
+
+function showFinal() {
+  document.getElementById('gameWrap').style.display = 'none';
+  const fs = document.getElementById('finalScreen');
+  fs.style.display = 'block';
+  const pct = Math.round((score / examples.length) * 100);
+  let icon, title, msg;
+  if (pct >= 92)     { icon='🏆'; title='Exceptional!'; msg='You have a sharp eye for AI patterns. That instinct will serve you well — especially as AI-generated content gets harder to spot. Share this game with someone who needs to know.'; }
+  else if (pct >= 75){ icon='🌟'; title='Strong reader!'; msg='You caught most of them. Review the ones that fooled you — the explanations show exactly what the tells are.'; }
+  else if (pct >= 58){ icon='👍'; title='Getting there!'; msg='This is genuinely hard — AI writing keeps improving. The clues in the explanations will sharpen your instincts next time.'; }
+  else               { icon='📚'; title='Good start!'; msg='AI writing has gotten very convincing — that\'s exactly the problem. Read through the explanations carefully and try again. It gets easier with practice.'; }
+  document.getElementById('fIcon').textContent = icon;
+  document.getElementById('fTitle').textContent = title;
+  document.getElementById('fScore').textContent = score + ' / ' + examples.length;
+  document.getElementById('aiRight').textContent = aiRight;
+  document.getElementById('humanRight').textContent = humanRight;
+  document.getElementById('fMsg').textContent = msg;
+}
+
+function restart() {
+  idx = 0; score = 0; aiRight = 0; humanRight = 0;
+  document.getElementById('scoreNum').textContent = '0';
+  document.getElementById('gameWrap').style.display = 'block';
+  document.getElementById('finalScreen').style.display = 'none';
+  initProgress();
+  load();
+}
+
+initProgress();
+load();
+</script>
+</body>
+</html>

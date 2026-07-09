@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modules — Technology Made Simple</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Bridging Digital Awareness</div>
+  <h1>Technology <span>Made Simple</span></h1>
+  <div class="subline">friendly guides for every age — learn at your own pace.</div>
+</header>
+
+<nav>
+  <div class="nav-items">
+    <a href="index.html#about">About</a>
+    <a href="index.html#pathways">Get Started</a>
+    <div class="dropdown">
+      <span class="nav-link">Pathways</span>
+      <div class="dropdown-menu">
+        <a href="path-beginner.html">Beginner</a>
+        <a href="path-safety.html">Safety</a>
+        <a href="path-jobs.html">Jobs</a>
+        <a href="path-school.html">School</a>
+        <a href="path-ai.html">AI Literacy ✦</a>
+      </div>
+    </div>
+    <a href="tools.html">Interactive Tools</a>
+    <a href="modules.html">Modules</a>
+    <a href="get-involved.html">Get Involved</a>
+    <a href="for-libraries.html">For Libraries</a>
+  </div>
+</nav>
+
+<div class="page-intro">
+  <a href="index.html#pathways" class="back-link">← Back</a>
+  <div class="pathway-eyebrow">
+    ⚡ Quick Modules
+  </div>
+  <h2>Learn Real Skills Fast</h2>
+  <p>These short modules are designed for workshops, libraries, and independent learners. Each one focuses on a real-world goal you can achieve in under an hour.</p>
+</div>
+
+<section>
+  <div class="lesson-list">
+
+    <div class="lesson-card" onclick="openLesson(0)">
+      <div class="lesson-number">01</div>
+      <div class="lesson-body">
+        <h3>Avoid Scams in 30 Minutes</h3>
+        <p>Learn how to recognize scam emails, fake messages, and protect your personal information online.</p>
+        <div class="lesson-meta">
+          <span>⏱ 30 min</span>
+          <span class="age-tag snr">Beginner</span>
+        </div>
+      </div>
+      <div class="lesson-arrow">→</div>
+    </div>
+
+    <div class="lesson-card" onclick="openLesson(1)">
+      <div class="lesson-number">02</div>
+      <div class="lesson-body">
+        <h3>Send Your First Email</h3>
+        <p>Create an email account and send your first message with confidence.</p>
+        <div class="lesson-meta">
+          <span>⏱ 30 min</span>
+          <span class="age-tag snr">Beginner</span>
+        </div>
+      </div>
+      <div class="lesson-arrow">→</div>
+    </div>
+
+    <div class="lesson-card" onclick="openLesson(2)">
+      <div class="lesson-number">03</div>
+      <div class="lesson-body">
+        <h3>Apply for Jobs Online</h3>
+        <p>Find job listings and submit your first application online.</p>
+        <div class="lesson-meta">
+          <span>⏱ 45 min</span>
+          <span class="age-tag snr">All Ages</span>
+        </div>
+      </div>
+      <div class="lesson-arrow">→</div>
+    </div>
+
+    <div class="lesson-card" onclick="openLesson(3)">
+      <div class="lesson-number">04</div>
+      <div class="lesson-body">
+        <h3>Support Online School</h3>
+        <p>Learn how to use Google Classroom, Zoom, and homework tools to support students.</p>
+        <div class="lesson-meta">
+          <span>⏱ 30 min</span>
+          <span class="age-tag snr">Parents</span>
+        </div>
+      </div>
+      <div class="lesson-arrow">→</div>
+    </div>
+
+  </div>
+
+  <div class="tip">
+    <div class="icon">🏫</div>
+    <div>
+      <h4>Perfect for Group Sessions</h4>
+      <p>These modules are designed to be used in libraries, classrooms, and community centers. Each one can be completed in a single session.</p>
+    </div>
+  </div>
+
+</section>
+
+<!-- MODULE POPUP -->
+<div id="lessonPopup" class="popup">
+  <div class="popup-content large">
+    <div class="popup-header">
+      <button class="close" onclick="closeLesson()">&times;</button>
+      <div class="popup-eyebrow" id="lessonEyebrow"></div>
+      <h2 id="lessonTitle"></h2>
+    </div>
+    <div class="popup-body">
+      <div class="popup-text">
+        <p id="lessonIntro"></p>
+        <div id="lessonSteps" class="lesson-steps"></div>
+      </div>
+    </div>
+    <div class="popup-footer">
+      <button class="btn-outline" onclick="closeLesson()">Close</button>
+      <button class="btn-primary" id="lessonNext" onclick="nextLesson()">Next Module →</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  made with ❤️ by the <strong>media &amp; technology club</strong> &nbsp;·&nbsp; free for everyone to use
+</footer>
+
+<script>
+const lessons = [
+  {
+    title: "Avoid Scams in 30 Minutes",
+    eyebrow: "Module 1 · Safety",
+    intro: "By the end of this session, you will be able to recognize common scams and protect yourself online.",
+    steps: [
+      "<strong>Understand scams:</strong> Scammers try to trick you into giving personal info or money.",
+      "<strong>Warning signs:</strong> Urgency, unknown senders, suspicious links.",
+      "<strong>Check before clicking:</strong> Never click links from unknown sources.",
+      "<strong>Use the scam simulator:</strong> Visit the tools page to test your skills.",
+      "<strong>What to do:</strong> Ignore, delete, and report suspicious messages."
+    ]
+  },
+  {
+    title: "Send Your First Email",
+    eyebrow: "Module 2 · Beginner",
+    intro: "Learn how to create an email account and send your first message.",
+    steps: [
+      "Go to gmail.com and click 'Create account'.",
+      "Choose a username and password.",
+      "Click 'Compose' to start a new message.",
+      "Enter the recipient, subject, and message.",
+      "Click 'Send' — you’ve just sent your first email."
+    ]
+  },
+  {
+    title: "Apply for Jobs Online",
+    eyebrow: "Module 3 · Jobs",
+    intro: "Learn the basics of finding and applying for jobs online.",
+    steps: [
+      "Search for jobs using websites like Indeed or LinkedIn.",
+      "Click on a job listing and read the description.",
+      "Prepare a simple resume.",
+      "Submit your application online.",
+      "Follow up with a polite email if needed."
+    ]
+  },
+  {
+    title: "Support Online School",
+    eyebrow: "Module 4 · School",
+    intro: "Help students succeed with online tools used in school.",
+    steps: [
+      "Log into Google Classroom and check assignments.",
+      "Join Zoom or Meet sessions.",
+      "Use Google Docs for homework.",
+      "Set a consistent study schedule.",
+      "Talk with students about safe internet use."
+    ]
+  }
+];
+
+let currentLesson = 0;
+
+function openLesson(index) {
+  currentLesson = index;
+  const l = lessons[index];
+
+  document.getElementById('lessonEyebrow').innerText = l.eyebrow;
+  document.getElementById('lessonTitle').innerText = l.title;
+  document.getElementById('lessonIntro').innerText = l.intro;
+
+  document.getElementById('lessonSteps').innerHTML = l.steps.map((s, i) =>
+    `<div class="lesson-step"><span class="step-num">${i + 1}</span><p>${s}</p></div>`
+  ).join('');
+
+  document.getElementById('lessonPopup').style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLesson() {
+  document.getElementById('lessonPopup').style.display = 'none';
+  document.body.style.overflow = '';
+}
+
+function nextLesson() {
+  if (currentLesson < lessons.length - 1) openLesson(currentLesson + 1);
+}
+
+document.getElementById('lessonPopup').addEventListener('click', e => {
+  if (e.target === e.currentTarget) closeLesson();
+});
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeLesson();
+});
+</script>
+
+</body>
+</html>
