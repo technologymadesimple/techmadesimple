@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Jargon Decoder — Technology Made Simple</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Bridging Digital Awareness</div>
+  <h1>Technology <span>Made Simple</span></h1>
+  <div class="subline">friendly guides for every age — learn at your own pace.</div>
+</header>
+
+<nav>
+  <div class="nav-items">
+    <a href="index.html#about">About</a>
+    <a href="index.html#pathways">Get Started</a>
+    <div class="dropdown">
+      <a href="pathways.html">Pathways ▾</a>
+      <div class="dropdown-menu">
+        <a href="path-beginner.html">Beginner</a>
+        <a href="path-safety.html">Safety</a>
+        <a href="path-jobs.html">Jobs</a>
+        <a href="path-school.html">School</a>
+        <a href="path-ai.html">AI Literacy ✦</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <a href="tools.html">Interactive Tools ▾</a>
+      <div class="dropdown-menu">
+        <a href="tool-password.html">Password Checker</a>
+        <a href="tool-jargon.html">Jargon Decoder</a>
+        <a href="tool-ai-game.html">Ai or Human?</a>
+        <a href="tool-quizzes.html">Knowledge Quizzes</a>
+        <a href="tool-scam.html">Scam Email Simulator</a>
+      </div>
+    </div>
+    <a href="get-involved.html">Get Involved</a>
+  </div>
+</nav>
+
+
+<div class="page-intro">
+  <a href="tools.html" class="back-link">← All Tools</a>
+  <div class="pathway-eyebrow"> Tech Jargon Decoder</div>
+  <h2><b>Plain-English Explanations</b></h2>
+  <p>Confused by a tech word? Click any term below — or type it in the search box — to get a clear, plain-language explanation with a real-life example.</p>
+</div>
+
+<section>
+  <div class="jargon-search">
+    <input type="text" id="jargonSearch" placeholder="Type a term to search…" oninput="filterJargon()">
+  </div>
+  <div class="jargon-grid" id="jargonGrid"></div>
+  <div class="jargon-def-box" id="jargonBox">
+    <h4 id="jargonTerm"></h4>
+    <p id="jargonDef"></p>
+    <div class="jd-example" id="jargonExample"></div>
+  </div>
+  <div class="tip">
+    <div>
+      <h4>Can't find the term you are looking for?</h4>
+      <p>Help us improve! If you can't find a term you are looking for, press the button to request help.</p>
+      <a href="get-involved.html#help" class="btn-outline">Request Help</a>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  Technology Made Simple is student-led project. &nbsp;·&nbsp; free for everyone to use
+</footer>
+
+<script>
+const terms = {
+  phishing:      { term: "Phishing",              def: "A trick where scammers send fake emails or texts pretending to be a trusted company — like your bank — to steal your password or personal info. If something asks you to click a link urgently, be suspicious.", example: "Example: An email that looks like it's from Netflix saying your account is suspended, with a fake link to 'update your payment info'." },
+  vpn:           { term: "VPN",                   def: "Short for Virtual Private Network. A tool that hides your internet activity by routing it through a private server elsewhere. Useful on public Wi-Fi to stop others from seeing what you're doing online.", example: "Example: Using a VPN at a coffee shop means the café's network can't see which websites you're visiting." },
+  malware:       { term: "Malware",               def: "Short for 'malicious software' — programs designed to harm your device or steal your data. Viruses, spyware, and ransomware are all types of malware. Avoid downloading files or clicking links from unknown sources.", example: "Example: A pop-up says 'You have a virus! Download our cleaner.' The download itself is the malware." },
+  "2fa":         { term: "Two-Factor Auth (2FA)", def: "A second security step after your password — usually a code sent to your phone. Even if someone steals your password, they still can't log in without this second step. Turn it on everywhere you can.", example: "Example: After typing your Gmail password, Google texts you a 6-digit code you also have to enter." },
+  encryption:    { term: "Encryption",            def: "A way of scrambling data so only the intended person can read it. When you see HTTPS in a web address, your connection is encrypted — meaning others on the network can't easily read what you send.", example: "Example: When you enter your credit card on Amazon.com (HTTPS), the number is scrambled before it travels across the internet." },
+  firewall:      { term: "Firewall",              def: "A security system built into your computer or router that monitors incoming and outgoing network traffic and blocks suspicious connections. Think of it as a security guard for your internet connection.", example: "Example: Your Windows computer has a built-in firewall that blocks programs from making unauthorized connections." },
+  cookie:        { term: "Cookie",                def: "A small file a website saves on your device to remember you — like keeping you logged in, saving your shopping cart, or tracking your browsing habits for advertising. You can clear cookies in your browser settings.", example: "Example: A shopping site saves a cookie so it still has your cart when you come back the next day." },
+  https:         { term: "HTTPS",                 def: "The 'S' stands for Secure. It means your connection to that website is encrypted. Always look for HTTPS (and a padlock icon in the address bar) before entering a password or payment details.", example: "Example: https://mybank.com is secure. http://mybank.com (no S) is not — don't log in." },
+  cloud:         { term: "The Cloud",             def: "Storing or accessing your files on remote servers over the internet instead of only on your own device. Your files are accessible from any device, but they are stored on someone else's computers.", example: "Example: Google Drive, iCloud, and Dropbox are all cloud storage — your photos live on Google's servers, not just your phone." },
+  spam:          { term: "Spam",                  def: "Unwanted bulk messages — usually emails — often advertising something, trying to scam you, or spreading malware. Never click links or open attachments in unexpected emails from people you don't know.", example: "Example: You get 10 emails a day from 'pharmacies' you've never heard of. Those are spam." },
+  update:        { term: "Software Update",       def: "A new version of an app or operating system that fixes bugs, adds features, and — importantly — patches security vulnerabilities. Keeping everything up to date is one of the simplest and most effective ways to stay safe online.", example: "Example: Apple releases an iOS update that fixes a security flaw. Attackers quickly target people who haven't updated yet." },
+  wifi:          { term: "Public Wi-Fi",          def: "Free internet in places like cafes, airports, and libraries. Convenient — but risky. Others on the same network may be able to see your activity. Avoid logging into banking or sensitive accounts on public Wi-Fi, or use a VPN.", example: "Example: At a coffee shop, everyone on the same Wi-Fi network could potentially intercept your unencrypted traffic." },
+  "ai":          { term: "AI (Artificial Intelligence)", def: "Software trained on large amounts of data to recognize patterns and generate responses. Modern AI tools (like ChatGPT or Gemini) predict what to say next based on examples they've seen — they don't actually 'think' or 'know' things.", example: "Example: ChatGPT generates answers by predicting likely text based on billions of training examples — which is why it can sound confident but still be wrong." },
+  deepfake:      { term: "Deepfake",             def: "AI-generated video or audio that makes a real person appear to say or do something they never did. The technology is convincing enough that many people can't tell the difference. Always verify surprising videos with multiple trusted sources.", example: "Example: A video appears to show a politician saying something shocking. It was actually made by AI using footage from old speeches." },
+  ransomware:    { term: "Ransomware",           def: "A type of malware that encrypts all the files on your device, then demands a payment (ransom) to give them back. It often enters through fake email attachments. Regularly backing up your files is the best protection.", example: "Example: You open an email attachment labeled 'invoice' and suddenly all your photos and documents are locked until you pay $500." },
+  browser:       { term: "Web Browser",          def: "The app you use to visit websites. Google Chrome, Safari, Firefox, and Microsoft Edge are the most common. All work similarly — type a web address in the bar at the top, or search for anything directly.", example: "Example: Chrome (colorful circle), Safari (blue compass on Apple devices), Firefox (orange and purple flame icon)." }
+};
+
+let active = null;
+
+function renderButtons() {
+  const grid = document.getElementById('jargonGrid');
+  const search = document.getElementById('jargonSearch').value.toLowerCase();
+  grid.innerHTML = '';
+  Object.keys(terms).forEach(key => {
+    const t = terms[key];
+    if (search && !t.term.toLowerCase().includes(search) && !t.def.toLowerCase().includes(search)) return;
+    const btn = document.createElement('button');
+    btn.className = 'jargon-btn' + (key === active ? ' active' : '');
+    btn.textContent = t.term;
+    btn.onclick = () => showJargon(key);
+    grid.appendChild(btn);
+  });
+}
+
+function showJargon(key) {
+  active = key;
+  const item = terms[key];
+  document.getElementById('jargonTerm').textContent = item.term;
+  document.getElementById('jargonDef').textContent = item.def;
+  const ex = document.getElementById('jargonExample');
+  ex.textContent = item.example || '';
+  ex.style.display = item.example ? 'block' : 'none';
+  const box = document.getElementById('jargonBox');
+  box.style.display = 'block';
+  box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  renderButtons();
+}
+
+function filterJargon() { active = null; renderButtons(); }
+
+renderButtons();
+</script>
+</body>
+</html>
