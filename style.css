@@ -335,7 +335,6 @@ section a:hover,
 .news-featured-label {
   margin: 10px 15px 0;
   color: #b82f76;
-  font-family: 'Courier Prime', monospace;
   font-weight: 700;
   letter-spacing: .08em;
 }
@@ -347,7 +346,6 @@ section a:hover,
 .news-source {
   margin-bottom: 5px;
   color: #b82f76;
-  font-family: 'Courier Prime', monospace;
   font-size: .85rem;
   font-weight: 700;
   letter-spacing: .04em;
@@ -376,7 +374,6 @@ section a:hover,
   border: 2px solid #414042;
   background: #fff6a6;
   color: #414042;
-  font-family: 'Courier Prime', monospace;
   font-weight: bold;
   cursor: pointer;
 }
@@ -393,7 +390,6 @@ section a:hover,
 .news-footer a {
   color: #414042;
   text-decoration: underline;
-  font-family: 'Courier Prime', monospace;
 }
 @media (max-width: 650px) {
   .news-card {
@@ -1553,6 +1549,10 @@ button:focus-visible, [tabindex]:focus-visible, input:focus-visible,
 textarea:focus-visible, select:focus-visible {
   outline: 3px solid #414042;
   outline-offset: 3px;
+}
+
+section #computer-sim {
+  color: #e2549f;
 }
 
 .computer-page {
