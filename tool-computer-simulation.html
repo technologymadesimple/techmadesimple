@@ -44,47 +44,7 @@
     <a href="get-involved.html">Get Involved</a>
   </div>
 </nav>
-
-  <section id="computer-sim">
-    <h2><b> Computer Simulator</b></h2>
-    <p>Learn everyday computer skills in a safe, pretend desktop. Drag files into folders, practice sending an email, and use a browser — without changing anything on your real device.</p>
-  </section>
-
-  <div class="workspace">
-    <aside class="task-panel">
-      <div class="task-head">
-        <h3>Your practice plan</h3>
-        <p>Try each task at your own pace. If you get stuck, use the hint.</p>
-        <div class="task-progress"><span id="overallProgress"></span></div>
-        <p id="progressLabel">0 of 3 activities complete</p>
-      </div>
-
-      <div class="task-list">
-        <button class="task-choice" data-task="files">
-          <span><strong>1. Organize files</strong><br><small>Drag, drop, and manage</small></span>
-          <span class="task-check" id="check-files"></span>
-        </button>
-
-        <button class="task-choice" data-task="browser">
-          <span><strong>2. Explore the web</strong><br><small>Switch between tabs</small></span>
-          <span class="task-check" id="check-browser"></span>
-        </button>
-
-        <button class="task-choice" data-task="email">
-          <span><strong>3. Write an email</strong><br><small>Practice email etiquette</small></span>
-          <span class="task-check" id="check-email"></span>
-        </button>
-      </div>
-
-      <div class="task-instructions">
-        <strong id="instructionTitle">Your mission</strong>
-        <span id="instructionText">Move each item into the folder where it belongs. You can drag items, or select an item and then choose a folder.</span>
-        <br>
-        <button class="hint-btn" id="hintButton" type="button">Show me a hint</button>
-        <p id="hintText" hidden></p>
-      </div>
-    </aside>
-
+<main class="computer-page">
     <section class="computer-shell">
       <div class="computer-topbar">
         <span class="computer-title">PRACTICE DESKTOP</span>
@@ -96,7 +56,6 @@
           <button class="desktop-icon" data-task="files">📁 <span>Files</span></button>
           <button class="desktop-icon" data-task="email">✉️ <span>Mail Practice</span></button>
           <button class="desktop-icon" data-task="browser">🌐 <span>Web Browser</span></button>
-          <button class="desktop-icon" id="helpDesktop">❔ <span>Help</span></button>
         </div>
 
         <div class="app-window">
@@ -302,47 +261,14 @@
 
         </div>
 
-        <div class="bottom-row">
-          <p id="desktopMessage" aria-live="polite">Welcome! Choose a task to begin.</p>
-          <button class="secondary" id="restartAll" type="button">Restart all activities</button>
-        </div>
-
       </div>
     </section>
-
-  </div>
-
-  <div class="complete-card" id="completeCard" role="status">
-    <h3>You completed the practice plan!</h3>
-    <p>You've practiced organizing files, writing an email, and using a browser. These are useful everyday skills — and you can repeat any activity whenever you want.</p>
-    <button class="primary" id="practiceAgain" type="button">Practice again</button>
-  </div>
-  
-<footer>
-  Technology Made Simple is a student-led project. &nbsp;·&nbsp; Free for everyone to use
-</footer>
+</main>
 
 <script>
 (() => {
-  const taskInfo = {
-    files: {
-      title: 'Your mission: Organize files',
-      text: 'Move each item into the folder where it belongs. You can drag items, or select an item and then choose a folder.',
-      hint: 'Photos are images (.jpg), homework is a document (.doc), and songs are audio files (.mp3).'
-    },
-    browser: {
-      title: 'Your mission: Explore browser tabs',
-      text: 'Switch between the article, video, and email tabs. Each tab is a different sample page (none connect to the real internet).',
-      hint: 'Tabs let you keep several pages open at once. Click a tab name to switch pages without closing the others.'
-    },
-    email: {
-      title: 'Your mission: Write a polite email',
-      text: 'Fill in the recipient, a clear subject, and a respectful message. Try using a greeting, complete sentences, and a closing before previewing.',
-      hint: 'A useful pattern is: greeting, reason for writing, relevant details, thank-you, closing, and your name.'
-    }
-  };
   const correctFolders = { cat:'photos', homework:'school', song:'music', picnic:'photos' };
-  const state = { current:'files', completed:new Set(), placements:{}, selectedFile:null, lastMove:null, clueCount:0 };
+  const state = { current:'files', placements:{}, selectedFile:null, lastMove:null, clueCount:0 };
 
   const $ = id => document.getElementById(id);
   const announce = (id, message, type='info') => {
@@ -352,29 +278,13 @@
 
   function switchTask(task) {
     state.current = task;
-    document.querySelectorAll('.task-choice').forEach(b => {
-      if (b.dataset.task === task) b.setAttribute('aria-current','step');
-      else b.removeAttribute('aria-current');
-    });
     ['files','email','browser'].forEach(name => $(name+'App').hidden = name !== task);
     const emoji = {files:'📁',email:'✉️',browser:'🌐'};
     const title = {files:'File Explorer',email:'Mail Practice',browser:'Web Browser'};
-    $('appEmoji').textContent = emoji[task]; $('appTitle').textContent = title[task];
-    $('instructionTitle').textContent = taskInfo[task].title;
-    $('instructionText').textContent = taskInfo[task].text;
-    $('hintText').hidden = true; $('hintText').textContent = '';
-    $('hintButton').textContent = 'Show me a hint';
-    $('desktopMessage').textContent = task === 'files' ? 'Tip: choose a file, then choose a folder. Open folders to practice file actions.' : task === 'browser' ? 'Tip: switch between Article, Video, and Email tabs.' : 'Tip: use a greeting, clear purpose, polite language, and a closing.';
+    $('appEmoji').textContent = emoji[task];
+    $('appTitle').textContent = title[task];
   }
   document.querySelectorAll('[data-task]').forEach(btn => btn.addEventListener('click', () => switchTask(btn.dataset.task)));
-  $('hintButton').addEventListener('click', () => {
-    const hint = $('hintText'); const show = hint.hidden;
-    hint.hidden = !show; hint.textContent = show ? taskInfo[state.current].hint : '';
-    $('hintButton').textContent = show ? 'Hide hint' : 'Show me a hint';
-  });
-  $('helpDesktop').addEventListener('click', () => {
-    $('desktopMessage').textContent = 'Help: choose a task on the left. You can reset an activity at any time. Nothing here affects your real computer.';
-  });
 
   function getFileElement(id) { return document.querySelector('.file-card[data-file="'+id+'"]'); }
   function selectFile(id) {
@@ -431,7 +341,6 @@
     } else {
       announce('fileStatus', 'File moved. It may fit better in another folder — check your choices when you are ready.', 'try');
     }
-    $('desktopMessage').textContent = 'File moved into ' + folder + '.';
   }
   document.querySelectorAll('.drop-zone').forEach(zone => {
     zone.addEventListener('dragover', e => { e.preventDefault(); zone.classList.add('drag-over'); e.dataTransfer.dropEffect = 'move'; });
@@ -459,7 +368,6 @@
     const zone = document.querySelector('.drop-zone[data-folder="'+folder+'"]');
     if (!zone.querySelector('.placed-file')) zone.classList.remove('correct-zone');
     state.lastMove = null; state.selectedFile = null;
-    hideStatus('fileStatus'); $('desktopMessage').textContent = 'Last file move undone.';
   });
   const folderNames = {photos:'Photos',school:'School',music:'Music'};
   const fileLabels = {cat:'cat-photo.jpg',homework:'math-homework.doc',song:'birthday-song.mp3',picnic:'picnic.jpg'};
@@ -533,7 +441,6 @@
     const ids = Object.keys(correctFolders);
     const correct = ids.filter(id => state.placements[id] === correctFolders[id]).length;
     if (correct === ids.length) {
-      state.completed.add('files'); updateProgress();
       announce('fileStatus', 'All files are in the right folders — excellent organizing! Activity complete.', 'good');
     } else {
       const misplaced = ids.filter(id => state.placements[id] && state.placements[id] !== correctFolders[id]).length;
@@ -571,7 +478,6 @@
     const coachTitle = document.createElement('strong'); coachTitle.textContent = 'Email writing feedback'; coaching.appendChild(coachTitle);
     const ul = document.createElement('ul'); feedback.forEach(item => { const li = document.createElement('li'); li.textContent = item; ul.appendChild(li); }); coaching.appendChild(ul); preview.appendChild(coaching);
     announce('emailStatus', hasGreeting && hasClosing ? 'Good job! Your draft includes a greeting and a closing. Review the feedback below, then check the recipient and spelling before sending a real email.' : 'Your preview is ready. Review the writing tips below and consider adding a greeting, polite language, and a closing.', hasGreeting && hasClosing ? 'good' : 'info');
-    state.completed.add('email'); updateProgress();
   });
   $('resetEmail').addEventListener('click', () => {
     $('emailForm').reset(); $('emailPreview').hidden = true; $('emailPreview').replaceChildren(); hideStatus('emailStatus');
@@ -620,12 +526,11 @@
   }
   $('browserLesson').addEventListener('click', browserTip);
   $('finishBrowser').addEventListener('click', () => {
-    state.completed.add('browser'); updateProgress();
     announce('browserStatus','Nice work! You explored multiple tabs and practiced checking website addresses. Activity complete.','good');
   });
 
   function resetFiles() {
-    state.placements = {}; state.selectedFile = null; state.lastMove = null; state.completed.delete('files');
+    state.placements = {}; state.selectedFile = null; state.lastMove = null; 
     document.querySelectorAll('.placed-file').forEach(el => el.remove());
     document.querySelectorAll('.file-card').forEach(card => {
       card.draggable = true; card.style.cursor = 'grab'; card.style.outline = ''; card.style.background = ''; card.style.borderColor = '';
@@ -633,26 +538,14 @@
       card.setAttribute('aria-label', card.dataset.name + '. Select to move.');
     });
     document.querySelectorAll('.drop-zone').forEach(z => z.classList.remove('correct-zone','drag-over'));
-    hideStatus('fileStatus'); $('folderDetail').hidden = true; openFolder = null; selectedFolderFile = null; clipboardFile = null; $('pasteFile').disabled = true; updateProgress();
+    hideStatus('fileStatus'); $('folderDetail').hidden = true; openFolder = null; selectedFolderFile = null; clipboardFile = null; $('pasteFile').disabled = true;
   }
   $('resetButton').addEventListener('click', () => {
     if (state.current === 'files') resetFiles();
-    if (state.current === 'email') { $('emailForm').reset(); $('emailPreview').hidden = true; $('emailPreview').replaceChildren(); hideStatus('emailStatus'); state.completed.delete('email'); updateProgress(); }
-    if (state.current === 'browser') { selectBrowserTab('article'); hideStatus('browserStatus'); state.completed.delete('browser'); updateProgress(); }
-    $('desktopMessage').textContent = 'Activity reset. Try again whenever you are ready.';
+    if (state.current === 'email') { $('emailForm').reset(); $('emailPreview').hidden = true; $('emailPreview').replaceChildren(); hideStatus('emailStatus'); }
+    if (state.current === 'browser') { selectBrowserTab('article'); hideStatus('browserStatus'); }
   });
-  function restartAll() {
-    resetFiles();
-    state.completed.clear();
-    $('emailForm').reset(); $('emailPreview').hidden = true; $('emailPreview').replaceChildren(); hideStatus('emailStatus');
-    selectBrowserTab('article'); hideStatus('browserStatus');
-    $('completeCard').classList.remove('show');
-    updateProgress(); switchTask('files');
-    $('desktopMessage').textContent = 'All activities reset. Choose a task to begin.';
-  }
-  $('restartAll').addEventListener('click', restartAll);
-  $('practiceAgain').addEventListener('click', restartAll);
-  updateProgress();
+  switchTask('files');
 })();
 </script>
 </body>
