@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Technology Made Simple</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Bridging Digital Awareness</div>
+  <h1> <a href="index.html" class="home-link">Technology Made Simple</a> </h1>
+  <div class="subline">friendly guides for every age — learn at your own pace.</div>
+</header>
+
+<nav>
+  <div class="nav-items">
+    <a href="index.html">Home</a>
+    <a href="news.html">News</a>
+    <div class="dropdown">
+      <a href="pathways.html">Pathways ▾</a>
+      <div class="dropdown-menu">
+        <a href="path-beginner.html">Beginner</a>
+        <a href="path-safety.html">Safety</a>
+        <a href="path-jobs.html">Jobs</a>
+        <a href="path-school.html">School</a>
+        <a href="path-ai.html">AI Literacy ✦</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <a href="tools.html">Interactive Tools ▾</a>
+      <div class="dropdown-menu">
+        <a href="tool-computer-simulation.html"> Computer Simulation </a>
+        <a href="tool-password.html">Password Checker</a>
+        <a href="tool-jargon.html">Jargon Decoder</a>
+        <a href="tool-ai-game.html">Ai or Human?</a>
+        <a href="tool-quizzes.html">Knowledge Quizzes</a>
+        <a href="tool-scam.html">Scam Email Simulator</a>
+      </div>
+    </div>
+    <a href="digital-life.html">Digital Life</a>
+    <a href="get-involved.html">Get Involved</a>
+  </div>
+</nav>
+
+<section id="news">
+  <h2><b>Latest Technology News</b></h2>
+  <p>Explore recent stories in technology, science, space, and research from trusted sources.</p>
+</section>
+
+<section>
+  <div id="news-featured"></div>
+
+  <div class="news-sticky-controls">
+    <div class="news-controls">
+      <input
+        id="news-search"
+        type="search"
+        placeholder="Search articles..."
+        aria-label="Search articles"
+      >
+
+      <div class="news-filters" aria-label="Filter by source">
+        <button class="news-filter active" type="button" data-source="all">All Sources</button>
+        <button class="news-filter" type="button" data-source="MIT Technology Review">MIT Technology Review</button>
+        <button class="news-filter" type="button" data-source="NASA">NASA</button>
+        <button class="news-filter" type="button" data-source="IEEE Spectrum">IEEE Spectrum</button>
+      </div>
+
+      <select id="news-category" aria-label="Filter by category">
+      <option value="all">All Categories</option>
+      <option value="Artificial Intelligence">Artificial Intelligence</option>
+      <option value="Climate">Climate</option>
+      <option value="Space">Space</option>
+      <option value="Science">Science</option>
+      <option value="Health">Health</option>
+      <option value="Cybersecurity">Cybersecurity</option>
+      <option value="Business">Business</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+  </div>
+
+  <p id="news-count" class="news-count" aria-live="polite"></p>
+
+  <div class="lesson-list" id="news-list">
+    <p>Loading the latest technology news...</p>
+  </div>
+
+  <div class="news-controls">
+    <button id="see-more" hidden>See More ↓</button>
+  </div>
+
+  <div class="news-footer">
+    <a href="https://www.technologyreview.com/" target="_blank" rel="noopener noreferrer">MIT Technology Review</a>
+    · <a href="https://www.nasa.gov/news/" target="_blank" rel="noopener noreferrer">NASA News</a>
+    · <a href="https://spectrum.ieee.org/" target="_blank" rel="noopener noreferrer">IEEE Spectrum</a>
+  </div>
+</section>
+
+  <footer>
+  Technology Made Simple is student-led project.  ·  free for everyone to use
+</footer>
+  <script>
+const newsList = document.getElementById("news-list");
+const featuredNews = document.getElementById("news-featured");
+const seeMore = document.getElementById("see-more");
+const searchInput = document.getElementById("news-search");
+const categorySelect = document.getElementById("news-category");
+const countLabel = document.getElementById("news-count");
+const sourceButtons = document.querySelectorAll(".news-filter");
+
+let articles = [];
+let visibleArticles = 5;
+let selectedSource = "all";
+
+function escapeHTML(value) {
+  return String(value || "").replace(/[&<>"']/g, char => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#039;"
+  })[char]);
+}
+
+function formatDate(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "DATE UNAVAILABLE";
+
+  return date.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "UTC"
+  }).toUpperCase();
+}
+
+function articleCard(article) {
+  const link = String(article.link || "");
+  if (!/^https?:\/\//i.test(link)) return "";
+
+  return `
+    <a class="lesson-card news-card"
+       href="${escapeHTML(link)}"
+       target="_blank"
+       rel="noopener noreferrer">
+      <div class="date-step">${formatDate(article.date)}</div>
+      <div class="lesson-body">
+        <div class="news-source">${escapeHTML(article.source || "Technology News")}</div>
+        <h3>${escapeHTML(article.title)}</h3>
+        <p>${escapeHTML(article.description || "Open the original article to read more.")}</p>
+      </div>
+      <div class="lesson-arrow">→</div>
+    </a>
+  `;
+}
+
+function renderFeatured() {
+  const newest = articles[0];
+
+  if (!newest) {
+    featuredNews.innerHTML = "";
+    return;
+  }
+
+  featuredNews.innerHTML = `
+    <div class="news-featured-label">LATEST STORY</div>
+    ${articleCard(newest)}
+  `;
+}
+
+function getFilteredArticles() {
+  const searchTerm = searchInput.value.trim().toLowerCase();
+  const selectedCategory = categorySelect.value;
+
+  return articles.slice(1).filter(article => {
+    const matchesSource =
+      selectedSource === "all" || article.source === selectedSource;
+
+    const matchesCategory =
+      selectedCategory === "all" || article.category === selectedCategory;
+
+    const searchableText = [
+      article.title,
+      article.description,
+      article.source,
+      article.category
+    ].join(" ").toLowerCase();
+
+    return matchesSource && matchesCategory && searchableText.includes(searchTerm);
+  });
+}
+
+function displayArticles() {
+  const filteredArticles = getFilteredArticles();
+  const visible = filteredArticles.slice(0, visibleArticles);
+
+  newsList.innerHTML = visible.length
+    ? visible.map(articleCard).join("")
+    : "<p>No articles match those filters. Try a different search or category.</p>";
+
+  countLabel.textContent =
+    `Showing ${visible.length} of ${filteredArticles.length} matching articles · ${articles.length} articles available`;
+
+  seeMore.hidden = visibleArticles >= filteredArticles.length;
+}
+
+fetch("news.json")
+  .then(response => {
+    if (!response.ok) throw new Error("Could not load news.");
+    return response.json();
+  })
+  .then(data => {
+    articles = data
+      .filter(article => article && article.title && article.link && article.date)
+      .sort((a, b) => new Date(b.date) - new Date(a.date))
+      .slice(0, 30);
+
+    renderFeatured();
+    displayArticles();
+  })
+  .catch(() => {
+    featuredNews.innerHTML = "";
+    newsList.innerHTML =
+      '<p>News is temporarily unavailable. Please visit ' +
+      '<a href="https://www.technologyreview.com/">MIT Technology Review</a>, ' +
+      '<a href="https://www.nasa.gov/news/">NASA</a>, or ' +
+      '<a href="https://spectrum.ieee.org/">IEEE Spectrum</a>.</p>';
+    countLabel.textContent = "";
+  });
+
+searchInput.addEventListener("input", () => {
+  visibleArticles = 5;
+  displayArticles();
+});
+
+categorySelect.addEventListener("change", () => {
+  visibleArticles = 5;
+  displayArticles();
+});
+
+sourceButtons.forEach(button => {
+  button.addEventListener("click", () => {
+    selectedSource = button.dataset.source;
+    sourceButtons.forEach(item => item.classList.toggle("active", item === button));
+    visibleArticles = 5;
+    displayArticles();
+  });
+});
+
+seeMore.addEventListener("click", () => {
+  visibleArticles += 5;
+  displayArticles();
+});
+  </script>
+</body>
+</html>
