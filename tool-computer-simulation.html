@@ -44,225 +44,229 @@
     <a href="get-involved.html">Get Involved</a>
   </div>
 </nav>
+    <section id="computer-sim">
+    <h2><b> Computer Simulator</b></h2>
+    <p>Learn everyday computer skills in a safe, pretend desktop. Drag files into folders, practice sending an email, and use a browser — without changing anything on your real device.</p>
+  </section>
+<section style="margin-top: -47px; margin-bottom: -47px;" class="computer-shell">
+  <div class="computer-topbar">
+    <span class="computer-title">PRACTICE DESKTOP</span>
+  </div>
+
+  <div class="desktop">
+
+    <div class="desktop-icons">
+      <button class="desktop-icon" data-task="files">📁 <span>Files</span></button>
+      <button class="desktop-icon" data-task="email">✉️ <span>Mail Practice</span></button>
+      <button class="desktop-icon" data-task="browser">🌐 <span>Web Browser</span></button>
+    </div>
+
+    <div class="app-window">
+
+      <div class="app-bar">
+        <span id="appEmoji">📁</span>
+        <strong id="appTitle">File Explorer</strong>
+        <button class="mini-btn" id="resetButton" type="button">↻ Reset</button>
+      </div>
+
+      <!-- FILE EXPLORER -->
+
+      <div class="app-content" id="filesApp">
+        <h4>Put each file where it belongs</h4>
+        <p class="muted">Drag a file into a folder. You can also select a file, then choose a folder. After sorting, open a folder to practice managing its contents.</p>
+
+        <div class="file-grid" id="fileGrid">
+          <div class="file-card" draggable="true" tabindex="0" data-file="cat" data-name="cat photo">
+            <span class="file-emoji">🖼️</span>
+            <span class="file-name">cat-photo.jpg</span>
+          </div>
+
+          <div class="file-card" draggable="true" tabindex="0" data-file="homework" data-name="math homework">
+            <span class="file-emoji">📄</span>
+            <span class="file-name">math-homework.doc</span>
+          </div>
+
+          <div class="file-card" draggable="true" tabindex="0" data-file="song" data-name="birthday song">
+            <span class="file-emoji">🎵</span>
+            <span class="file-name">birthday-song.mp3</span>
+          </div>
+
+          <div class="file-card" draggable="true" tabindex="0" data-file="picnic" data-name="picnic photo">
+            <span class="file-emoji">🖼️</span>
+            <span class="file-name">picnic.jpg</span>
+          </div>
+        </div>
+
+        <div class="drop-zones" id="dropZones">
+          <div class="drop-zone" tabindex="0" data-folder="photos">
+            <span class="folder-emoji">📂</span>
+            <strong>Photos</strong>
+            <small>Pictures and images</small>
+          </div>
+
+          <div class="drop-zone" tabindex="0" data-folder="school">
+            <span class="folder-emoji">📂</span>
+            <strong>School</strong>
+            <small>Homework and classwork</small>
+          </div>
+
+          <div class="drop-zone" tabindex="0" data-folder="music">
+            <span class="folder-emoji">📂</span>
+            <strong>Music</strong>
+            <small>Songs and audio</small>
+          </div>
+        </div>
+
+        <div id="fileStatus" class="status" role="status"></div>
+
+        <div class="folder-detail" id="folderDetail" hidden>
+          <h5 id="folderDetailTitle">📂 Folder contents</h5>
+          <p class="muted" id="folderDetailHelp">Select an item to practice file actions.</p>
+          <div class="folder-items" id="folderItems"></div>
+
+          <div class="file-actions">
+            <button id="copyFile" type="button" disabled>Copy</button>
+            <button id="cutFile" type="button" disabled>Cut</button>
+            <button id="pasteFile" type="button" disabled>Paste here</button>
+            <button id="printFile" type="button" disabled>Print</button>
+          </div>
+
+          <div id="folderActionStatus" class="status" role="status"></div>
+
+          <p class="muted"><strong>Quick tip:</strong> Copy makes a duplicate; Cut prepares a move; Paste places a copied or cut item; Print opens a print preview. These actions are simulated here.</p>
+
+          <div class="sim-actions">
+            <button class="secondary" id="closeFolder" type="button">Close folder</button>
+          </div>
+        </div>
+
+        <div class="sim-actions">
+          <button class="secondary" id="undoMove" type="button">Undo last move</button>
+          <button class="primary" id="checkFiles" type="button">Check my folders</button>
+        </div>
+      </div>
+
+      <!-- EMAIL PRACTICE -->
+
+      <div class="app-content" id="emailApp" hidden>
+        <h4>Write a clear, polite email</h4>
+        <p class="muted">Practice writing to a teacher, librarian, or community organization. This is an email situation; no emails will be sent. </p>
+
+        <div class="email-guide">
+          <strong>Quick email etiquette guide</strong>
+          <ul>
+            <li><strong>Greeting:</strong> “Hello Ms. Rivera,” or “Dear Dr. Patel,”</li>
+            <li><strong>Purpose:</strong> Explain why you are writing in the first sentence or two.</li>
+            <li><strong>Tone:</strong> Use complete sentences, polite language, and avoid texting abbreviations.</li>
+            <li><strong>Closing:</strong> “Thank you,” or “Sincerely,” followed by your name.</li>
+            <li><strong>Before sending:</strong> Check spelling, the recipient, and any attachment.</li>
+          </ul>
+          <button class="secondary" id="insertEmailTemplate" type="button">Insert a polite example</button>
+        </div>
+
+        <form id="emailForm" class="email-form">
+          <label>To (recipient)
+            <input id="emailTo" type="email" placeholder="teacher@example.com" required>
+          </label>
+
+          <label>Subject
+            <input id="emailSubject" type="text" placeholder="Homework question" required>
+          </label>
+
+          <label>Message
+            <textarea id="emailMessage" placeholder="Dear Ms. Rivera,&#10;&#10;I am writing to ask about...&#10;&#10;Thank you,&#10;Your name" required></textarea>
+          </label>
+
+          <div class="attachment-drop">
+            <strong>📎 Attach a pretend file</strong>
+            <p class="muted">Choose a sample document to practice adding an attachment.</p>
+            <select id="attachment">
+              <option value="">No attachment</option>
+              <option value="homework.pdf">homework.pdf</option>
+              <option value="field-trip-form.doc">field-trip-form.doc</option>
+              <option value="photo.jpg">photo.jpg</option>
+            </select>
+          </div>
+
+          <div class="sim-actions">
+            <button class="primary" type="submit">Preview email (not send)</button>
+            <button class="secondary" id="resetEmail" type="button">Clear form</button>
+          </div>
+        </form>
+
+        <div id="emailStatus" class="status" role="status"></div>
+        <div id="emailPreview" class="browser-result" hidden></div>
+      </div>
+
+      <!-- BROWSER PRACTICE -->
+
+      <div class="app-content" id="browserApp" hidden>
+        <h4>Explore a pretend web browser</h4>
+        <p class="muted">Browsers can keep several pages open in tabs. Switch tabs below to explore an article, a video page, and an email inbox.</p>
+
+        <div class="browser-tabs">
+          <button class="browser-tab" type="button" id="tabArticle" aria-selected="true" data-browser-tab="article">📰 Article</button>
+          <button class="browser-tab" type="button" id="tabVideo" aria-selected="false" data-browser-tab="video">▶ Video</button>
+          <button class="browser-tab" type="button" id="tabInbox" aria-selected="false" data-browser-tab="inbox">✉️ Email</button>
+        </div>
+
+        <form class="browser-address" id="browserForm">
+          <input id="browserAddress" type="text" value="news.learn.example" autocomplete="off" spellcheck="false" aria-label="Practice website address">
+          <button class="primary" type="submit">Go</button>
+        </form>
+
+        <div class="browser-result" id="browserResult">
+
+          <section class="browser-tab-panel" id="panelArticle">
+            <div class="fake-site">
+              <p class="eyebrow">Sample article · 3 minute read</p>
+              <h4>Five easy ways to save energy at home</h4>
+              <p>Small habits can make a difference: turn off lights when leaving a room, unplug chargers when not in use, and use daylight when possible.</p>
+              <p class="muted">Learning skill: read a webpage and look for its headline, author, and publication date before deciding whether to trust it.</p>
+            </div>
+          </section>
+
+          <section class="browser-tab-panel" id="panelVideo" hidden>
+            <div class="video-placeholder">
+              <span class="play-icon">▶</span>
+              <strong>How computers organize files</strong>
+              <span>Practice video · 2:15</span>
+              <small>This is a pretend video player. Nothing will play or connect to a video service.</small>
+            </div>
+            <p class="muted">Learning skill: video sites often include a title, creator, description, and comments. Check the source before trusting advice.</p>
+          </section>
+
+          <section class="browser-tab-panel" id="panelInbox" hidden>
+            <div class="fake-site">
+              <p class="eyebrow">Sample inbox</p>
+              <h4>Welcome to Practice Mail</h4>
+              <div class="inbox-message">
+                <strong>Library newsletter</strong>
+                <p>Your library has added new digital skills workshops this month.</p>
+              </div>
+              <div class="inbox-message">
+                <strong>Reminder: class project</strong>
+                <p>Remember to save your work in your School folder.</p>
+              </div>
+              <p class="muted">Learning skill: check who sent a message and be cautious with unexpected links or attachments.</p>
+            </div>
+          </section>
+
+        </div>
+
+        <div id="browserStatus" class="status" role="status"></div>
+
+        <div class="sim-actions">
+          <button class="secondary" id="browserLesson" type="button">Show browser safety tip</button>
+          <button class="primary" id="finishBrowser" type="button">Finish browser activity</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 <main class="computer-page">
-    <section class="computer-shell">
-      <div class="computer-topbar">
-        <span class="computer-title">PRACTICE DESKTOP</span>
-      </div>
-
-      <div class="desktop">
-
-        <div class="desktop-icons">
-          <button class="desktop-icon" data-task="files">📁 <span>Files</span></button>
-          <button class="desktop-icon" data-task="email">✉️ <span>Mail Practice</span></button>
-          <button class="desktop-icon" data-task="browser">🌐 <span>Web Browser</span></button>
-        </div>
-
-        <div class="app-window">
-
-          <div class="app-bar">
-            <span id="appEmoji">📁</span>
-            <strong id="appTitle">File Explorer</strong>
-            <button class="mini-btn" id="resetButton" type="button">↻ Reset</button>
-          </div>
-
-          <!-- FILE EXPLORER -->
-
-          <div class="app-content" id="filesApp">
-            <h4>Put each file where it belongs</h4>
-            <p class="muted">Drag a file into a folder. You can also select a file, then choose a folder. After sorting, open a folder to practice managing its contents.</p>
-
-            <div class="file-grid" id="fileGrid">
-              <div class="file-card" draggable="true" tabindex="0" data-file="cat" data-name="cat photo">
-                <span class="file-emoji">🖼️</span>
-                <span class="file-name">cat-photo.jpg</span>
-              </div>
-
-              <div class="file-card" draggable="true" tabindex="0" data-file="homework" data-name="math homework">
-                <span class="file-emoji">📄</span>
-                <span class="file-name">math-homework.doc</span>
-              </div>
-
-              <div class="file-card" draggable="true" tabindex="0" data-file="song" data-name="birthday song">
-                <span class="file-emoji">🎵</span>
-                <span class="file-name">birthday-song.mp3</span>
-              </div>
-
-              <div class="file-card" draggable="true" tabindex="0" data-file="picnic" data-name="picnic photo">
-                <span class="file-emoji">🖼️</span>
-                <span class="file-name">picnic.jpg</span>
-              </div>
-            </div>
-
-            <div class="drop-zones" id="dropZones">
-              <div class="drop-zone" tabindex="0" data-folder="photos">
-                <span class="folder-emoji">📂</span>
-                <strong>Photos</strong>
-                <small>Pictures and images</small>
-              </div>
-
-              <div class="drop-zone" tabindex="0" data-folder="school">
-                <span class="folder-emoji">📂</span>
-                <strong>School</strong>
-                <small>Homework and classwork</small>
-              </div>
-
-              <div class="drop-zone" tabindex="0" data-folder="music">
-                <span class="folder-emoji">📂</span>
-                <strong>Music</strong>
-                <small>Songs and audio</small>
-              </div>
-            </div>
-
-            <div id="fileStatus" class="status" role="status"></div>
-
-            <div class="folder-detail" id="folderDetail" hidden>
-              <h5 id="folderDetailTitle">📂 Folder contents</h5>
-              <p class="muted" id="folderDetailHelp">Select an item to practice file actions.</p>
-              <div class="folder-items" id="folderItems"></div>
-
-              <div class="file-actions">
-                <button id="copyFile" type="button" disabled>Copy</button>
-                <button id="cutFile" type="button" disabled>Cut</button>
-                <button id="pasteFile" type="button" disabled>Paste here</button>
-                <button id="printFile" type="button" disabled>Print</button>
-              </div>
-
-              <div id="folderActionStatus" class="status" role="status"></div>
-
-              <p class="muted"><strong>Quick tip:</strong> Copy makes a duplicate; Cut prepares a move; Paste places a copied or cut item; Print opens a print preview. These actions are simulated here.</p>
-
-              <div class="sim-actions">
-                <button class="secondary" id="closeFolder" type="button">Close folder</button>
-              </div>
-            </div>
-
-            <div class="sim-actions">
-              <button class="secondary" id="undoMove" type="button">Undo last move</button>
-              <button class="primary" id="checkFiles" type="button">Check my folders</button>
-            </div>
-          </div>
-
-          <!-- EMAIL PRACTICE -->
-
-          <div class="app-content" id="emailApp" hidden>
-            <h4>Write a clear, polite email</h4>
-            <p class="muted">Practice writing to a teacher, librarian, or community organization. This is an email situation; no emails will be sent. </p>
-
-            <div class="email-guide">
-              <strong>Quick email etiquette guide</strong>
-              <ul>
-                <li><strong>Greeting:</strong> “Hello Ms. Rivera,” or “Dear Dr. Patel,”</li>
-                <li><strong>Purpose:</strong> Explain why you are writing in the first sentence or two.</li>
-                <li><strong>Tone:</strong> Use complete sentences, polite language, and avoid texting abbreviations.</li>
-                <li><strong>Closing:</strong> “Thank you,” or “Sincerely,” followed by your name.</li>
-                <li><strong>Before sending:</strong> Check spelling, the recipient, and any attachment.</li>
-              </ul>
-              <button class="secondary" id="insertEmailTemplate" type="button">Insert a polite example</button>
-            </div>
-
-            <form id="emailForm" class="email-form">
-              <label>To (recipient)
-                <input id="emailTo" type="email" placeholder="teacher@example.com" required>
-              </label>
-
-              <label>Subject
-                <input id="emailSubject" type="text" placeholder="Homework question" required>
-              </label>
-
-              <label>Message
-                <textarea id="emailMessage" placeholder="Dear Ms. Rivera,&#10;&#10;I am writing to ask about...&#10;&#10;Thank you,&#10;Your name" required></textarea>
-              </label>
-
-              <div class="attachment-drop">
-                <strong>📎 Attach a pretend file</strong>
-                <p class="muted">Choose a sample document to practice adding an attachment.</p>
-                <select id="attachment">
-                  <option value="">No attachment</option>
-                  <option value="homework.pdf">homework.pdf</option>
-                  <option value="field-trip-form.doc">field-trip-form.doc</option>
-                  <option value="photo.jpg">photo.jpg</option>
-                </select>
-              </div>
-
-              <div class="sim-actions">
-                <button class="primary" type="submit">Preview email (not send)</button>
-                <button class="secondary" id="resetEmail" type="button">Clear form</button>
-              </div>
-            </form>
-
-            <div id="emailStatus" class="status" role="status"></div>
-            <div id="emailPreview" class="browser-result" hidden></div>
-          </div>
-
-          <!-- BROWSER PRACTICE -->
-
-          <div class="app-content" id="browserApp" hidden>
-            <h4>Explore a pretend web browser</h4>
-            <p class="muted">Browsers can keep several pages open in tabs. Switch tabs below to explore an article, a video page, and an email inbox.</p>
-
-            <div class="browser-tabs">
-              <button class="browser-tab" type="button" id="tabArticle" aria-selected="true" data-browser-tab="article">📰 Article</button>
-              <button class="browser-tab" type="button" id="tabVideo" aria-selected="false" data-browser-tab="video">▶ Video</button>
-              <button class="browser-tab" type="button" id="tabInbox" aria-selected="false" data-browser-tab="inbox">✉️ Email</button>
-            </div>
-
-            <form class="browser-address" id="browserForm">
-              <input id="browserAddress" type="text" value="news.learn.example" autocomplete="off" spellcheck="false" aria-label="Practice website address">
-              <button class="primary" type="submit">Go</button>
-            </form>
-
-            <div class="browser-result" id="browserResult">
-
-              <section class="browser-tab-panel" id="panelArticle">
-                <div class="fake-site">
-                  <p class="eyebrow">Sample article · 3 minute read</p>
-                  <h4>Five easy ways to save energy at home</h4>
-                  <p>Small habits can make a difference: turn off lights when leaving a room, unplug chargers when not in use, and use daylight when possible.</p>
-                  <p class="muted">Learning skill: read a webpage and look for its headline, author, and publication date before deciding whether to trust it.</p>
-                </div>
-              </section>
-
-              <section class="browser-tab-panel" id="panelVideo" hidden>
-                <div class="video-placeholder">
-                  <span class="play-icon">▶</span>
-                  <strong>How computers organize files</strong>
-                  <span>Practice video · 2:15</span>
-                  <small>This is a pretend video player. Nothing will play or connect to a video service.</small>
-                </div>
-                <p class="muted">Learning skill: video sites often include a title, creator, description, and comments. Check the source before trusting advice.</p>
-              </section>
-
-              <section class="browser-tab-panel" id="panelInbox" hidden>
-                <div class="fake-site">
-                  <p class="eyebrow">Sample inbox</p>
-                  <h4>Welcome to Practice Mail</h4>
-                  <div class="inbox-message">
-                    <strong>Library newsletter</strong>
-                    <p>Your library has added new digital skills workshops this month.</p>
-                  </div>
-                  <div class="inbox-message">
-                    <strong>Reminder: class project</strong>
-                    <p>Remember to save your work in your School folder.</p>
-                  </div>
-                  <p class="muted">Learning skill: check who sent a message and be cautious with unexpected links or attachments.</p>
-                </div>
-              </section>
-
-            </div>
-
-            <div id="browserStatus" class="status" role="status"></div>
-
-            <div class="sim-actions">
-              <button class="secondary" id="browserLesson" type="button">Show browser safety tip</button>
-              <button class="primary" id="finishBrowser" type="button">Finish browser activity</button>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
 </main>
 
 <script>
