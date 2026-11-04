@@ -1,5 +1,101 @@
 [
   {
+    "title": "Roundtables: Inside the Quest for Cognitive Immortality",
+    "link": "https://www.technologyreview.com/2026/11/04/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
+    "date": "2026-11-04T18:21:40Z",
+    "description": "Tuesday, November 17, 2026 In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Join science editor Mary Beth Griggs and senior editor for biomedicine Antonio Regalado for a conversation exploring possible paths to keep your mind going, including gradual…",
+    "source": "MIT Technology Review",
+    "category": "Health"
+  },
+  {
+    "title": "NASA Announces Ka-Band Satellite Relay Awards for Space Communications",
+    "link": "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/",
+    "date": "2026-11-04T18:00:02Z",
+    "description": "NASA selected three companies on Wednesday to perform work to develop Ka-band space relay capability concepts that are compatible with current missions in space, ensuring service continuity for existing spacecraft without requiring modifications to their onboard systems. Through this work, NASA will aim to acquire end-to-end solutions that include space, ground, launch, operations, and integration […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "What’s next for US energy policy after the midterm elections?",
+    "link": "https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/",
+    "date": "2026-11-04T17:08:00Z",
+    "description": "I’ve been locked in to my various screens since results from midterm elections started to roll in last night. And it didn’t take long to see the beginning of the blue wave: Democrats took control of both the US House of Representatives and the Senate, a dramatic swing from Donald Trump’s victory two years ago. …",
+    "source": "MIT Technology Review",
+    "category": "Other"
+  },
+  {
+    "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
+    "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
+    "date": "2026-11-04T16:52:43Z",
+    "description": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets. An Alta-X drone equipped with the agency’s Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) guidance, navigation, and control payload completed simulated lunar descent and landing maneuvers Aug. 27. The flight took place […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "NASA Space Grant Students Fuel Agency’s Inspiration Tour",
+    "link": "https://www.nasa.gov/learning-resources/nasa-space-grant-students-fuel-agencys-inspiration-tour/",
+    "date": "2026-11-04T16:16:41Z",
+    "description": "NASA’s Inspiration Tour spread the excitement of space exploration and aeronautical innovation by connecting the public, industry, and academia with the people, technologies, and organizations that drive American leadership in space. At nearly every stop across the country, NASA Space Grant has brought students into the heart of the action. In Iowa, NASA Administrator Jared […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Hubble Reveals Cosmic Mystery",
+    "link": "https://www.nasa.gov/image-article/hubble-reveals-cosmic-mystery/",
+    "date": "2026-11-04T15:59:36Z",
+    "description": "This photo released on Nov. 2, 2026, showcases NGC 4449, a dwarf irregular. Researchers using NASA’s Hubble Space Telescope studied 37 nearby dwarf galaxies — small galaxies containing a few thousand to hundreds of millions of stars — including NGC 4449 and found that much of the oxygen they expected to see is missing. Read […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "NASA, NOAA Track 2026 Antarctic Ozone Hole",
+    "link": "https://science.nasa.gov/earth/2026-ozone-hole/",
+    "date": "2026-11-04T15:00:14Z",
+    "description": "Weather provided ideal conditions for enhanced ozone depletion",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "The Download: blended meat, restored sight, and the agentic web",
+    "link": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
+    "date": "2026-11-04T13:10:00Z",
+    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. These startups hope “blended” food will cut our appetite for red meat In the fall of 2025, Jeff Dodge served hungry students steaming marinara sauce and meatballs. The students loved them:…",
+    "source": "MIT Technology Review",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Securing the agentic enterprise with data lineage",
+    "link": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+    "date": "2026-11-04T13:00:00Z",
+    "description": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it’s…",
+    "source": "MIT Technology Review",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "APOD: 2026 November 4 – The Not-So-Hidden Galaxy, IC 342",
+    "link": "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/",
+    "date": "2026-11-04T05:05:00Z",
+    "description": "APOD Science APOD APOD: 2026 November 4 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Not-So-Hidden […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Before the Dawn in America’s Heartland",
+    "link": "https://science.nasa.gov/earth/earth-observatory/before-the-dawn-in-americas-heartland/",
+    "date": "2026-11-04T05:01:00Z",
+    "description": "With hardly a cloud in sight, astronauts had a sweeping view of nighttime lights in the U.S. Midwest.",
+    "source": "NASA",
+    "category": "Other"
+  },
+  {
+    "title": "IEEE Computer Society Chapter Offers Webinars With Industry Experts",
+    "link": "https://spectrum.ieee.org/ieee-industry-experts-webinar",
+    "date": "2026-11-03T19:00:02Z",
+    "description": "To help engineers keep up with emerging technologies such as AI, cloud computing, and sustainable infrastructure, and learn how they can be applied in practice, the IEEE Computer Society ’s Central Indiana Chapter recently launched its Tech Talk Series. The live webinar series connects IEEE members, undergrad and graduate students, and engineering professionals from IEEE Region 4 with industry practitioners. The monthly sessions have covered AI governance and security, agentic systems, and related topics. The sessions featured speakers from Apple , software company Tavant , and cybersecurity concern Zscaler . Upcoming sessions and registration details are available on the IEEE Region 4 virtual events calendar . Technical discussions grounded in engineering Rather than presenting on emerging technologies only at a conceptual level, speakers discussed the design decisions behind specific tools and systems, how the systems are structured, and implementation challenges. They also shared lessons learned from using the tools in their daily work. Sessions also include technical walkthroughs and practical examples. The live format allows attendees to discuss and compare their approaches when evaluating and implementing new technologies with those used by other organizations. Extending access through a virtual format The organizers chose to make the series virtual so that chapter members and other attendees could participate in technical discussions with engineers from major technology companies and eliminate the need to travel. For young professionals, the sessions connect what they’ve learned in a classroom with the realities of the workplace. Technical programs such as the Tech Talk Series give professionals and students access to expertise, help create connections across career levels, and make important engineering discussions available to a broader community. Attendees learn how practitioners approach projects such as system architecture, reliability, security, governance, and product delivery. For experienced professionals, the talks offer a forum to examine new ways of designing, securing, and operating software systems, and compare technical approaches. They can ask questions relevant to systems being evaluated or deployed within their organization. Examining governed AI agents The most recent webinar, Feeding and Fencing AI Agents: Engineering Governed Agentic Systems on Real-Time Data, featured Gajendra Babu Thokala , a senior engineering leader at Apple in Seattle. The IEEE senior member explained how teams can move beyond adding isolated AI features to applications and instead build governed AI-agent systems that use real-time business data to complete multistep business workflows. Another recent session, Building AI Native Products: A Playbook for Agentic Systems, explored how products built around AI agents differ from traditional software. It also covered how agentic systems can help users complete multistep tasks and workflows. IEEE Senior Member Sandeep Shivam , a product and technology leader at Tavant in Dallas, led the webinar. Those two sessions illustrate the series’ purpose: helping participants understand what a technology can do and what is required to use it responsibly. Building a continuing technical program Future sessions are being planned on areas including enterprise AI, software reliability, and responsible AI usage. In addition to speakers from technology companies, the chapter also plans to invite speakers from startups, universities, and research organizations. Upcoming sessions are expected to cover cloud platforms, enterprise integrations, and the responsible development of AI systems. Technical programs such as the Tech Talk Series give professionals and students access to expertise, help create connections across career levels, and make important engineering discussions available to a broader community. Undergraduate and graduate students are invited to participate to gain exposure to technical decision-making and challenges encountered in professional engineering environments.",
+    "source": "IEEE Spectrum",
+    "category": "Climate"
+  },
+  {
     "title": "Astronaut and Earth",
     "link": "https://www.nasa.gov/image-article/astronaut-and-earth/",
     "date": "2026-11-03T16:37:42Z",
@@ -142,101 +238,5 @@
     "description": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web”: an internet designed to be navigated by autonomous software agents that could address our every…",
     "source": "MIT Technology Review",
     "category": "Artificial Intelligence"
-  },
-  {
-    "title": "APOD: 2026 November 2 – A Long Cloud on Mars",
-    "link": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/",
-    "date": "2026-11-02T05:05:00Z",
-    "description": "APOD Science APOD APOD: 2026 November 2 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Long […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "Pennsylvania’s Grand Canyon",
-    "link": "https://science.nasa.gov/earth/earth-observatory/pennsylvanias-grand-canyon/",
-    "date": "2026-11-02T05:01:00Z",
-    "description": "Amid the warm hues of fall foliage, Pine Creek Gorge forms a deep scar in the Allegheny Plateau.",
-    "source": "NASA",
-    "category": "Other"
-  },
-  {
-    "title": "Guarding the Gates of Knowledge",
-    "link": "https://spectrum.ieee.org/ai-slop-trust-science",
-    "date": "2026-11-01T14:00:01Z",
-    "description": "A recent scroll through social media got me thinking about trust. About half my feed was filled with AI slop that astute users would call out as being machine-generated, often to the embarrassment of the rube who unknowingly spread it and sometimes to the delight of the poster who shared it deliberately because they found it amusing or useful for sowing confusion. Remember the good old days of GPT-3 when we could ask the chatbot anything and it would almost instantly and very confidently spit back a plausible but false answer? That’s when the word “hallucination” as applied to AI answers entered the lexicon. Six years and several versions of a few different chatbots later, I still can’t trust the answers I get, even though Claude or Gemini often do useful work for me. That’s the thing about current AI: Trust but verify. And verify you must. Apply that maxim at scale to maintain the integrity of the scientific record and you get an idea of the challenge facing publishers of peer-reviewed scholarship. In “ I Used AI to Fake a Scientific Paper ,” freelance writer and doctor of applied mathematics Benjamin Skuse tells the story of the human gatekeepers trying to beat back the rising tide of AI slop by attempting to get his own AI-generated papers past IEEE’s defenses. “He basically hit ‘run experiment’ and ‘write paper.’ And then he didn’t do a damn thing to it.” —Eliza Strickland As features and AI beat editor Eliza Strickland told me, Skuse was surprised at just how effortless it was to generate a paper that was more or less plausible and more or less science. For one of his experiments, “he basically hit ‘run experiment’ and ‘write paper,’” she said. “And then he didn’t do a damn thing to it. He just launched it into the maw of the publishing engine.” Skuse discovered that the combination of IEEE’s human-review processes and research-integrity checker programs are currently keeping pace in what amounts to a cat-and-mouse game against people using free tools. But the more advanced LLMs are no longer making the same dumb mistakes the free versions do. That leaves publishers locked in an arms race between increasingly plausible slop and the systems aimed at detecting it. Scholarly publishers aren’t the only ones trying to hold the line against slop. So is that global depository of human-generated knowledge, Wikipedia. For this month’s Five Questions , Strickland interviewed Ellia Lebleu, a founding member of WikiProject AI Cleanup , a volunteer effort to detect and delete AI-generated material from the platform. Lebleu’s team is confronting the same problem as commercial publishers, but with fewer people and fewer tools. “Wikipedia is known as a repository of human-generated information, and they want to hold on to that,” says Strickland. “Who knows how long they’ll be able to do that.” If we can’t collectively assume that the scientific record is trustworthy or that basic facts about the world are accurate, then our understanding of what is real unspools into uncertainty . Perhaps that delights quantum scientists and the grifters who thrive in an information environment where there is no shared reality. But that uncertainty ultimately undermines trust in the institutions that exist to curate the corpus of human knowledge and to promote the advancement of science and technology for the benefit of humanity. Or maybe in a world where AI is doing the science and writing the papers, it won’t matter whether or not humans trust the outputs. As Strickland put it, “Doesn’t it just feel crazy that we’ll have AI writing for other AIs at some point? We’ll just get left out of the loop.”",
-    "source": "IEEE Spectrum",
-    "category": "Climate"
-  },
-  {
-    "title": "APOD: 2026 November 1 – Colors of the Moon",
-    "link": "https://science.nasa.gov/image-article/apod-2026-november-1-colors-of-the-moon/",
-    "date": "2026-11-01T04:05:00Z",
-    "description": "APOD Science APOD APOD: 2026 November 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Colors of the […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "When Electric Cars Were for Women",
-    "link": "https://spectrum.ieee.org/early-electric-vehicles",
-    "date": "2026-10-31T13:00:02Z",
-    "description": "At the turn of the last century, the automobile industry was still new and evolving rapidly. In 1898, there were about 50 carmakers in the United States. A decade later, that number had increased fivefold. In 1901, the companies produced 7,000 vehicles. By 1910, production had reached 181,000. For several decades, electric cars vied with those powered by steam and internal combustion, and nobody was sure which technology would come out on top. Steam had the legacy of locomotive technology behind it but came with a risk of fire. Steam-powered vehicles could also become exceedingly hot, depending on the placement of the boiler and the steam piping. Both gasoline and electric cars faced logistical challenges: How far could you travel without refueling or charging? You could always throw an extra can of gasoline in the back of the car, but charging a battery involved more planning. The infrastructure for long-distance travel was not yet in place. Before the invention of the electric starter in 1911, gasoline-powered engines had to be started with a hand crank; once running, they were loud and emitted noxious fumes. Fully electric vehicles, by contrast, were easy to start; you just turned on the main battery switch, often with a key, and there was no foul exhaust to deal with. Electric carmakers looking for a way to differentiate their products decided that these attributes made their vehicles perfect for women. (Electric cars were also marketed to doctors so that they could make house calls in the middle of the night without waking the neighbors.) General Electric, which made car chargers based on mercury-arc rectifiers , was so captivated by the idea of women driving electric cars that the company created a series of advertisements featuring stylishly dressed women plugging in their cars and posing with their charging stations. In ads for its electric car chargers, General Electric featured women using the equipment. miSci—Museum of Innovation and Science A young woman named Fannie Goodnow was an early EV adopter. She owned a 1908 Bailey Victoria Phaeton, an open two-seater that really did look like a horseless carriage, and she used a GE mercury-arc rectifier to charge it. Who Invented the Mercury-Arc Rectifier? Electrical engineer Peter Cooper Hewitt invented the mercury vapor lamp, which became the basis for the mercury-arc rectifier used in car-charging systems. Bettmann/Getty Images Electrical engineer Peter Cooper Hewitt is generally credited with the invention of the mercury-arc rectifier. During the first decade of the 20th century, Hewitt received several U.S. patents for electric lamps and other apparatus for transmitting and using electric currents. U.S. patents 968,896 and 1,163,706 , granted to Percy H. Thomas , advanced Hewitt’s designs. Thomas was chief electrician for the Cooper Hewitt Electric Co., which Hewitt had cofounded with George Westinghouse to manufacture and sell his lamps. The mercury-arc rectifier functioned as a diode. In a car charger like the one Fannie Goodnow used, it converted alternating current from the power grid into direct current needed to charge the car’s battery. A small amount of liquid mercury contained in a glass tube would vaporize and glow as electricity passed through it. Coupled with the carbon anodes, the vapor allowed current to flow in only one direction. This unit took about 12 hours to charge a drained battery. A Carriage Maker Pivots to Electric Cars I couldn’t find any records as to why Fannie Goodnow opted for an electric car. But as a well-to-do woman living in the Boston area, she had more than a half dozen automobile producers to choose from. The one she chose was S.R. Bailey & Co. of Amesbury, Mass. This early electric car charger used a mercury-arc rectifier to convert AC to DC. Heritage Museums & Gardens According to Galen Handy, who maintains the Early Electric Vehicles website, Samuel Robinson Bailey started in the carriage and sleigh business as a teenager, winning a best-in-show prize at a carriage exhibition in Portland, Maine, in 1855. Bailey developed a reputation as an inventor and designed processes to streamline the manufacture of his vehicles. He went into business for himself in 1882. Just over a decade later, one of Bailey’s carriages won a gold medal at the 1893 World’s Columbian Exposition in Chicago. Bailey’s son Edwin attended the exposition, where he likely would have seen a vision of the future: the Morrison electric wagon. This six-passenger, battery-powered vehicle ferried visitors and VIPs around the fairgrounds. It wasn’t long before automobiles began eating into the carriage business. In December 1906, with the carriage industry collapsing, S.R. Bailey & Co. announced it was getting into electric vehicles. Thomas Edison Designed a Bad Battery Bailey’s first model, the Victoria Phaeton, used an Edison alkaline battery . Thomas Edison had been working on a lighter, more reliable, and more powerful battery for the auto industry since the 1890s, and announced the achievement with great fanfare in 1903. Unfortunately for Bailey and other carmakers who deployed it, the battery leaked and wouldn’t hold a charge. Edison was forced to go back to the drawing board. By 1910, he had a better battery in production, but by then his friend Henry Ford had introduced the Model T, setting the stage for the internal combustion engine to take over the market. While Edison toiled to improve his tech, Bailey pivoted to a battery from the Gould Storage Battery Co. of Depew, N.Y. Gould also supplied batteries for railroads, utilities, subways, elevators, and farms. Goodnow’s Victoria Phaeton used a 30-cell lead-acid battery housed in a wooden box that was suspended under the chassis. The standard battery had a range of 64 to 80 kilometers; a larger battery with 50 percent more capacity was available for an upcharge. With the standard battery, the Victoria Phaeton cost US $2,000 (about $73,000 today, or about the list price of an upscale EV like the Audi Q8 or BMW i5). Fannie Goodnow’s electric car charger now resides at the Heritage Museums & Gardens in Sandwich, Mass. But her 1908 Bailey Victoria Phaeton has been lost to history. Shown here is a 1911 version of that model. Sarah Thornington/Heritage Museums & Gardens Goodnow installed a mercury-arc rectifier charging station in the barn adjacent to her parents’ summer home in Hull, Mass. Bill Lillie of Vintage Electric Cars notes that the charging plug was of an unusual design. This is, of course, one of the banes of any early adopter: nonstandardized plugs and cables. The Electric Vehicle Association of America, which formed in 1910, tried to put forward a standard so that electric vehicles could be charged at any charging station. (Modern EV owners can no doubt relate .) But savvy electric car owners knew to carry spare plug adapters and cables when traveling. When Edison’s improved battery was finally available, Bailey began using it in the Victoria Phaeton and then went on a publicity blitz. In September 1910, the carmaker sponsored a round-trip tour from New York to Boston, with a side trip up New Hampshire’s Mount Washington, totaling about 1,600 km. Sadly, the “ This Car Climbed Mt. Washington ” bumper sticker hadn’t yet become popular. Thomas Edison supplied the batteries for an electric car made by S.R. Bailey & Co., which then went on a publicity road trip from New York to Boston. miSci—Museum of Innovation and Science Although Thomas Edison posed for a photo with the new Bailey Victoria Phaeton that featured his new battery, he himself chose a Detroit Electric Victoria for his own use. (Edison was known to be a terrible driver, so someone else likely chauffeured him around.) Unable to compete against the rising tide of Model Ts, S.R. Bailey sold its factory in 1915, having produced about 500 to 600 electric vehicles. Although the vehicle Fannie Goodnow chose turned out to be just a blip in automotive history, I like to imagine her driving about town in a beautiful car that embodied all the quirks of early adoption. I hope her friends didn’t make fun of her for investing in electric just before internal combustion took off. I hope she didn’t get stranded without the proper charging cable. I do not know what happened to her or her Victoria Phaeton, but her charging station remained in situ until 2022, when it was donated to the Heritage Museums & Gardens in Sandwich, Mass. Now it stands ready to tell stories of technological change and adoption that continue to resonate today. Part of a continuing series looking at historical artifacts that embrace the boundless potential of technology. An abridged version of this article appears in the November 2026 print issue. References For a detailed history of the development of the mercury-arc rectifier (or valve), see Deepak Tiku’s article in the March/April 2014 issue of IEEE Power & Energy Magazine. Harry Cooke Cushing Jr., a fellow of the American Institute of Electrical Engineers, wrote (and updated regularly over a number of years) The Electric Vehicle Hand-Book , which gave general instructions for the care and storage of batteries, including how to charge them with a mercury-arc rectifier . Discussion of the mercury-arc rectifier begins on page 156 of the 10th edition, published in 1922. (The American Institute of Electrical Engineers is one of the predecessor organizations of the IEEE.)",
-    "source": "IEEE Spectrum",
-    "category": "Climate"
-  },
-  {
-    "title": "APOD: 2026 October 31 – Night on a Spooky Planet",
-    "link": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
-    "date": "2026-10-31T04:05:00Z",
-    "description": "APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Night on a […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "NASA Releases MAX POWER Key Events for Media, Participants",
-    "link": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
-    "date": "2026-10-30T19:31:02Z",
-    "description": "America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in Florida. Through multiple park experiences at MAX POWER, NASA and a variety of external collaborators […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "NASA’s James Webb Space Telescope Captures Eerie Cat’s Head",
-    "link": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head/",
-    "date": "2026-10-30T15:56:26Z",
-    "description": "Intricate structures within the Cat’s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sculpted over time by the intense ultraviolet radiation and winds from massive stars in the Carina Nebula. As this stellar feedback […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
-    "link": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
-    "date": "2026-10-30T14:51:21Z",
-    "description": "NASA issued a Request for Information Oct. 29 to learn more about industry capabilities for in-space servicing to support the agency’s Hubble Space Telescope.",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals",
-    "link": "https://www.technologyreview.com/2026/10/30/1147843/the-download-glp-1s-eating-disorders-forever-chemicals/",
-    "date": "2026-10-30T11:30:00Z",
-    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Eating disorders are on the rise. GLP-1s could make things worse. GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to some clinicians, they can…",
-    "source": "MIT Technology Review",
-    "category": "Health"
-  },
-  {
-    "title": "November’s Night Sky Notes: Light-Day Away",
-    "link": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/novembers-night-sky-notes-light-day-away/",
-    "date": "2026-10-30T10:00:00Z",
-    "description": "Twin Travelers In 1977, NASA launched twin spacecraft Voyager 1 and 2, taking advantage of a once-every-175-year planetary alignment of the four largest planets in our solar system: Jupiter, Saturn, Uranus, and Neptune. Using six gravity assists between them, this Grand Tour gave us up-close views of the gas and ice giants, including several moons. […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "Eating disorders are on the rise. GLP-1s could make things worse.",
-    "link": "https://www.technologyreview.com/2026/10/30/1147838/eating-disorders-rise-glp-1s-weight-loss-drugs/",
-    "date": "2026-10-30T09:00:00Z",
-    "description": "GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to some clinical psychologists, they can represent something more sinister—a potential trigger for eating disorders. A new report suggests that the global incidence of anorexia nervosa and bulimia nervosa shot up between 1990 and 2023—by a whopping 71%. By 2023,…",
-    "source": "MIT Technology Review",
-    "category": "Health"
   }
 ]
