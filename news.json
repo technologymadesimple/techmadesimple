@@ -1,5 +1,101 @@
 [
   {
+    "title": "Use Your Year-End Review to Reach for a Promotion",
+    "link": "https://spectrum.ieee.org/how-to-get-a-promotion",
+    "date": "2026-11-05T16:08:03Z",
+    "description": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! Hard work rarely speaks for itself. When I landed my first job as a software engineer, I had a simple plan: Work hard and somebody would notice. Eventually a manager would tap me on the shoulder and hand me a promotion (probably with a nice little speech). That plan stalled my career for about five years. I switched jobs twice, kept my head down, read a stack of programming books, and sometimes pulled 12-hour days. I was never promoted. At my third job, out of frustration, I started interviewing at other companies and almost immediately got an offer for a senior engineer role. So I went back to my job and quit. My team was blindsided. I liked my manager and the people I worked with, and they came back with a counteroffer. Then someone from HR asked me, “Why didn’t you just ask us?” Honestly, it never occurred to me. I took the counteroffer and stayed. Three jobs in, I finally got promoted, and all it took was asking (in the most dramatic way possible). Today, I would take a different approach. Year-end review discussions are a great time to push for a promotion. But at most companies, raises and promotions are largely settled before the formal review conversation happens. If the year-end review is the first time your manager hears you want a promotion, you’re usually too late. Now is a great time to start the conversation. Hard work is invisible by default Engineers tend to believe good work speaks for itself. It rarely does. Your manager is juggling a team, a roadmap, and their own boss. They see a fraction of what you do, and the work they don’t see might as well not exist when raises get decided. Perception is reality, so you have to shape it. That means learning to brag a little. A “brag document” is a running list of what you accomplished, when, and why it mattered. Add to it every two weeks or once a month, and write each entry so your manager’s manager would understand it. Engineers tend to write things like “migrated the billing service.” A better entry reads “migrated the billing service, which cut failed payments by 30 percent and unblocked the Q3 pricing launch.” If there’s no number, name who benefited and how. Include the work people forget to count, too: handling incidents, mentoring new hires, interviewing candidates, and writing the docs everyone else relies on. If you helped your team adopt AI tools this year, write that down. (It counts as leadership, whether or not anyone called it that.) The document does two jobs. It gives you ammunition when you make your case, and it gives your manager something to ctrl + c then ctrl + v when they argue for you in meetings you’ll never attend. Just ask Bragging builds the case. Asking forces action. If your goal is a promotion or a raise, you might ask: “What would it take for me to get to [the next level] in the next year?” A good manager will give you an outline that can turn into a plan. Push for specifics until you have deliverables you can work toward, then send a short recap email so the plan exists somewhere besides your manager’s memory. (Managers change jobs too.) When the answer is “no” Sometimes the answer will still be “not this year,” and the reason may have nothing to do with you. Budgets get frozen, promotion slots get capped, and decisions get made above your manager’s head where even a manager who wants to help can’t. Don’t read too much into that. But be honest with yourself, too. Most of the time, a no means there’s something you aren’t doing yet. Find out what it is instead of guessing for five years like I did. Asking costs you one slightly awkward conversation. Sitting back and waiting to be noticed can cost you years. —Brian I Used AI to Fake a Scientific Paper. Here’s What Happened Don’t try this at home: To better understand the risk AI slop poses to scientific publishing today, IEEE Spectrum contributor Benjamin Skuse put IEEE’s research integrity checks to the test by submitting two entirely AI-generated papers. “Science has a spam problem. And the spam filter is getting clogged up…” Read more here . Why Engineers Should Brave Capitol Hill Policy change doesn’t just come down to paid lobbyists—lawmakers want to hear from working experts, too. One engineer shares what he learned from his first two visits to Capitol Hill. Read more here . Community Colleges Put New Workers Into Semiconductor Jobs Fast Could community colleges help fill the coming talent shortage in the U.S. semiconductor industry? Alternatives to four-year university degrees are a promising option for the technicians who will be needed to run new fabs. Read more here .",
+    "source": "IEEE Spectrum",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Midwestern City Lights",
+    "link": "https://www.nasa.gov/image-article/midwestern-city-lights/",
+    "date": "2026-11-05T15:17:19Z",
+    "description": "City lights from the Midwestern United States to the East Coast sparkle across the landscape a couple of hours before sunrise on Oct. 18, 2026. Major urban areas visible in the photograph include Chicago, Illinois; Detroit, Michigan; and the New York metropolitan region. The International Space Station was orbiting 259 miles above Earth when this […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "NASA Astronauts to Answer Questions from Florida Students",
+    "link": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students-2/",
+    "date": "2026-11-05T15:11:25Z",
+    "description": "Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 10:40 a.m. EST Tuesday, Nov. 10, and will stream live on the agency’s Learn With NASA YouTube channel. This event is hosted by Freedom Crossing Academy in […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Why a Mathematician Is Chasing Eclipses With Algorithms and Cameras",
+    "link": "https://spectrum.ieee.org/2026-solar-eclipse",
+    "date": "2026-11-05T14:00:02Z",
+    "description": "The sun hangs low over the plains of Castile and León, in the north-central region of Spain. But from a slope of the mountain Pico Trigaza , it appears that a few puffy white clouds have started to block the sun. That’s vexing. A group of researchers, some wearing cardboard eclipse glasses, is clustered around sets of portable telescopes and cameras connected to laptops. All this gear is scattered on tabletops perched on the mountainside. On the computer screens, the sun’s disk looks like a deep orange crescent that is slowly waning. That’s because the moon began to crawl across it about half an hour ago. In 25 minutes, it will obscure the sun completely, producing an eerie and wondrous phenomenon—a total solar eclipse. In the late-summer, late-afternoon heat, the researchers watch anxiously as those fluffy clouds linger around the sun. From an abandoned hut on the slope a few meters above, where the researchers have set up camp, one of the grad students emerges and nods toward the cloud formation. “Do you think it will dissolve?” he blurts out. “It will.” Miloslav Druckmüller glances calmly at his group of doctoral candidates, now making final checks of the equipment in preparation for totality. Here in Spain, on this 12th day of August, Druckmüller is getting ready for his 19th solar eclipse. He knows from long experience that weather can turn quickly when the moon’s shadow suddenly pushes the temperature down. Plus, there’s no sense in riling up the grad students any more than they already are. Miloslav Druckmüller led the design and construction of a unique optical instrument that incorporates eight astrocameras. Each is equipped with a spectral filter for sensing and recording specific emission spectra from the solar corona. Each of those spectra, in turn, is associated with a particular ionic species of iron atoms. Because the temperature needed to ionize iron varies depending on the ionic species, analyzing the locations and relative abundance of these ionic species offers valuable insights into the distribution of heat in the corona. Václav Široký During totality, the moon blocks the overwhelming glare of the solar disk, revealing delicate structures in the sun’s outer atmosphere, the corona. Using custom-built telescope systems and image-processing techniques that Druckmüller has spent decades developing, the researchers aim to gain insights into the processes in this enigmatic region that is otherwise hard to study . In addition to imaging the visible coronal light, the team will try to track the dispersal of superhot ions of iron into interplanetary space, which could give rare insights into the pattern of heat emanating from the corona. And they’ll have 107 seconds to do all that. A Mathematician’s Path to Solar Eclipse Photography Druckmüller is a professor of mathematics and image processing at the Brno University of Technology in the Czech Republic and a leading figure in the Solar Wind Sherpas , an international team that studies the sun’s corona during total eclipses. In the solar eclipse world, he is nothing short of a legend, albeit a reluctant one. An image from Miloslav Druckmüller’s first solar-eclipse expedition, to Hungary, vividly shows Baily’s Beads. These elongated white lights along a piece of the left edge of the blacked-out solar disk are caused by beams of sunlight shining through gaps in the irregular lunar surface during the eclipse. The pink shapes are solar prominences, which are jets of plasma extending out into space and held in place by the sun’s intense magnetic field. Miloslav Druckmüller He photographed his first solar eclipse in 1999, in what he thought would be a one-off lark. During that eclipse, the moon’s deep shadow missed Druckmüller’s native Czechia by just a few tens of kilometers, so he chased it to Hungary with a 30-year-old Soviet MTO 1,000-millimeter lens . All he remembers from that day is the rush of adrenaline he felt while trying to find the sun in the sky with the lens’s minuscule field of view and keep it in focus for the two minutes of the eclipse. He insists that he has never enjoyed any of the eclipses he has photographed. “In fact, I have never properly seen any of those eclipses. You are just watching the screens, making sure that it’s all doing what it’s supposed to do. There are so many things that can go wrong and you can’t redo it.” A composite sequence of photographs shows the 12 August 2026 solar eclipse as seen from a slope of the mountain Pico Trigaza in Spain. Václav Široký and Miloslav Druckmüller Despite Druckmüller’s outward tranquility on this Spanish hillside, the stakes are high. Just 45 minutes ago, his group heard from their colleagues in Iceland, where viewing conditions had promised to be better than in Spain. But a vast low-pressure system had clouded the entire sky, leaving all three Iceland teams without a view. What Solar Eclipses Reveal About the Corona The corona has been a mystery for centuries. Though dimmer—by a factor of a million—than the sun’s visible surface, the corona is nevertheless extremely hot : about a million degrees Celsius compared to 5,500 degrees on the surface. Because the sun’s nuclear fusion engine churns at the star’s heart, it might seem that temperatures should fall farther from the core. To observe the faint corona in visible light, researchers must block the sun’s ferocious glare. Specialized telescopes called coronagraphs do this with an opaque disk called an occulter. But because light bends around the occulter’s edges in an effect called diffraction, it must block an area much larger than that of the solar disk to prevent light from spilling over and ruining the images. But doing so means obstructing the inner part of the corona, which harbors the most important processes that underpin the puzzling phenomena of the sun’s upper atmosphere. That’s why total eclipses matter so much to solar physicists. By sheer chance, the moon is exactly the right size and at just the right distance to completely cover the sun during a total solar eclipse. Because the moon is so far away from Earth, the view is not marred by diffraction, and the corona reveals itself nearly all the way down to the sun’s surface. Space probes can image the solar surface in other wavelengths, but those views have limitations, too. Spacecraft such as NASA’s Solar Dynamics Observatory do see the innermost parts of the corona in extreme ultraviolet light, explains Shadia Habbal , a solar physicist at the University of Hawaii and leader of the Solar Wind Sherpas project. “But it cuts off very quickly, so you don’t see its extension into space as well as we can see it in the visible emission lines” during an eclipse. “That’s the biggest advantage,” she says, of solar eclipse photography. The European Proba-3 mission, launched in 2024, simulates total solar eclipses by flying two spacecraft in a formation 150 meters apart with one acting as an occulter and the other as the telescope. The instruments aboard that satellite, however, have limitations compared to the equipment used by the Solar Wind Sherpas team. How Eclipse Images Sparked a Scientific Partnership When Druckmüller developed the film from his 1999 eclipse expedition, the photographs didn’t do justice to the event’s eerie beauty. He spent countless evenings applying his expertise in numerical image processing in an attempt to re-create in his photographs the sights he witnessed in that Hungarian corn field. It took two years, but eventually he succeeded. Where before there were dull views of the blackened lunar disk surrounded by the blunt wisps of the corona, Druckmüller revealed the subtlest details of the magnetic field lines stretching from the sun far into space. As his photographs circulated among solar physicists, invitations to eclipse expeditions began to arrive. Habbal learned about the images from a Ph.D. student who had seen them at a conference presentation that didn’t credit Druckmüller. When Habbal’s team later published the images in a paper, they misattributed them to another researcher. Druckmüller found out through an astrophysicist friend. “I wrote her a rather disappointed email and she responded within 10 minutes,” Druckmüller recalls. “She really didn’t have a clue.” The error was corrected, and within weeks, Habbal and Druckmüller began a collaboration that grew into a friendship. “Milos’s processing brings out details that nobody has seen before, and they tell you a lot about very tiny features in the corona that you don’t see otherwise,” says Habbal. How Image Processing Reveals the Solar Corona Capturing the corona’s delicate structures means finding a way to show its brightest and faintest features in the same image. “During the solar eclipse, the contrast between the darkest and brightest parts of the corona is enormous, possibly one to a million,” Druckmüller explains. “But a computer monitor only allows you to display a contrast ratio of one to about 800.” (Some modern monitors, particularly OLED ones, can deliver higher contrast ratios.) The human eye can adjust to this enormous range of brightness, allowing an observer to see both the bright corona and the faint stars and planets that briefly emerge in the darkened sky. To bring those details together in a photograph, Druckmüller uses custom image-processing algorithms to combine exposures that capture different parts of that range. Researchers Martin Šebek and Peter Urgoš make fine adjustments to the focus and alignment of the astrocameras on a key optical instrument before the 12 August solar eclipse. Václav Široký To create a single image, Druckmüller’s teams need to take 200 individual frames during the eclipse at exposure times ranging from 0.001 second to two seconds. The data must then be calibrated against a vast number of reference images to filter out noise and imperfections. Flat fields , which depict a uniform light background, help correct for defects caused by telescope optics, dust spots, and variations in pixel sensitivity. Dark frames , taken with light blocked from the sensor, help correct for artifacts created by the camera’s image sensor itself. “It takes the computer more than two days to process one image,” Druckmüller says. Including the calibration data, a single finished image requires about 3,000 input frames. Choosing a Location for Solar Eclipse Photography Since 2008, teams directed by Habbal and Druckmüller have traveled to every total solar eclipse, spreading out across multiple locations to hedge against bad weather. About half of the teams return with usable data. For the others, it’s just a short and stressful voyage. For the 12 August eclipse, three groups deployed to Iceland and two to Spain. The teams seek sites close to the center of the band of totality, where the moon blocks the sun for longest. In Spain, the 12 August band of totality cut across the north of the country ; the center line of the shadow passed within 11 kilometers of Pico Trigaza, promising Druckmüller and his colleagues a precious 107 seconds of totality. But duration is only part of the calculation. Totality on Pico Trigaza will commence 51 minutes before sunset, with the sun just 8 degrees above the horizon. That low, the rays must pass through a much thicker layer of the atmosphere than when the sun is higher in the sky, increasing the light distortion that complicates photography. At the researchers’ camp on Pico Trigaza, 1,600 meters above sea level, the thinner air should help a bit. An abandoned hut on the mountain Pico Trigaza in Spain was spruced up so that it could serve as a home base for the research team recording the 12 August solar eclipse. Martin Šebek “Iceland would have been a much better place for us than Spain because the sun was higher up, some 25 degrees above the horizon,” Druckmüller says wistfully. But Iceland’s notoriously unpredictable weather made Spain an essential backup. If you pack a van with thousands of dollars’ worth of cameras and optical gear and then set out on a 2,351-kilometer journey, you shouldn’t be surprised if you finish the trip with a few striking photographs [top]. The sleeping arrangements for the grad students at the Pico Trigaza hut [bottom] were spartan, but the views were first-rate. Top: Martin Šebek; Bottom: Václav Široký On the mountain, locals have spruced up a rustic, long-unused hut for the researchers, running power cables from a nearby telecommunication outpost and bringing in a water tank. Five Ph.D. students drove more than 2,000 kilometers from Brno and have spent nearly a week preparing the equipment. Druckmüller and his wife joined them two days before the eclipse. They cook on a small propane grill and sleep in sleeping bags on yoga mats. “We have plenty of space here to set up our telescopes, beautiful views, and a roof over our heads,” Druckmüller says with a grin. “It’s perfect.” But even the best equipment and a carefully chosen site count for nothing if the clouds roll in. “So much work goes into the preparations and then, if you end up with nothing, you just feel terrible sadness,” says Jana Hoderová , an assistant professor of mathematics at Brno University of Technology and one of Druckmüller’s key collaborators. As the moon continues to slide in front of the solar disk, the pesky cumulus cloud that kept everybody on edge begins to dissolve. It’s 10 minutes to totality. The relief is palpable. Mapping the Solar Corona’s Temperature With Iron The countdown on the computers that control the cameras has begun. The screens are now showing only a tiny orange sliver, and the evening is becoming perceptibly less bright. Twenty astrophotography cameras, most of them drawing power from a car battery that was also buffering the cameras from any grid instabilities, are pointed at the sun. Alongside equipment capturing the corona’s visible light, the team has built an assembly of eight cameras to detect light emitted by various iron ions that arise in the corona. Among the optical gear assembled at Pico Trigaza to capture the 12 August solar eclipse was a unique instrument designed to record the distributions of iron ions in the corona [at left]. Václav Široký Those instruments looking for iron ions have been put together with resourcefulness and thrift. A colleague of Druckmüller’s laser-cut the aluminum plates holding the carefully aligned lenses in exchange “for two bottles of whisky.” The brackets and attachments were 3D-printed at Brno University of Technology. The lenses, produced for the defunct camera maker Contax, were bought at steep discounts on eBay. By far the most expensive elements are interference filters that isolate the wavelengths emitted by the iron ions. Around the blackened solar disk rises the magnificent golden halo of the corona. In the hush on the mountainside, it seems that even the birds have gone still. “That’s something nobody else in the world can do,” Druckmüller says with visible satisfaction. The unique technology, codeveloped with Habbal’s Hawaii team, has already enabled researchers to map the distribution of temperatures across the entire corona and to discover previously unseen structures, dubbed “smoke rings,” in the coronal plasma. The photographs also revealed the boundary region where the solar plasma becomes so thin that its ions stop colliding. The optical assembly designed to record the distributions of iron ions in the corona is outfitted with astrocameras, each of which captures spectra from a different ionic species. To do that, each astrocamera is equipped with a spectral filter whose bandwidth is so narrow—one nanometer—that the filter appears as a mirror. Martin Fornůsek “Iron is the most abundant of the heavy elements that we see in the solar corona,” says Habbal. “And because the corona is so hot, the iron atoms lose electrons and get ionized. The larger the loss, the higher the temperature.” For example, a temperature of around 1.6 million °C is necessary to produce an iron ion that has lost 12 electrons. But only 1.4 million °C is needed to strip an iron atom of 11 electrons. Once it’s in a particular electrical state, the ion retains its specific ionization, even as it travels outward with the solar wind. Each of those ions, whether +11 or +12, emits a different wavelength of light, allowing the researchers to map not just temperatures within the corona, but also how those iron ions spread into interplanetary space and distribute heat. Habbal and her colleagues had long been trying to image those iron ions during solar eclipses. But it wasn’t until Druckmüller entered the picture that they were able to develop the gear and the mathematical techniques to do it. Three, Two, One…Totality With just a minute to go to totality, the researchers begin removing protective filters from the lenses. It’s 50 minutes to sunset, and the waning sun has just begun to light up the clouds above the horizon with the first tinge of orange. Then, suddenly, the evening begins a rapid and premature descent into darkness. Along the edge of the fantastically thin solar crescent, the brilliant orange points known as Baily’s Beads flash and disappear—the last fragments of photospheric light visible through deep lunar valleys. As totality begins, observers remove their glasses. The hot air cools. The graduate students remain quietly and intently focused on their gear. Druckmüller looks up from his camera toward the darkened plains. Around the blackened solar disk rises the magnificent golden halo of the corona. In the hush on the mountainside, it seems that even the birds have gone still. The sky is ablaze with fiery colors all along the horizon where the deep lunar shadow drops off. Venus burns brilliantly in the southwest, a sharp white pinpoint in the darkened sky. The sound of camera shutters suddenly fills the air. Then, as quickly as it fell, the darkness begins to recede, bid farewell with another handful of golden Baily’s Beads. The crowd erupts in cheers. The Ph.D. students throw themselves at each other and hug like they mean it. “The students did most of the work this time, so I actually allowed myself to really look at it,” Druckmüller says. “It was beautiful. Pico Trigaza may not have been the best for science photography, but from the aesthetic point of view, it was extraordinary.” The 2026 solar-eclipse team at Pico Trigaza in Spain included [from left] Magdalena Šrotířová, Peter Urgoš, Martin Fornůsek, Miloslav Druckmüller, Václav Široký, and Martin Šebek. Václav Široký But for Druckmüller, this is just the beginning. While other eclipse chasers will race to release their images, he will take his time. He expects to publish the first visible-light images of the corona in about two weeks. Processing the iron-ion images, and uncovering whatever insights they may hold, will take months—maybe even a whole year. “Probably until the next eclipse in 2027” in North Africa, Druckmüller says. Who knows? Maybe he’ll even enjoy that one, too.",
+    "source": "IEEE Spectrum",
+    "category": "Space"
+  },
+  {
+    "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
+    "link": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+    "date": "2026-11-05T13:10:00Z",
+    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s…",
+    "source": "MIT Technology Review",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Hubble Learns Galactic History From Stars",
+    "link": "https://science.nasa.gov/missions/hubble/hubble-learns-galactic-history-from-stars/",
+    "date": "2026-11-05T12:56:21Z",
+    "description": "This Hubble image features the sparkling collection of stars named Messier 30 (M30), also called NGC 7099.",
+    "source": "NASA",
+    "category": "Other"
+  },
+  {
+    "title": "A new bill could change how the US builds energy infrastructure",
+    "link": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
+    "date": "2026-11-05T10:00:00Z",
+    "description": "A sweeping bit of legislation designed to cut red tape could speed up the buildout of energy infrastructure in the US. With the dust barely settled on this week’s momentous midterms, the Senate is set to vote on the Bipartisan American Affordability and Jobs Act (BAAJA) on November 9. It’s a plan that could finally…",
+    "source": "MIT Technology Review",
+    "category": "Other"
+  },
+  {
+    "title": "APOD: 2026 November 5 – Enceladus in Silhouette",
+    "link": "https://science.nasa.gov/image-article/apod-2026-november-5-enceladus-in-silhouette/",
+    "date": "2026-11-05T05:05:00Z",
+    "description": "APOD Science APOD APOD: 2026 November 5 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Enceladus in Silhouette […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Cyprus: Island of Snakes, Cats, and Ophiolites",
+    "link": "https://science.nasa.gov/earth/earth-observatory/cyprus-island-of-snakes-cats-and-ophiolites/",
+    "date": "2026-11-05T05:01:00Z",
+    "description": "The third-largest island in the Mediterranean Sea exposes an ancient piece of the ocean floor and hosts a clowder of cats.",
+    "source": "NASA",
+    "category": "Other"
+  },
+  {
+    "title": "NASA Announces X-70 Experimental Aircraft to Advance Flight Research",
+    "link": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/",
+    "date": "2026-11-05T01:43:21Z",
+    "description": "On Wednesday, NASA unveiled its newest experimental aircraft, the X-70 Fractal, during the UP.Summit at the agency’s Kennedy Space Center in Florida. This high-performance, highly adaptable research platform is designed to accelerate the development and testing of advanced aviation technologies. The crewed X-70 features advanced, rapidly reconfigurable flight-control technology that will allow NASA to explore […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "NASA Shares Plans to Accelerate Artemis, Return to Moon",
+    "link": "https://www.nasa.gov/missions/artemis/nasa-shares-plans-to-accelerate-artemis-return-to-moon/",
+    "date": "2026-11-04T21:04:10Z",
+    "description": "In an update on Oct. 23, NASA Administrator Jared Isaacman and other agency leaders shared the agency’s path to returning Americans to the lunar surface in 2028. Agency leadership provided updates on the previously announced acceleration plans for the Artemis program, advancing toward the agency’s Artemis III test flight in 2027 and Artemis IV Moon […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+    "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+    "date": "2026-11-04T18:50:55Z",
+    "description": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican incumbent,…",
+    "source": "MIT Technology Review",
+    "category": "Artificial Intelligence"
+  },
+  {
     "title": "Roundtables: Inside the Quest for Cognitive Immortality",
     "link": "https://www.technologyreview.com/2026/11/04/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
     "date": "2026-11-04T18:21:40Z",
@@ -142,101 +238,5 @@
     "description": "APOD Science APOD APOD: 2026 November 3 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Comet PanSTARRs and […]",
     "source": "NASA",
     "category": "Space"
-  },
-  {
-    "title": "The Pacific’s Busy Storm Season",
-    "link": "https://science.nasa.gov/earth/earth-observatory/the-pacifics-busy-storm-season/",
-    "date": "2026-11-03T05:01:00Z",
-    "description": "Super Typhoon In-fa developed an unusually large eye, and the remnants of Typhoon Champi transitioned into an extratropical storm that targeted Alaska.",
-    "source": "NASA",
-    "category": "Other"
-  },
-  {
-    "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
-    "link": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
-    "date": "2026-11-03T04:18:47Z",
-    "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That…",
-    "source": "MIT Technology Review",
-    "category": "Artificial Intelligence"
-  },
-  {
-    "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
-    "link": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
-    "date": "2026-11-02T21:35:59Z",
-    "description": "Sixty-five years ago, a bold vision took root in Houston: a NASA center dedicated to human spaceflight. Since its founding, NASA’s Johnson Space Center has helped lead the nation’s human spaceflight program, supporting missions from Project Mercury through Artemis. Today, Johnson serves as NASA’s Center of Excellence for Human Spaceflight, and its workforce is helping […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "TB 26-09 Measured Hammer-Tap Inputs",
-    "link": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-09-measured-hammer-tap-inputs/",
-    "date": "2026-11-02T20:47:41Z",
-    "description": "For more information, contact Joel W. Sills, Langley Research Center, joel.w.sills@nasa.gov. Download the PDF version An instrumented hammer test does not require an idealized single half-sine waveform. When the complete force and response are measured accurately, crest ripples and separated contacts remain known inputs. Force shape changes excitation, but does not inherently invalidate the record. […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "NASA’s CHAPEA Crew “Returns” to Earth",
-    "link": "https://www.nasa.gov/image-article/nasas-chapea-crew-returns-to-earth/",
-    "date": "2026-11-02T18:50:42Z",
-    "description": "The four-member Crew Health and Performance Exploration Analog (CHAPEA) crew poses outside for the first time in more than a year following the end of their simulated Mars journey on Oct. 31, 2026. Crew members Matthew Montgomery (left), James Spicer (middle left), Ross Elder (middle right), and Ellen Ellis (right) spent more than a year […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "What’s Up: November 2026 Skywatching Tips from NASA",
-    "link": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
-    "date": "2026-11-02T18:19:58Z",
-    "description": "Meteor Showers, a Spacecraft Milestone, and a Supermoon Catch Taurid and Leonid meteors, spot Mars near Jupiter, celebrate Voyager 1’s light-day milestone, and watch November’s supermoon. Skywatching Highlights Transcript A month of meteor showers … a close pairing of Mars and Jupiter … and a supermoon! That’s What’s Up for November. November offers a buffet […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
-    "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/",
-    "date": "2026-11-02T17:33:22Z",
-    "description": "Media accreditation is open for the next launch to deliver NASA science investigations, supplies, and equipment to the International Space Station. A Northrop Grumman Cygnus XL spacecraft will launch in November to the orbital laboratory on a SpaceX Falcon 9 rocket for NASA. The mission is known as NASA’s Northrop Grumman Commercial Resupply Services 25, […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "Raising the quality of insights in agentic analytics",
-    "link": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
-    "date": "2026-11-02T17:00:00Z",
-    "description": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate…",
-    "source": "MIT Technology Review",
-    "category": "Artificial Intelligence"
-  },
-  {
-    "title": "NASA’s Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies",
-    "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
-    "date": "2026-11-02T15:00:39Z",
-    "description": "NASA’s Hubble studied 37 nearby dwarf galaxies and found that much of the oxygen they expected to see is missing.",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "Stop counting tokens, start counting what ships",
-    "link": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
-    "date": "2026-11-02T13:10:32Z",
-    "description": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls…",
-    "source": "MIT Technology Review",
-    "category": "Artificial Intelligence"
-  },
-  {
-    "title": "The Download: the agentic web arrives and the drive for safer roads",
-    "link": "https://www.technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths/",
-    "date": "2026-11-02T13:10:00Z",
-    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The agentic web is here In 2001, a decade after inventing the World Wide Web, Tim Berners-Lee articulated a new vision: an internet navigated by autonomous software agents that address our…",
-    "source": "MIT Technology Review",
-    "category": "Artificial Intelligence"
-  },
-  {
-    "title": "The agentic web is here",
-    "link": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
-    "date": "2026-11-02T09:35:19Z",
-    "description": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web”: an internet designed to be navigated by autonomous software agents that could address our every…",
-    "source": "MIT Technology Review",
-    "category": "Artificial Intelligence"
   }
 ]
