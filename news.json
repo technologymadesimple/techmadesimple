@@ -1,5 +1,13 @@
 [
   {
+    "title": "APOD: 2026 November 7 – De Gerlache-Kocher Massif",
+    "link": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
+    "date": "2026-11-07T05:05:00Z",
+    "description": "APOD Science APOD APOD: 2026 November 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. De Gerlache-Kocher Massif […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
     "title": "M30’s Sparkling Stars",
     "link": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
     "date": "2026-11-06T16:23:41Z",
@@ -230,13 +238,5 @@
     "description": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it’s…",
     "source": "MIT Technology Review",
     "category": "Artificial Intelligence"
-  },
-  {
-    "title": "APOD: 2026 November 4 – The Not-So-Hidden Galaxy, IC 342",
-    "link": "https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/",
-    "date": "2026-11-04T05:05:00Z",
-    "description": "APOD Science APOD APOD: 2026 November 4 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Not-So-Hidden […]",
-    "source": "NASA",
-    "category": "Space"
   }
 ]
