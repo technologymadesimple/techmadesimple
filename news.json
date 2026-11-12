@@ -1,5 +1,69 @@
 [
   {
+    "title": "Heart in the Sky at NASA Kennedy",
+    "link": "https://www.nasa.gov/image-article/heart-in-the-sky-at-nasa-kennedy/",
+    "date": "2026-11-12T19:12:49Z",
+    "description": "The U.S. Air Force Thunderbirds create a heart-shaped smoke trail during a flight maneuver near NASA’s Vehicle Assembly Building during the agency’s MAX POWER expo and air show on Sunday, Nov. 8, 2026, at NASA’s Kennedy Space Center in Florida. NASA’s MAX POWER is an aerospace festival celebrating the past, present, and future of flight […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "NASA Ames Stars of the Month: November 2026",
+    "link": "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/",
+    "date": "2026-11-12T17:54:32Z",
+    "description": "The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Alyssa Villanueva, Steve Howell, and Samuel LeBlanc. Their commitment to the NASA mission represents the entrepreneurial spirit, technical expertise, and collaborative disposition needed to explore this world and beyond. Space Biosciences Star: Alyssa Villanueva Alyssa Villaneuva is an engineer at Blue […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "NASA’s Hubble Offers Cosmic Sampler of Targets for Roman",
+    "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
+    "date": "2026-11-12T13:18:40Z",
+    "description": "A gallery of gravitational lenses captured by NASA’s Hubble Space Telescope showcases the diversity of this cosmic phenomenon and lays the groundwork for follow-up observations by the Nancy Grace Roman Space Telescope.",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "The Download: COP31’s climate challenge and the quest for immortality",
+    "link": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/",
+    "date": "2026-11-12T13:10:00Z",
+    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What to know about this year’s UN climate talks Thousands of delegates, lobbyists, and journalists have gathered in Antalya, Turkey, for COP31, the annual UN climate talks. But this year’s negotiations…",
+    "source": "MIT Technology Review",
+    "category": "Climate"
+  },
+  {
+    "title": "Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA",
+    "link": "https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la/",
+    "date": "2026-11-12T13:00:00Z",
+    "description": "As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission. These photographers documented the iconic images shared around the world on Sept. 21, 2012, while millions watched space shuttle Endeavour fly on top of the agency’s 747 Shuttle Carrier Aircraft for the last time. Endeavour’s new home […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "APOD: 2026 November 12 – Moon, Venus and Spica Meet",
+    "link": "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/",
+    "date": "2026-11-12T05:05:00Z",
+    "description": "APOD Science APOD APOD: 2026 November 12 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Moon, Venus and […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Scotland’s Flow Country",
+    "link": "https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/",
+    "date": "2026-11-12T05:01:00Z",
+    "description": "Blanket bogs in the Scottish Highlands store vast amounts of carbon.",
+    "source": "NASA",
+    "category": "Climate"
+  },
+  {
+    "title": "Curiosity Blog, Sols 5063-5069 Rocks and Chips",
+    "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/",
+    "date": "2026-11-12T00:41:35Z",
+    "description": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Nov. 6, 2026 This week Curiosity has been completing its drill campaign at the “Nazca” drill hole. This is an area characterized by bedrock containing disk-shaped (or in a liberal interpretation, potato chip shaped … see linked image) crystal forms. A […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
     "title": "What to know about this year’s UN climate talks",
     "link": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
     "date": "2026-11-11T17:00:00Z",
@@ -172,70 +236,6 @@
     "link": "https://www.nasa.gov/news-release/la-nasa-destina-un-millon-de-dolares-al-reto-estudiantil-base-lunar/",
     "date": "2026-11-09T17:36:33Z",
     "description": "Read this release in English here.El domingo 8 de noviembre de 2026, la NASA anunció la convocatoria del reto estudiantil Base Lunar, dotado con un millón de dólares, durante un acto de MAX POWER celebrado en el Complejo de Visitantes del Centro Espacial Kennedy, en Florida. En el marco de una edad de oro de […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "Nancy Pelosi’s replacement is ready to regulate AI",
-    "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
-    "date": "2026-11-09T17:05:43Z",
-    "description": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener on Friday, only a…",
-    "source": "MIT Technology Review",
-    "category": "Artificial Intelligence"
-  },
-  {
-    "title": "Astronauts Across Generations Share the Stage",
-    "link": "https://www.nasa.gov/image-article/astronauts-across-generations-share-the-stage/",
-    "date": "2026-11-09T16:56:29Z",
-    "description": "On Nov. 6, 2026, Purpose Entertainment hosted the Artemis Celebration Gala at NASA’s Kennedy Space Center Visitor Complex in Merritt Island, Florida. Held on the eve of NASA’s MAX POWER event, the gala celebrated the explorers, innovators, and visionaries advancing the next era of human spaceflight. The event honored the successful completion of the agency’s […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "AI Agents Are Testing the Limits of Zero-Trust Security",
-    "link": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
-    "date": "2026-11-09T16:25:06Z",
-    "description": "This article is brought to you by Queen’s University Belfast . Several teams around the globe are leveraging AI by creating a task force of agents managed by an orchestrator and creating applications to support risk assessment, client profiling, match making, and information yield with a slight overview of decision making. One of the important components for these agents is to ensure that the logs are managed and historic relevance is not being used to avoid skewing towards same decision making. Thus, the system is expected to keep checkpoints in place where agents are prompted to delete such historic relevance. However, despite such methodology in place, a future prompt could make the agents bring forward the information that was supposed to be deleted and can be tricked into revealing more information, which is a classic case of context recovery attack. So, the question raised here is: How can we trust that our instructions have been followed? And where is the proof? There is an element of utilizing zero-trust architectures (ZTA) for orchestrating and managing agentic activity, which simply means all agentic interactions use the core principle of “never trust,” “always verify.” ZTA components include a policy enforcement point (PEP) that has to be trusted to maintain trust across the system, so the question that remains is where is the component of zero-trust, and shall we trust the policies enforced by PEP? Having a pro-agentic approach and utilizing agents could be helpful with the right guardrails in place. Opening our systems to random agents that are being trained on off-the-shelf models and blindly relying on them can pose significant cyber risks. For example, vibe coding by using an AI model to help develop software, giving away the entire codebase to an untrusted entity outside the organization can lead to vulnerability sweeping across multiple surfaces. Vibe coding by using an AI model to help develop software, giving away the entire codebase to an untrusted entity outside the organization can lead to vulnerability sweeping across multiple surfaces. This opens critical discussions towards how vibe coding could interfere with the positioning and implementation of trusted execution of the agentic queries. Consider an autonomous web of agents that relies on agents’ inputs to drive the operations. When the system is operating under low tolerance of failure and with non-tracking based agentic workflows, it could be computationally expensive to trust and verify each query in real-time that leads to the common trade-offs of memory vs execution. Another risk to consider is the zero-day attack. When it happens, how will the system react? Would such an event be manageable without a total infrastructure breakdown? The scale of impact can be observed from over reliance on agentic ecosystems with only one trusted layer. This could mean that when failure occurs, the entire ecosystem could be exposed, just like there will be no autonomy if the backbone network is not available, which essentially means no layer to place trust. How quickly can de-authentication attacks occur? An in-house experiment done at Queen’s University Belfast (QUB) provided an initial understanding of how the scale of agentic attacks could mean a lower window of vulnerability. The team focused on very popular de-authentication attacks and with agentic orchestration, the swift rate to do de-authentication attacks could go as low as 2 to 3 seconds. This gives little to no time to react and decide on patching the system. There is another aspect of the large-scale agentic system, which establishes trust under asynchronous autonomy. Trust serves as a critical foundation for traceability. How would you ensure that all the agents operating towards a common goal are aligned and understand the delays associated with their goals? Our team worked around this space, which at first involved demonstrating that the problem exists, and its impact and scale can be huge when you must prove trust under boundaries of asynchronous autonomy. Solutions towards such problems can be simplified by keeping things like AI-bill of material or leveraging distributed ledger technology that can provide underlying infrastructure of trust via traceability and immutability and keep the agentic activity and associated trust vectors agnostic to the platform. Within trust, another factor that is not well explored but needs a thorough investigation is the concept of horizontal anomalies. It defines how agents interact differently with various sources under different settings. As agents behave correctly and align themselves with the architectural expectations for one specific task or application, that does not necessarily mean these can be trusted for their operations across all associated components. How to identify such anomalies and what methods can be employed without complying with such agents remain open questions and topics for further exploration. The critical aspect is that utility of agents with semi to low trust governance offer short-term high benefits, but the cost of recovery when the system fails is yet to be explored, and this will not be a contained issue. We are looking into the system where agents are already sweeping into different entities and may not allow complete recovery. For example, a mere supply chain issue because an agent going rogue is now not a containable small task but needs sweeping across all the touch points of those affected agents. This essentially means despite the number of agents and their ability to trigger proxy-agents, which may not be directly linked to the wider ecosystem, there is a need to ensure that computationally expensive trackers are in place for all the agents. Other relevant PhD works carried out in our research group are towards sovereignty of AI, exploring aspects of trust and accountability. Our hypothesis is that sovereignty and trust need to be governed together as onus of provenance is high on the host of agents. Thus, it needs understanding of laws governing trust-based executions of AI. The important challenge here is that there is a vital difference between missed information and missed instructions, and both have different impacts when it comes to trusted accountability. Does true zero-trust architecture exist? The real-world issue with these systems lies in the failure to adopt approaches that historically have relied on state-based modeling when governing trust. In stateless systems where agentic autonomy is high, the convergence and reliability towards trust-provenance decreases significantly. Thus, it brings us back to the original question – does a true zero-trust even exist? Can policies be trusted? If so, how should these be managed without falling into the trap of policy-based accessibility and control issues? Despite the argument that PEP can help manage access between the agents, placing a single entity and expecting it to scale towards all agentic interactions is underestimating the problem space. Formal verification of trust is another part of a trust-based agentic ecosystem. When dealing with AI models, understanding the robustness helps to put trust in place for these models. To build our case and settle around the challenges of trust embeddings in Agentic AI, within Cyber AI hub , we are exploring opportunities to help companies scale up as well as build their pipeline of agentic applications for commercial viability. However, the element that governs our regular work and decision making are scale of problem and number of agentic deployments, anomaly detection across the agentic workflows, continuous evaluation of the attack surfaces and vulnerability assessment, exploring differences in the pure agentic AI and task-driven multi-agent system. We are working with industries where trust is a pre-requisite, and these organizations put trust as a guardrail managed via internal policies with a pure focus on securing the systems through policies rather than trusting the third-party agentic service providers. Additionally, trust in services is presented by ensuring constraints around their service models where agentic activities are tracked and managed via logs including management of their token revocation list to avoid replay attacks depending on the type of application. Formal verification of trust is another part of a trust-based agentic ecosystem. When dealing with AI models, understanding the robustness helps to put trust in place for these models. Things like balancing the adversarial accuracy along with certified adversarial robustness can help to determine how much the model can be trusted. But the question is, can we settle for anything less than foolproof when it comes to deployment of agents in the real world? And if so, how much impact can be controlled, and who is responsible for the remaining component? References Wickremasinghe G, Sandjaja FR, Rafferty K, Sharma V. State-verification in asynchronous blockchain-driven agentic AI systems. 40th International Conference on Information Networking (ICOIN) 2026 Jan 14 (pp. 139-144). IEEE. Sandjaja, F. R., Abdul Majeed, A., Abdullah, A., Wickremasinghe, G., Rafferty, K., & Sharma, V. (Accepted/In press). Policy design in zero-trust distributed networks: challenges and solutions. In Industrial Networks and Intelligent Systems: 12th EAI International Conference, INISCOM 2026: (to appear in proceedings). Melis M, Del Rincon JM, Sharma V. Improving Certified Robustness via Adversarial Distillation. arXiv preprint arXiv:2606.31653. 2026 Jun 30 (Accepted to appear in BMVC’26).",
-    "source": "IEEE Spectrum",
-    "category": "Artificial Intelligence"
-  },
-  {
-    "title": "MAX POWER: NASA’s Inaugural Aerospace Expo Ignites America’s Future",
-    "link": "https://www.nasa.gov/general/max-power-nasas-inaugural-aerospace-expo-ignites-americas-future/",
-    "date": "2026-11-09T16:07:10Z",
-    "description": "Thousands gathered over several days in early November to experience MAX POWER – NASA’s first exhibition of America’s superiority in space, aeronautics, and technology on and around the agency’s Kennedy Space Center in Florida. The multi-day, family-friendly event honored the nation’s 250th anniversary and served as a culmination of the agency’s Inspiration Tour. Among the […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "NASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Mars",
-    "link": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/",
-    "date": "2026-11-09T16:01:47Z",
-    "description": "NASA’s two ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft have each successfully completed a powered Earth flyby, using Earth’s gravity in combination with a sustained engine burn to slingshot themselves toward Mars. With these successful maneuvers complete, the twin spacecraft are on target to reach the Red Planet in September 2027. “This is […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "The Download: empty AI climate claims, and an Nvidia investigation",
-    "link": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
-    "date": "2026-11-09T13:15:00Z",
-    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: The climate case for AI has not been made —By Mary Nichols, distinguished counsel at the UCLA School of Law and the former chair of the California Air Resources Board,…",
-    "source": "MIT Technology Review",
-    "category": "Climate"
-  },
-  {
-    "title": "Innovating with AI in the special chemicals industry",
-    "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
-    "date": "2026-11-09T13:00:00Z",
-    "description": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, make better-informed…",
-    "source": "MIT Technology Review",
-    "category": "Artificial Intelligence"
-  },
-  {
-    "title": "CHAPEA Mission 2 Crew Reflects After 378 Days on Simulated Mars",
-    "link": "https://www.nasa.gov/centers-and-facilities/johnson/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/",
-    "date": "2026-11-09T11:00:00Z",
-    "description": "After 378 days without windows, the sounds of the outside world, or real-time calls with family and friends, four research volunteers stepped out of NASA’s Mars Dune Alpha habitat on Oct. 31, completing the agency’s second yearlong Mars surface simulation. Ross Elder, Ellen Ellis, James Spicer, and Matthew Montgomery entered the roughly 1,700-square-foot, 3D-printed habitat at […]",
     "source": "NASA",
     "category": "Space"
   }
