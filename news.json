@@ -1,5 +1,85 @@
 [
   {
+    "title": "Outbursts from a Massive Star",
+    "link": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
+    "date": "2026-11-13T16:39:33Z",
+    "description": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star located in the galaxy shown in this image released on Nov. 9, 2026. The volatile star, known as AT 2016blu, is in the spiral galaxy NGC 4559, located about 30 million light-years from Earth. Astronomers estimate the […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
+    "link": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
+    "date": "2026-11-13T16:05:54Z",
+    "description": "Astronauts James A. Lovell Jr. and Edwin E. “Buzz” Aldrin Jr. orbited Earth from November 11 to 15, 1966, on Gemini XII, the final mission of NASA’s Gemini program. In addition to successfully completing rendezvous maneuvers and spacewalks, procedures vital to sending American astronauts to the Moon, the crew was also spurring the development of […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
+    "link": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
+    "date": "2026-11-13T13:10:00Z",
+    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Silicon Valley claims to know the future. So why did it get the midterms so wrong? —Aaron Zamost, a tech communications consultant and a former executive at Square The self-styled visionaries…",
+    "source": "MIT Technology Review",
+    "category": "Other"
+  },
+  {
+    "title": "Engineer Overhead Lines to Withstand Ice, Wind and FreezingRain",
+    "link": "https://content.knowledgehub.wiley.com/engineering-overhead-electric-lines-for-ice-wind-and-freezing-rain/",
+    "date": "2026-11-13T11:00:02Z",
+    "description": "This White Paper explains how ice, wind and vegetation load overhead distribution lines at the same time. It shows engineers how to assess the complete line and compare resilience options. What you will learn about: How freezing rain, rime ice and wet snow add weight to conductors and change their shape in the wind. Why a moderate wind on a heavily iced line can govern design, and how galloping and vegetation contact create outages. How a messenger-supported spacer cable separates the electrical function of covered conductors from the main mechanical load path. How monitored severe-weather test data compares tension changes in bare, covered and spacer cable systems. What utility records from the December 2008 Northeast ice storm show about circuit availability and restoration. How to compare options at corridor level, check the full load path of poles, brackets and foundations, and apply energized-line safety rules. Download this free whitepaper now!",
+    "source": "IEEE Spectrum",
+    "category": "Space"
+  },
+  {
+    "title": "More autonomy, fewer NDAs: Volunteers have new requests for brain implant trials",
+    "link": "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/",
+    "date": "2026-11-13T10:00:00Z",
+    "description": "Scientists have been working on ways to decode brain activity for decades. Teams have developed brain implants that can be used to control robotic limbs and computers, and even to “speak.” The people who volunteer for trials of those devices play a vital role in that research, and they ought to be recognized for their…",
+    "source": "MIT Technology Review",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Silicon Valley claims to know the future. So why did it get the midterms so wrong?",
+    "link": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/",
+    "date": "2026-11-13T10:00:00Z",
+    "description": "The self-styled visionaries of Silicon Valley, leaders like OpenAI chief executive Sam Altman and SpaceX boss Elon Musk, have built careers claiming to see the future. Long-term vision is currency: Meta’s Mark Zuckerberg built a 10-year road map for Facebook in 2016, and Google famously told investors before its public offering that it was unconcerned…",
+    "source": "MIT Technology Review",
+    "category": "Space"
+  },
+  {
+    "title": "APOD: 2026 November 13 – NGC 206 and the Star Clouds of Andromeda",
+    "link": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/",
+    "date": "2026-11-13T05:05:00Z",
+    "description": "APOD Science APOD APOD: 2026 November 13 – NGC… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. NGC 206 […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "A Global Rebound for Mangroves",
+    "link": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
+    "date": "2026-11-13T05:01:00Z",
+    "description": "After decades of decline, this ecologically significant type of forest is making a comeback.",
+    "source": "NASA",
+    "category": "Other"
+  },
+  {
+    "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+    "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+    "date": "2026-11-12T20:16:24Z",
+    "description": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on…",
+    "source": "MIT Technology Review",
+    "category": "Cybersecurity"
+  },
+  {
+    "title": "I Am Artemis Katie Spicer",
+    "link": "https://www.nasa.gov/missions/artemis/i-am-artemis-katie-spicer/",
+    "date": "2026-11-12T20:10:02Z",
+    "description": "For Katie Spicer, embracing opportunity and challenge has led to giant leaps during her time at NASA. Now as the NASA lander integration lead for Blue Origin’s Blue Moon Mark 2 lander, one of the commercially provided human landing systems for NASA’s Artemis program, Spicer will have her handprint on history. Spicer works in the […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
     "title": "Heart in the Sky at NASA Kennedy",
     "link": "https://www.nasa.gov/image-article/heart-in-the-sky-at-nasa-kennedy/",
     "date": "2026-11-12T19:12:49Z",
@@ -158,85 +238,5 @@
     "description": "The metals industry has experienced transformational moments before: the Bessemer process, flash smelting, electric arc furnaces, and modern continuous casting all changed what was possible. Yet, for more than a century, most extraction processes rely on techniques and pathways that would be familiar to metallurgists from generations ago. Processes have become larger and control systems…",
     "source": "MIT Technology Review",
     "category": "Business"
-  },
-  {
-    "title": "Catch Electronics Shock and Drop Failures Before Hardware Is Built",
-    "link": "https://content.knowledgehub.wiley.com/shifting-reliability-left-guided-virtual-validation-for-electronics-shock-and-drop-testing/",
-    "date": "2026-11-10T11:00:02Z",
-    "description": "Learn how guided virtual shock and drop analysis helps engineering teams identify reliability risks before physical testing, reduce qualification iterations, optimize packaging designs, and accelerate electronics product development. What you will learn about: Why shock failures found during physical qualification are costly, and how coupled electrical, mechanical, thermal, and packaging effects make them hard to predict. How physical drop testing and traditional simulation each leave gaps in timing, expertise, setup effort, and diagnostic detail. How guided, template-based virtual workflows model tilt drops, ball impacts, and packaged drops using IEC 60068-2-27 and IEC 60068-2-31 profiles. How running the full drop orientation matrix as one validation plan supports packaging optimization, and how correlation with physical tests builds confidence before hardware is committed. Download this free whitepaper now!",
-    "source": "IEEE Spectrum",
-    "category": "Other"
-  },
-  {
-    "title": "APOD: 2026 November 10 – Saturn Behind the Moon",
-    "link": "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/",
-    "date": "2026-11-10T05:05:00Z",
-    "description": "APOD Science APOD APOD: 2026 November 10 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Saturn Behind the […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "Autumn Mornings Bring Valley Fog",
-    "link": "https://science.nasa.gov/earth/earth-observatory/autumn-mornings-bring-valley-fog/",
-    "date": "2026-11-10T05:00:00Z",
-    "description": "Low clouds trace the branching valleys of the Appalachian Plateau and the Cumberland River, then burn off by afternoon.",
-    "source": "NASA",
-    "category": "Other"
-  },
-  {
-    "title": "Curiosity Blog, Sols 5056-5062: Charging Back Up!",
-    "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5056-5062-charging-back-up/",
-    "date": "2026-11-10T01:07:45Z",
-    "description": "By Remington Free, Operations Systems Engineer, NASA-JPL Earth planning date: Friday, Oct. 30, 2026 Today’s plan covered 3 sols, 5060, 5061, and 5062, as we take a few recharging sols before getting back to our normal drilling activities. As you may know if you have been following the blog closely, we are in the middle […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "Curiosity Blog, Sols 5050-5055: It’s Nazca, Our 49th Drill Hole",
-    "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5050-5055-its-nazca-our-49th-drill-hole/",
-    "date": "2026-11-10T01:05:48Z",
-    "description": "Written by Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, Oct. 23, 2026 As regular readers of this blog will know, we returned to the area where we found disc shaped inclusions in the rocks, which we interpreted as potential crystals. If they are indeed crystals, and […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "The backlash about data centers might really just be about electricity",
-    "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
-    "date": "2026-11-09T19:35:33Z",
-    "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub. It’s also where…",
-    "source": "MIT Technology Review",
-    "category": "Other"
-  },
-  {
-    "title": "La NASA busca a la próxima generación de astronautas",
-    "link": "https://www.nasa.gov/news-release/la-nasa-busca-a-la-proxima-generacion-de-astronautas/",
-    "date": "2026-11-09T19:27:20Z",
-    "description": "Read this release in English here.La NASA busca a los exploradores que ayudarán a escribir el próximo capítulo de los vuelos espaciales tripulados. Ya está abierto el plazo de inscripción para la próxima promoción de astronautas de la agencia, que se incorporarán a la NASA en un momento en el que Estados Unidos regresa a […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "NASA’s Chandra Finds Source of Star’s Mysterious Outbursts",
-    "link": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
-    "date": "2026-11-09T18:55:50Z",
-    "description": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star. A new study, published Monday in the latest issue of The Astrophysical Journal, details the discovery of a previously hidden companion object that keeps pulling material away from the massive star every 113 days as they orbit […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "NASA Advanced Mid-Power Electric Rocket Challenge",
-    "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-advanced-mid-power-electric-rocket-challenge/",
-    "date": "2026-11-09T17:42:42Z",
-    "description": "Mid-power (3-7 kW) Hall effect thruster systems have been identified by government and industry stakeholders as critical capabilities for satellite, defense, and exploration missions. Given the need for this capability, NASA is launching the Advanced Mid-Power Electric Rocket (AMPERE) Challenge. The NASA AMPERE Challenge invites U.S. commercial companies to develop and demonstrate mid-power Hall effect […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "La NASA destina un millón de dólares al reto estudiantil Base Lunar",
-    "link": "https://www.nasa.gov/news-release/la-nasa-destina-un-millon-de-dolares-al-reto-estudiantil-base-lunar/",
-    "date": "2026-11-09T17:36:33Z",
-    "description": "Read this release in English here.El domingo 8 de noviembre de 2026, la NASA anunció la convocatoria del reto estudiantil Base Lunar, dotado con un millón de dólares, durante un acto de MAX POWER celebrado en el Complejo de Visitantes del Centro Espacial Kennedy, en Florida. En el marco de una edad de oro de […]",
-    "source": "NASA",
-    "category": "Space"
   }
 ]
