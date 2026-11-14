@@ -1,5 +1,13 @@
 [
   {
+    "title": "How Microcredentials Help Engineers Build Trustworthy AI",
+    "link": "https://spectrum.ieee.org/microcredentials-trustworthy-ai",
+    "date": "2026-11-13T19:00:03Z",
+    "description": "Engineering teams are moving at breakneck speed to integrate artificial intelligence, but they are running into a formidable new barrier: compliance issues. Translating high-level AI ethics , governance , and auditing into daily operational workflows has become one of the industry’s toughest challenges. “AI ethics” refers to the principles developers use to govern and operate workflows. “Governance” refers to the rules and procedures an organization establishes for AI workflows and how they interact with organizational data. Auditing is the process of assessing and validating systems to ensure safety, fairness, transparency, and legal compliance. Technology leads and systems engineers are responsible for adhering to a structured set of guidelines for standards and processes usually issued by a governing body such as the European Union , the U.S. National Institute of Standards and Technology , and the International Organization for Standardization . The regulations aim to mitigate issues such as systemic bias , security vulnerabilities, and transparency risks, but they also highlight a critical skills gap. Most traditional computer science, software, and electrical engineering degree programs were built around technical design and system architecture. They do not yet include training in AI auditing, data tracking, or safety protocols for how AI systems interact with people and other technologies. Expecting mid-career engineers to leave their job to attend a full-time two- or four-year program to learn about the topics is not feasible. Yet treating safety and governance as an afterthought can lead to costly product delays, legal exposure, and broken public trust. Targeted microcredential programs can bridge the knowledge gap by helping engineers build skills in compliance, AI ethics, and governance. The benefits of microcredentials Skills-based microcredentials represent the mastery of expertise gained through a learning program. To earn them, learners must demonstrate the skill through a validation assessment. The microcredentials can be stacked, showing a growing skill set in a defined area and allowing learners to earn several microcredentials in one program. Microcredentials also allow engineers to upskill and master critical competencies, such as bias mitigation, algorithmic transparency, and risk auditing, without interrupting their career. Through rigorous skills-validation assessments, microcredentials give tech leaders verifiable proof that their teams can audit systems effectively before deployment. For engineering organizations, microcredentialing creates an agile upskilling pathway. It connects software engineering and hardware design directly to regulatory frameworks, empowering teams to certify systems for safety and compliance within their development life cycles. Translating standards into microcredentials Bridging technical capability and ethical responsibility requires a trusted foundation. IEEE has long been a pioneer in socio-technical standards , most notably through the IEEE 7000 series for ethics in AI system design, a framework created to address ethical considerations during the development life cycle. The IEEE Credentialing Program translates the organization’s world-class standards into actionable, industry-aligned microcredentials. For more than three decades, IEEE has set the gold standard for technical validation and professional certification. By pairing cutting-edge AI governance standards with targeted microcredential programs, IEEE provides engineers and IT leaders with clear, standardized road maps to build systems that are not just technically advanced but also safe, compliant, and worthy of public trust. To learn more about the credentialing program, explore the offerings or connect with an IEEE expert .",
+    "source": "IEEE Spectrum",
+    "category": "Artificial Intelligence"
+  },
+  {
     "title": "Outbursts from a Massive Star",
     "link": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
     "date": "2026-11-13T16:39:33Z",
@@ -230,13 +238,5 @@
     "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Nancy Pelosi’s replacement is ready to regulate AI —Grace Huckins As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a…",
     "source": "MIT Technology Review",
     "category": "Artificial Intelligence"
-  },
-  {
-    "title": "Evolving metal extraction processes",
-    "link": "https://www.technologyreview.com/2026/11/10/1147726/evolving-metal-extraction-processes/",
-    "date": "2026-11-10T13:00:00Z",
-    "description": "The metals industry has experienced transformational moments before: the Bessemer process, flash smelting, electric arc furnaces, and modern continuous casting all changed what was possible. Yet, for more than a century, most extraction processes rely on techniques and pathways that would be familiar to metallurgists from generations ago. Processes have become larger and control systems…",
-    "source": "MIT Technology Review",
-    "category": "Business"
   }
 ]
