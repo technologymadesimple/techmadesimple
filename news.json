@@ -1,5 +1,141 @@
 [
   {
+    "title": "NASA to Cover 35th SpaceX Resupply Mission Space Station Departure",
+    "link": "https://www.nasa.gov/news-release/nasa-to-cover-35th-spacex-resupply-mission-space-station-departure/",
+    "date": "2026-11-17T19:16:22Z",
+    "description": "NASA and its international partners are set to receive scientific research samples and hardware as a SpaceX Dragon spacecraft departs the International Space Station no earlier than Wednesday, Nov. 18, for its return to Earth. Pending weather conditions, the Dragon spacecraft will undock from the Harmony module’s space-facing port at 11:05 a.m. EST, following a […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+    "link": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+    "date": "2026-11-17T19:00:03Z",
+    "description": "Policymakers, technologists, and members of the public have raised concerns about the harm AI’s rapid advancement might cause to society. Their concerns include bias, data privacy violations, the spread of misinformation, and losing control of AI agents. Those issues are relatively new to many people, but the IEEE Standards Association has been working for the past decade on ways to prioritize the responsible development of AI systems. In 2016 IEEE SA launched the IEEE Global Initiative for Ethical Considerations in Autonomous and Intelligent Systems (A/IS) and published the Ethically Aligned Design report. EAD ’s mission is to encourage everyone involved in designing autonomous and intelligent systems to prioritize human well-being by applying ethical considerations for the benefit of humanity. Developed by a multidisciplinary community of experts from around the world, the report outlined eight foundational principles for A/IS. They include human rights, people’s well-being, and transparency. More than 100 leading AI ethics experts provided input. EAD ’s Version II report was released in 2017. Both versions solicited public input and received hundreds of pages of feedback, according to John C. Havens , who was the global initiative’s founding executive director, and is now the global director for IEEE Planet Positive 2030 . And by 2019, there were more than 400 contributors and the community continues to grow. “ Ethically Aligned Design was the first of its kind in the sense of a report that was more than a list of principles and from an organization with the credibility of IEEE,” Havens says. “At the time it was released, there wasn’t anything like it.” Since its launch, a series of standards has been developed to provide practical guidelines on designing, building, and deploying technology that prioritizes human values. Several AI ethics certification programs have been introduced. This year marks the 10th anniversary of EAD ’s first draft. To celebrate, IEEE SA recently launched a website , a podcast series , and a blog that reflect on the report’s achievements and impact. Eight guiding principles The word ethics is often used interchangeably with morality , but that is not the case in responsible AI systems design, according to EAD ’s first version. The report includes insights from classical ethics traditions and value-based design methodologies to offer actionable recommendations for engineers developing AI tools. The report established eight foundational general principles for designing autonomous systems: respecting human rights, prioritizing increased well-being as success criteria for development, empowering individuals with data agency to have control over their identity, effectiveness, transparency, accountability, awareness of misuse, and competence for the system creators. The principles shift applied ethics to the design stage of AI systems, compared with being a concern after they’re released, the authors wrote. A suite of standards The IEEE 7000 series of standards has been developed based on EAD ’s framework. Currently the series consists of 29 projects, 11 of which have been published, and more are still being added. They cover topics such as ethical system design model process ( IEEE 7000-2021 ), AI system transparency ( IEEE 7001-2021 ), data privacy ( IEEE 7002-2022 ), algorithmic bias considerations ( IEEE 7003 -2024), the impact on people’s well-being ( IEEE 7010-2020 ), machine-readable personal privacy requirements ( IEEE 7012-2025 ), and systems that mimic human empathy ( IEEE 7014-2024 ). AI ethics certifications IEEE SA offers a suite of ethics in AI programs including IEEE CertifAIEd , which includes two certifications : one for individuals and one for products. The professional certification provides individuals with skills to assess autonomous and intelligent systems for adherence to IEEE’s methodology and ethics criteria. “ Ethically Aligned Design was the first of its kind in the sense of a report that was more than a list of principles and from an organization with the credibility of IEEE.” —John C. Havens, founding executive director of the global initiative The product certification program assesses whether an organization’s AI tool or system conforms to the criteria in the IEEE Ontological Specifications. A CertifiAIEd assessor evaluates the product to ensure it meets the criteria. Upon completion of the assessment, the owner submits it to the IEEE Conformity Assessment Program , which can certify it and issue the certification mark. IEEE SA also recently released its Responsible AI for Children certification program . This program certifies that AI products for children have been independently tested and verified to meet design and ethics requirements. New industry connections group The IEEE Artificial Intelligence Systems (AIS) for Global Flourishing Collaborative Industry Collections group was formed to provide the resources, knowledge, and tools needed to prioritize people’s well-being to developers of AI systems. It has more than 200 members. The collaborative describes its work as a practical, systems-level framework for responsible technology design that translates flourishing into applied methods, metrics, and tools that can be used throughout the AIS lifecycle. The group is establishing guidelines for how to design, evaluate, and govern systems that can measurably improve human well-being and ecological sustainability. Subcommittees are focused on cognition, education, faith, planetary care, spirituality, and other issues. “The group is building directly off the well-being chapter of Ethically Aligned Design and the IEEE 7010 standard (Recommended Practice for Assessing the Impact of Autonomous and Intelligent Systems on Human Well-Being),” Havens says. “That’s on purpose because if human and planetary flourishing aren’t addressed first in design, then human well-being and planetary sustainability are afterthoughts.” Podcasts and blogs To mark the 10-year anniversary, IEEE SA created the five-part “ Ethically Aligned Design : 10 Years of Impact” podcast series . It launched on 21 October. New episodes are being released every two weeks. The episodes center around the vision for EAD , the process for selecting its foundational principles, and how they were translated into the IEEE 7000 standards. The first podcast, “Origins of Ethically Aligned Design,” explored early efforts to make ethics a practical part of AI and autonomous system design. The experts discussed challenges, debates, global collaboration, and the real-world impact that helped move responsible technology from ethical principles toward actionable standards and practices. The second podcast, “The Chapters and Committees” focuses on the multidisciplinary groups that worked on turning broad human values into practical guidance for AI and autonomous systems. The podcast discussions serve as material for a thought leadership program that also includes blog articles about the IEEE 7000 series and educational resources to continue to raise awareness and support of this groundbreaking work.",
+    "source": "IEEE Spectrum",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Roundtables: Inside the Quest for Cognitive Immortality",
+    "link": "https://www.technologyreview.com/2026/11/17/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
+    "date": "2026-11-17T18:46:47Z",
+    "description": "Listen to the session or watch below In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Science editor Mary Beth Griggs and senior editor for biomedicine Antonio Regalado explore possible paths to keep your mind going, including gradual brain…",
+    "source": "MIT Technology Review",
+    "category": "Health"
+  },
+  {
+    "title": "NICER Status Updates",
+    "link": "https://www.nasa.gov/missions/station/nicer-status-updates/",
+    "date": "2026-11-17T18:18:16Z",
+    "description": "November 17, 2026 NASA’s NICER Telescope Ends Science Operations After studying the universe for six and a half years beyond its initial mission, NASA’s NICER (Neutron star Interior Composition Explorer) telescope on the International Space Station has ended science operations. The mission and space station teams are now focused on plans to finalize NICER’s 8-year […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Hydropower hit record lows in the US Southwest this summer",
+    "link": "https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/",
+    "date": "2026-11-17T17:52:10Z",
+    "description": "The US Southwest generated 28% less electricity via hydropower between April and August than the 10-year average, according to new data from the US Energy Information Administration. Most hydropower plants in the US rely on dams to hold back water, creating reservoirs. The water can be released through turbines, generating electricity on demand. But an…",
+    "source": "MIT Technology Review",
+    "category": "Other"
+  },
+  {
+    "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
+    "link": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
+    "date": "2026-11-17T17:12:20Z",
+    "description": "Editor’s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location and update the duration of the flight deployment. A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Amarillo, Texas, from Thursday, Oct. 22, through Monday, Nov. 2. These flights will measure […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Curiosity Blog, Sols 5072-5076: The Return of the Polygons",
+    "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5072-5076-the-return-of-the-polygons/",
+    "date": "2026-11-17T17:06:07Z",
+    "description": "Written by Abigail Fraeman, Deputy Project Scientist, Jet Propulsion Laboratory, California Institute of Technology Earth planning date: Friday, Nov. 13, 2026 Curiosity’s past several weeks have been very focused on drilling and analysis of the “Basque Lakes” and “Nazca” samples. We learned a lot from those drilled samples, but it’s time to hit the Martian […]",
+    "source": "NASA",
+    "category": "Other"
+  },
+  {
+    "title": "NASA Invites Media, Public to View Roman Telescope’s First Images",
+    "link": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-view-roman-telescopes-first-images/",
+    "date": "2026-11-17T17:00:29Z",
+    "description": "NASA will release the first images from its Nancy Grace Roman Space Telescope during a live stream from the American Geophysical Union (AGU) Annual Meeting in San Francisco at 3:30 p.m. EST (12:30 p.m. PST) Monday, Dec. 7. The images will showcase the unique scientific capabilities of Roman, which will soon capture deep, panoramic, never-before-seen […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Space Selfie",
+    "link": "https://www.nasa.gov/image-article/space-selfie-2/",
+    "date": "2026-11-17T16:51:14Z",
+    "description": "NASA astronaut Anil Menon took this selfie during a spacewalk on Oct. 29, 2026. He and CSA (Canadian Space Agency) astronaut Joshua Kutryk installed a new roll-out solar array on the International Space Station. Get daily updates from the space station. Image credit: NASA/Anil Menon",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Research Reports",
+    "link": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+    "date": "2026-11-17T14:39:46Z",
+    "description": "To access a report, click on the corresponding image below.",
+    "source": "MIT Technology Review",
+    "category": "Science"
+  },
+  {
+    "title": "AI Is Giving Optical Computing Another Shot",
+    "link": "https://spectrum.ieee.org/optical-computing-ai",
+    "date": "2026-11-17T14:00:03Z",
+    "description": "The idea of computing with light has been around for over 70 years, but until recently it’s remained largely in the realm of research. Over the past few years, though, optical computing has emerged as a fast-growing industry: Market valuation of companies in this sector now totals US $2.22 billion, up from $0.4 billion in 2022. One projection suggests that the market will continue to grow exponentially in the coming years. The reason for this sudden surge will surprise no one: AI. In particular, AI inference—the process of using AI models to respond to user queries—has driven much of the construction of huge, power-hungry data centers, and relatively energy-efficient optical systems are seen as a potential way forward. “Most of the interest in [photonics] is driven by the fact that AI inference has literally become limited by power, and in a rather striking manner,” says Peter McMahon , associate professor of applied and engineering physics at Cornell University, in Ithaca, N.Y., who has researched optical computing for over a decade. Optics, at least on paper, carries the promise of doing the same math as today’s GPUs at a drastically lower level of power. Switching from electronics to optics would be a pretty radical solution. Nevertheless, like mushrooms after a rainstorm, optical-computing startups are popping up in the United States, China, Germany, and Israel. And while competing against such GPU makers as Nvidia is an ambitious goal, the investment in optical computing has spurred development of complementary approaches, such as designing alternative AI algorithms, taking on scientific computing, and enhancing in-network computing. Optalysys, based in England, is inserting optical-computing elements into the networking path, where data centers already use light. The company’s basic on-chip optical element, shown in the inset, is a Fourier transform calculator. Optalysys “I think it would be good for the technology if many of these companies made a good run at it,” says Logan Wright , assistant professor of applied physics at Yale University, in New Haven, Conn., and a former postdoc in McMahon’s lab. “I think that the technology that will be developed through this would be really, really useful, and enable photonic systems that maybe don’t get on this wave of AI but would be capable of doing really quite special things.” Optics to inference’s rescue? Inference makes up the bulk of AI energy use. The industry is already spending billions of dollars designing advanced GPUs and other chips to run inference as efficiently as possible. At the heart of the inference computation is one operation, done countless times a second: matrix-vector multiplication. Back in 1978, optical-computing pioneer Joseph W. Goodman and his coworkers proposed a method for doing matrix-vector multiplication with light. The setup was relatively simple. Let’s say a vector of length N needs to be multiplied by a matrix of size N by N . N light-emitting diodes, all in a row, encode the elements of the vector into the intensity of light—the brighter the light from an individual diode, the greater the value that diode encodes. Then, a cylindrical lens spreads out the light vertically, essentially copying the vector N times. The light then passes through an attenuator of N by N pixels. At each pixel, the light is attenuated according to the corresponding value at that location in the matrix. Passing the light through the attenuator performs the multiplication. Finally, a cylindrical lens oriented perpendicular to the first lens re-collects the light from each row, summing it up. The final vector is measured by a row of detectors. VECTOR-MATRIX MULTIPLICATION The most computationally expensive part of common AI today is vector-matrix (or matrix-matrix) multiplication. For a vector of length N (here, N = 3), it takes N 2 (here, 9) multiplication steps and three accumulation steps—multiple additions at once. The argument for why optics might be advantageous over electronics goes something like this: Multiplying a matrix of size N by N by a vector of length N takes N 2 multiplication steps. In electronics, each multiplication takes some energy, so the total energy used scales as N 2 . In optics, however, the multiplication step is passive: As long as the matrix stays the same, passing light through the attenuator costs almost no energy. The only cost is encoding the vector into light and reading out the answer, but the vector is of length N , not N 2 . So the energy used will scale as N , not N 2 , as bigger vectors and matrices are multiplied. Since Goodman’s 1978 proposal, the quality of the available optical elements has improved dramatically. Indeed, in 2022, a team of researchers at Cornell led by McMahon demonstrated an optical neural network that consumed less than one photon of energy—approximately 2.5 x 10 -19 joules—per multiplication operation. In a standard computer, a single multiply operation can take between 10 -14 and 10 -12 joules, which suggests that optics could possibly reduce energy use by a factor of 100,000. But McMahon cautions against such extrapolation. First, the cost of encoding data into optics was not included in the calculation. Even if the scaling is favorable with light, in practice it’s not just the scaling that matters, it’s also the coefficients. Let’s say the energy cost of doing one multiplication with electronics is 1 picojoule, and the cost to encode one vector element with optics is 1,000 picojoules. The electronic approach still wins if the length N of the vector is fewer than 1,000 elements. McMahon says this example is not far off from reality: “One of the key questions is, How big do you have to make the system before you start winning? Lots of people have done this calculation for various kinds of neural networks. The very rough answer is somewhere between N equals 1,000 and N equals 10,000.” It’s also important to keep in mind a computing principle known as Amdahl’s law . “Amdahl’s law shouldn’t even be called a law. It’s a simple piece of common sense,” McMahon says. “If you have something that’s going to accelerate a computation, and it can accelerate 90 percent of the code, but there’s 10 percent of the code that it can’t accelerate, then the maximum possible speedup you can get is 10x.” With AI inferencing, the point is to save energy, not time. But Amdahl’s observation still applies. What fraction of today’s AI inferencing code can be better handled with optics is a complicated question that varies by approach. But it’s not 100 percent. Matrix-vector multiplication, or matrix-matrix multiplication, is only part of the inference workload—there are other, nonlinear operations that need to be performed on the data. Taking all of these caveats into account, optical-computing companies today are aiming for a 10- to 80-fold improvement in energy efficiency over today’s GPUs. The question is whether they can deliver on that promise at scale before traditional electronics catches up to those gains. Bridging the gap in free space The startup Lumai , based in Oxford, England, has taken perhaps the most direct inspiration from Goodman and his team. Lumai’s head of product, Phillip Burr , declares that a free-space approach, where the light travels through air rather than on-chip waveguides, is what will enable the company’s tech to beat GPUs. Instead of the fixed attenuator used in Goodman’s proposal, Lumai is using a modern programmable device called a spatial light modulator—a pixelated membrane akin to a fancy liquid-crystal display that can modulate both the intensity and phase of light. The rest of the design is more sophisticated in practice but similar in principle to Goodman’s design: A vector is encoded into light, copied N times via a lens, passed through the spatial light modulator, collected with another lens, and the result is converted back to digital electronics. The electronics then handle the nonlinear functions. “A full vector-matrix multiply completes in a single optical cycle,” Burr says. To accurately compare the energy expenditures of the optical and GPU approaches, you must first specify which part of the workload you’re considering. Modern inference is often split into two phases: prefill , where the input query is processed and propagated through the model, and decode , where the output is generated one word (or token) at a time. Prefill is the more computationally intensive of the two. It basically involves doing vector-matrix multiplications for the same matrix over and over. Decode also involves vector-matrix multiplies, but not as intensively—the time-consuming part of decode is reading the necessary matrices in and out of memory. Vector-matrix multiplication with free-space optics The Goodman optical computer is the simplest version of a photonic vector-matrix multiplier. Here, the vector elements are encoded into the intensity of light from three light sources, such as LEDs. Then, a cylindrical lens spreads the light vertically. The matrix elements are encoded into the opacity of an attenuator, such that when light passes through each pixel it is multiplied (attenuated) by that matrix value. Finally, another cylindrical lens collects the light horizontally, performing the accumulation step, and a photodetector measures the output vector. Lumai, and other companies in the space, are focusing on the compute-intensive prefill phase of inference. Lumai claims that its Iris Nova optical server, made available for evaluation in April 2026, is a proof of concept, and its next-generation Iris Aura server will do prefill using roughly one-tenth of the energy a GPU would use. The startup Neurophos , based in Austin, Texas, is putting a different spin on the Goodman computer design. To pack more punch into a small device, the company is leveraging its expertise in metamaterials—complex structures that can manipulate light at scales smaller than a single wavelength. The structures it has designed are bigger than a wavelength but still quite small—just several micrometers per side. “The equivalent of the optical transistor that you can get from standard silicon photonics today is like 2 millimeters long,” says Patrick Bowen , CEO of Neurophos. “You just can’t fit enough [of] them on-chip to get a compute density that remotely competes with the latest and greatest [that] TSMC [Taiwan Semiconductor Manufacturing Co.] does.” Bowen’s team designed metamaterial-based modulators that can be programmed to manipulate the phase and intensity of light at the micrometer scale, resulting in an array of 1,000 by 1,000 modulators in a square chip with 5-mm sides. According to Bowen, Neurophos’s modulators switch over 10,000 times as fast as a standard liquid-crystal spatial light modulators do. Bowen also claims a performance advantage over Nvidia’s Blackwell GPU: “We’re targeting 50 times Blackwell B200’s speed and 35 times its energy efficiency, and have a road map to reach 250 times the speed and roughly 90 times the energy efficiency in subsequent generations.” The approach is CMOS-compatible, Bowen says, which should allow Neurophos to manufacture its chips on the semiconductor industry’s existing high-volume production lines. The company is currently choosing a site for a production facility ahead of its rack deliveries to customers in 2028. Both Lumai and Neurophos are betting they’ll get their products to market before traditional CMOS can catch up to their energy savings. “Silicon will keep improving, but digital efficiency gains now come slowly and at rising cost,” Burr says. “Optics offers a different scaling relationship, in which efficiency improves as matrices grow. Larger models, longer context windows, and agentic workloads are all pushing prefill in that direction.” Bridging the gap on-chip Free-space optics carries the promise of almost energy-free multiplication, as in Goodman’s design. But another big advance in optics since Goodman’s work in the 1970s is integrated photonics, which allows you to guide and manipulate light on-chip. “The name of the game is to do as large a vector size as possible to maximize the benefit of using optics, and for that reason the free-space approaches are promising,” says Yale’s Logan Wright. “But it’s still fundamentally harder” to use the free-space approach, “because there’s just so much less infrastructure than in silicon photonics.” Other companies—like Shanghai-based Lightelligence and Q.ANT , based in Stuttgart, Germany—are trading the 3D advantage of free-space optics for the manufacturability of photonics integrated directly onto a silicon chip. “There is a good reason that free-space optics are usually limited to 1,000 units a year,” says Q.ANT’s CEO and founder, Michael Förtsch . “The reason for this is lens inspection, assembly strategy, and so on. Semiconductor-manufacturable integrated photonic circuits are at this point way more promising to reach volume production.” Vector-matrix multiplication with integrated photonics One way to do vector-matrix multiplication with light on-chip involves encoding vector elements into the amplitudes of pulses of light, traveling sequentially through a waveguide. The multiplication is performed by Mach-Zehnder interferometers: A waveguide splits in two, and the phase of light traveling through one of the paths is shifted by a controlled voltage. When the two paths reunite, the resulting light intensity depends on that phase shift, performing a multiplication. Encoding the matrix elements into the phase shifts turns this into vector-matrix multiplication. A photodetector then collects the light from all three pulses, performing the accumulation step. In Q.ANT’s approach, the input data is encoded into the phase and amplitude of light pulses via on-chip modulators. A vector in this scheme is represented as a sequence of such pulses, each representing one vector element. The light is guided around the chip with waveguides. The basic computational element is an interferometer: A waveguide splits into two paths, and the light beam traveling down one path is subjected to a phase shift, controlled by a set voltage. When the two paths recombine, the resulting interference performs a computation. Then, photodetectors and analog-to-digital converters turn the result back into digital data. The serialized vector-matrix multiplication approach is slower than Goodman’s computer, where the whole calculation happens at once. However, the slower speed can be mitigated by using multiple wavelengths at once, effectively encoding multiple vectors into light simultaneously. Q.ANT’s Native Processing Server is already being used in research institutions like the Leibniz Supercomputing Centre in Munich and the Jülich Supercomputing Centre in Jülich, both in Germany. Earlier this year, the company announced a commercial sale to the cloud provider Ionos. Similarly, Lightelligence’s PACE2 processor is capable of multiplying 128-by-128-element matrices. In a paper released in 2025, the company described vector-matrix multiplication at a 1-gigahertz frequency and 3-nanosecond latency, claiming two orders of magnitude lower latency than with traditional GPUs. The energy advantage is yet to be conclusively demonstrated, however, and Q.ANT’s Förtsch admits there is still a ways to go. The main issue is the energy cost of analog-to-digital conversion and back. As long as a fast, low-energy converter does not exist, Förtsch says, “we don’t see realistic chances that…a general vector-matrix multiplication machine in optics makes sense.” Beyond matrix-vector multiplication Not everyone in the field is focused on matrix-vector multiplication, despite it being all the rage in the AI inference world. In fact, while the optical vector-matrix multiply idea goes back to the 1970s, other computations with optics have been investigated as far back as the 1950s. For example, a Fourier transform—a common operation that decomposes a complex wave or signal into its constituent frequencies—can be done in optics with a single lens. “A digital chip has to approximate [Fourier transforms] in many small steps, using hundreds to thousands of transistors and more compute cycles,” says Q.ANT’s Förtsch. “Models that use such nonlinear functions can reach the same or better accuracy with fewer parameters and fewer operations.” Even though Q.ANT’s optical processor has been used for traditional vector-matrix multiplication, the company believes its greatest advantages lie in alternative AI architectures that leverage more complex functions. “Tasks such as image classification and segmentation rely heavily on operations like Fourier series, transformations, and other nonlinear functions, which photonics handles natively. We see similar potential in generative AI, especially image and video generation,” Förtsch says. The Israel-based startup LightSolver is also targeting algorithms that are a more natural fit for its device. “If you look at propagating electromagnetic waves, essentially, they are running differential equations in their nature,” says Ruti Ben-Shlomi , CEO and cofounder of LightSolver. She says differential equations can be solved much faster and with higher energy efficiency on the company’s laser processing unit (LPU) than on a traditional computer. LightSolver’s LPU is an interesting twist on the Goodman optical-computer design. It has input light, a programmable membrane in the form of a spatial light modulator, and output light, but the whole thing is placed in a cavity, where light bounces back and forth many times before reaching a steady state. In addition, the team places a gain medium inside the cavity. This gain medium functions much like those found inside a laser, causing the bouncing light to build up in intensity. LightSolver, a startup based in Israel, is using free-space optics to quickly solve differential equations by harnessing the natural properties of light. LightSolver Once a particular problem is encoded into the modulator, the gain medium is stimulated to emit random photons. They bounce back and forth, increasing in intensity when passing through the gain medium again, experiencing preprogrammed changes through the modulator and interacting with one another until they reach a steady state—the solution. Then, a simple camera takes a picture of the steady-state result. Using emulation, the LightSolver team recently showed that their LPU can solve differential equations 40 to 80,000 times as fast as a GPU, depending on the workflow. They are now working on explicitly benchmarking the energy improvements. LightSolver’s team is currently working on AI applications for its LPU as well, using the company’s own algorithm to do image generation from text. “We’re not doing vector-matrix multiplication very fast. We are doing something different. We need to assume that the way you train the model, and you then do inference, is completely different. But if you do it differently, you’ll be able to do image generation with dramatic energy-consumption decrease and speedup,” Ben-Shlomi says. LightSolver has a working prototype of its LPU, and the team is working on a larger, rack-mountable box. Computing in transit Yet another way to leverage light’s particular strengths is being pursued by Optalysys , a startup based in Leeds, England. Nick New , founder and chief product officer, has a background in free-space optics, and so he understood that taking a Fourier transform is very easy to do with light. The key idea behind Optalysys’s technology is taking that Fourier capability of optics in free space and making it work on-chip. “Rather than using a lens these days, we have our own component, which is a passive component in the plane of the silicon that does that same job,” New says. And by cleverly designing that component with multiple outputs, the team figured out how to perform different operations as well. “Because of how the Fourier transform response is generated, you can actually pull out different mathematical operations from it,” New says. “We can produce very large, high-precision digital functions at superhigh efficiencies, using our analog photonics approach.” “We’re effectively adding processing to where there is none right now.” —Nick New, Optalysis Instead of redesigning an accelerator from scratch, Optalysys is targeting a piece of the AI workload that’s often already in the optical domain: networking. In the data center, racks of computers are connected to each other with fiber optics, and the optical connections are increasingly getting closer and closer to the GPUs and CPUs themselves. Some computations already happen while the data is en route. These computations, which include combining results from multiple GPUs, are executed inside network switch cards. But the cards naturally use power to do that math. With passive optical components, these computations could be done essentially for free. New says that in addition to communication between GPUs, Optalysys’s technology could be used to facilitate a GPU’s communication with memory, doing things like compression and format conversion on the fly. Going back to AI inference, this approach could improve the decode part of the workload. Unlike prefill, decode is memory bound: The most costly part is shuffling model data in and out of memory. “We’re more focused on the memory-bound applications, which fits very well with this principle of adding processing into the communication path,” New says. “We’re effectively adding processing to where there is none right now.” The likely future of optical computing How likely are optical computers to replace GPUs in the data center? Yale’s Wright is not too optimistic. “The direction of algorithm development is not going to be a direction that is automatically favorable for optics,” he says. “In fact, it’s most likely to go in the opposite direction, because [AI model developers] want it to work better on GPUs.” However, even if our AI queries aren’t going to be computed in light in the next few years, that investment in the technology won’t be in vain. Says Wright, “The reason that I and many other people in the field are at least somewhat optimistic is that there’s real investment from companies like Nvidia and TSMC in developing co-packaged silicon photonics—not for computing, but for circuit switching and interconnects, and that just kind of opens the door to do a little bit more in the future.” Whether that technology ends up crunching vector-matrix multiplication, doing bespoke simulations, or performing in-network computations, the computing ecosystem seems ripe for a variety of approaches. “We see the data center of the future as heterogeneous: CPUs, GPUs and photonic NPUs [native processing units] each take on the tasks they are best suited for,” says Q.ANT’s Förtsch. “Running each task on the most efficient hardware can significantly reduce energy use and operating costs.”",
+    "source": "IEEE Spectrum",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "The Download: Jensen Huang’s open-source dilemma and cognitive immortality",
+    "link": "https://www.technologyreview.com/2026/11/17/1148679/the-download-jensen-huang-open-source-ai-cognitive-immortality/",
+    "date": "2026-11-17T13:10:00Z",
+    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The open-source movement wants Jensen Huang back A petition to reinstate Jensen Huang as Nvidia CEO has attracted more than 115,000 signatures, including Elon Musk, but comb through the names, and…",
+    "source": "MIT Technology Review",
+    "category": "Other"
+  },
+  {
+    "title": "Understand How Satellite Links Shape IoT Device Design and Testing",
+    "link": "https://content.knowledgehub.wiley.com/5g-nr-ntn-design-and-test-challenges-for-satellite-connected-iot/",
+    "date": "2026-11-17T11:00:04Z",
+    "description": "How 3GPP Releases 15, 16, and 17 brought satellite access into 5G NR, NB-IoT, and eMTC. Why satellite links suit IoT devices that send small, infrequent, and delay-tolerant messages. Where non-terrestrial networks (NTN) add value, including asset tracking, agriculture, public safety, and offshore operations. How power efficiency, RF signaling, and antenna design shape satellite-connected device development. Why long propagation delay, Doppler shift, and intermittent coverage make static test methods insufficient. Which measurements show deployment readiness, such as transmit power, modulation accuracy, spectral emissions, receiver sensitivity, and block error rate (BLER). How emulated satellite conditions help verify synchronization, signaling, HARQ behavior, mobility, and interoperability. Download this free whitepaper now!",
+    "source": "IEEE Spectrum",
+    "category": "Climate"
+  },
+  {
+    "title": "APOD: 2026 November 17 – Milky Way versus Aurora",
+    "link": "https://science.nasa.gov/image-article/apod-2026-november-17-milky-way-versus-aurora/",
+    "date": "2026-11-17T05:05:00Z",
+    "description": "APOD Science APOD APOD: 2026 November 17 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. OriginalAnnotated Milky Way […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Tossing Fireworks from Cloud to Cloud",
+    "link": "https://science.nasa.gov/earth/earth-observatory/tossing-fireworks-from-cloud-to-cloud/",
+    "date": "2026-11-17T05:01:00Z",
+    "description": "For many astronauts, the spectacular sight of lightning stands out when looking back at Earth from the International Space Station.",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Perseverance Update: The Ghostly Rocks of ‘Idubi’ — Bright Remnants of Aqueous Systems from Long Ago",
+    "link": "https://science.nasa.gov/blog/perseverance-update-the-ghostly-rocks-of-idubi-bright-remnants-of-aqueous-systems-from-long-ago/",
+    "date": "2026-11-16T23:12:45Z",
+    "description": "Written by Candice Bedford, Research Scientist at Purdue University Date: Nov. 16, 2026 During the Perseverance rover’s investigation of “Idubi” — an area of ancient Martian crust exposed in the “Lac de Charmes” region, outside of Jezero crater — the Perseverance rover team has been captivated by a cluster of eerily bright, light-toned rocks in […]",
+    "source": "NASA",
+    "category": "Science"
+  },
+  {
+    "title": "A Collage Showing 49 Drill Holes Made by NASA’s Curiosity Mars Rover",
+    "link": "https://science.nasa.gov/photojournal/a-collage-showing-49-drill-holes-made-by-nasas-curiosity-mars-rover/",
+    "date": "2026-11-16T22:05:23Z",
+    "description": "Description This collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of its robotic arm, drops pulverized rock samples into instruments in its belly that analyze their composition. These images were […]",
+    "source": "NASA",
+    "category": "Artificial Intelligence"
+  },
+  {
     "title": "NASA Receives 16th Consecutive ‘Clean’ Financial Audit Opinion",
     "link": "https://www.nasa.gov/news-release/nasa-receives-16th-consecutive-clean-financial-audit-opinion/",
     "date": "2026-11-16T20:30:40Z",
@@ -102,141 +238,5 @@
     "description": "Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers.",
     "source": "NASA",
     "category": "Other"
-  },
-  {
-    "title": "How Microcredentials Can Help Engineers Build Trustworthy AI",
-    "link": "https://spectrum.ieee.org/microcredentials-trustworthy-ai",
-    "date": "2026-11-13T19:00:03Z",
-    "description": "Engineering teams are moving at breakneck speed to integrate artificial intelligence, but they are running into a formidable new barrier: compliance issues. Translating high-level AI ethics , governance , and auditing into daily operational workflows has become one of the industry’s toughest challenges. “AI ethics” refers to the principles developers use to govern and operate workflows. “Governance” refers to the rules and procedures an organization establishes for AI workflows and how they interact with organizational data. Auditing is the process of assessing and validating systems to ensure safety, fairness, transparency, and legal compliance. Technology leads and systems engineers are responsible for adhering to a structured set of guidelines for standards and processes usually issued by a governing body such as the European Union , the U.S. National Institute of Standards and Technology , and the International Organization for Standardization . The regulations aim to mitigate issues such as systemic bias , security vulnerabilities, and transparency risks, but they also highlight a critical skills gap. Most traditional computer science, software, and electrical engineering degree programs were built around technical design and system architecture. They do not yet include training in AI auditing, data tracking, or safety protocols for how AI systems interact with people and other technologies. Expecting mid-career engineers to leave their job to attend a full-time two- or four-year program to learn about the topics is not feasible. Yet treating safety and governance as an afterthought can lead to costly product delays, legal exposure, and broken public trust. Targeted microcredential programs can bridge the knowledge gap by helping engineers build skills in compliance, AI ethics, and governance. The benefits of microcredentials Skills-based microcredentials represent the mastery of expertise gained through a learning program. To earn them, learners must demonstrate the skill through a validation assessment. The microcredentials can be stacked, showing a growing skill set in a defined area and allowing learners to earn several microcredentials in one program. Microcredentials also allow engineers to upskill and master critical competencies, such as bias mitigation, algorithmic transparency, and risk auditing, without interrupting their career. Through rigorous skills-validation assessments, microcredentials give tech leaders verifiable proof that their teams can audit systems effectively before deployment. For engineering organizations, microcredentialing creates an agile upskilling pathway. It connects software engineering and hardware design directly to regulatory frameworks, empowering teams to certify systems for safety and compliance within their development life cycles. Translating standards into microcredentials Bridging technical capability and ethical responsibility requires a trusted foundation. IEEE has long been a pioneer in socio-technical standards , most notably through the IEEE 7000 series for ethics in AI system design, a framework created to address ethical considerations during the development life cycle. The IEEE Credentialing Program translates the organization’s world-class standards into actionable, industry-aligned microcredentials. For more than three decades, IEEE has set the gold standard for technical validation and professional certification. By pairing cutting-edge AI governance standards with targeted microcredential programs, IEEE provides engineers and IT leaders with clear, standardized road maps to build systems that are not just technically advanced but also safe, compliant, and worthy of public trust. To learn more about the credentialing program, explore the offerings or connect with an IEEE expert .",
-    "source": "IEEE Spectrum",
-    "category": "Artificial Intelligence"
-  },
-  {
-    "title": "Outbursts from a Massive Star",
-    "link": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
-    "date": "2026-11-13T16:39:33Z",
-    "description": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star located in the galaxy shown in this image released on Nov. 9, 2026. The volatile star, known as AT 2016blu, is in the spiral galaxy NGC 4559, located about 30 million light-years from Earth. Astronomers estimate the […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
-    "link": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
-    "date": "2026-11-13T16:05:54Z",
-    "description": "Astronauts James A. Lovell Jr. and Edwin E. “Buzz” Aldrin Jr. orbited Earth from November 11 to 15, 1966, on Gemini XII, the final mission of NASA’s Gemini program. In addition to successfully completing rendezvous maneuvers and spacewalks, procedures vital to sending American astronauts to the Moon, the crew was also spurring the development of […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
-    "link": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
-    "date": "2026-11-13T13:10:00Z",
-    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Silicon Valley claims to know the future. So why did it get the midterms so wrong? —Aaron Zamost, a tech communications consultant and a former executive at Square The self-styled visionaries…",
-    "source": "MIT Technology Review",
-    "category": "Other"
-  },
-  {
-    "title": "Engineer Overhead Lines to Withstand Ice, Wind and FreezingRain",
-    "link": "https://content.knowledgehub.wiley.com/engineering-overhead-electric-lines-for-ice-wind-and-freezing-rain/",
-    "date": "2026-11-13T11:00:02Z",
-    "description": "This White Paper explains how ice, wind and vegetation load overhead distribution lines at the same time. It shows engineers how to assess the complete line and compare resilience options. What you will learn about: How freezing rain, rime ice and wet snow add weight to conductors and change their shape in the wind. Why a moderate wind on a heavily iced line can govern design, and how galloping and vegetation contact create outages. How a messenger-supported spacer cable separates the electrical function of covered conductors from the main mechanical load path. How monitored severe-weather test data compares tension changes in bare, covered and spacer cable systems. What utility records from the December 2008 Northeast ice storm show about circuit availability and restoration. How to compare options at corridor level, check the full load path of poles, brackets and foundations, and apply energized-line safety rules. Download this free whitepaper now!",
-    "source": "IEEE Spectrum",
-    "category": "Space"
-  },
-  {
-    "title": "More autonomy, fewer NDAs: Volunteers have new requests for brain implant trials",
-    "link": "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/",
-    "date": "2026-11-13T10:00:00Z",
-    "description": "Scientists have been working on ways to decode brain activity for decades. Teams have developed brain implants that can be used to control robotic limbs and computers, and even to “speak.” The people who volunteer for trials of those devices play a vital role in that research, and they ought to be recognized for their…",
-    "source": "MIT Technology Review",
-    "category": "Artificial Intelligence"
-  },
-  {
-    "title": "Silicon Valley claims to know the future. So why did it get the midterms so wrong?",
-    "link": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/",
-    "date": "2026-11-13T10:00:00Z",
-    "description": "The self-styled visionaries of Silicon Valley, leaders like OpenAI chief executive Sam Altman and SpaceX boss Elon Musk, have built careers claiming to see the future. Long-term vision is currency: Meta’s Mark Zuckerberg built a 10-year road map for Facebook in 2016, and Google famously told investors before its public offering that it was unconcerned…",
-    "source": "MIT Technology Review",
-    "category": "Space"
-  },
-  {
-    "title": "APOD: 2026 November 13 – NGC 206 and the Star Clouds of Andromeda",
-    "link": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/",
-    "date": "2026-11-13T05:05:00Z",
-    "description": "APOD Science APOD APOD: 2026 November 13 – NGC… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. NGC 206 […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "A Global Rebound for Mangroves",
-    "link": "https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/",
-    "date": "2026-11-13T05:01:00Z",
-    "description": "After decades of decline, this ecologically significant type of forest is making a comeback.",
-    "source": "NASA",
-    "category": "Other"
-  },
-  {
-    "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-    "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
-    "date": "2026-11-12T20:16:24Z",
-    "description": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “potentially infeasible.” Foster, a Democrat who serves on the Committee on…",
-    "source": "MIT Technology Review",
-    "category": "Cybersecurity"
-  },
-  {
-    "title": "I Am Artemis Katie Spicer",
-    "link": "https://www.nasa.gov/missions/artemis/i-am-artemis-katie-spicer/",
-    "date": "2026-11-12T20:10:02Z",
-    "description": "For Katie Spicer, embracing opportunity and challenge has led to giant leaps during her time at NASA. Now as the NASA lander integration lead for Blue Origin’s Blue Moon Mark 2 lander, one of the commercially provided human landing systems for NASA’s Artemis program, Spicer will have her handprint on history. Spicer works in the […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "Heart in the Sky at NASA Kennedy",
-    "link": "https://www.nasa.gov/image-article/heart-in-the-sky-at-nasa-kennedy/",
-    "date": "2026-11-12T19:12:49Z",
-    "description": "The U.S. Air Force Thunderbirds create a heart-shaped smoke trail during a flight maneuver near NASA’s Vehicle Assembly Building during the agency’s MAX POWER expo and air show on Sunday, Nov. 8, 2026, at NASA’s Kennedy Space Center in Florida. NASA’s MAX POWER is an aerospace festival celebrating the past, present, and future of flight […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "NASA Ames Stars of the Month: November 2026",
-    "link": "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/",
-    "date": "2026-11-12T17:54:32Z",
-    "description": "The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Alyssa Villanueva, Steve Howell, and Samuel LeBlanc. Their commitment to the NASA mission represents the entrepreneurial spirit, technical expertise, and collaborative disposition needed to explore this world and beyond. Space Biosciences Star: Alyssa Villanueva Alyssa Villaneuva is an engineer at Blue […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "NASA’s Hubble Offers Cosmic Sampler of Targets for Roman",
-    "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
-    "date": "2026-11-12T13:18:40Z",
-    "description": "A gallery of gravitational lenses captured by NASA’s Hubble Space Telescope showcases the diversity of this cosmic phenomenon and lays the groundwork for follow-up observations by the Nancy Grace Roman Space Telescope.",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "The Download: COP31’s climate challenge and the quest for immortality",
-    "link": "https://www.technologyreview.com/2026/11/12/1148444/the-download-cop31-climate-talks-cognitive-immortality/",
-    "date": "2026-11-12T13:10:00Z",
-    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What to know about this year’s UN climate talks Thousands of delegates, lobbyists, and journalists have gathered in Antalya, Turkey, for COP31, the annual UN climate talks. But this year’s negotiations…",
-    "source": "MIT Technology Review",
-    "category": "Climate"
-  },
-  {
-    "title": "Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA",
-    "link": "https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la/",
-    "date": "2026-11-12T13:00:00Z",
-    "description": "As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission. These photographers documented the iconic images shared around the world on Sept. 21, 2012, while millions watched space shuttle Endeavour fly on top of the agency’s 747 Shuttle Carrier Aircraft for the last time. Endeavour’s new home […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "APOD: 2026 November 12 – Moon, Venus and Spica Meet",
-    "link": "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/",
-    "date": "2026-11-12T05:05:00Z",
-    "description": "APOD Science APOD APOD: 2026 November 12 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Moon, Venus and […]",
-    "source": "NASA",
-    "category": "Space"
   }
 ]
