@@ -1,5 +1,85 @@
 [
   {
+    "title": "NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement",
+    "link": "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/",
+    "date": "2026-11-25T19:06:56Z",
+    "description": "How NASA works with small businesses is evolving, and as a result, the agency is strengthening the domestic aerospace industrial base to support future exploration missions through its recently renamed Small Business Supplier Development Program. As part of the program, NASA announced its latest Mentor-Protégé Agreement, this one signed between The Boeing Company and GRACE […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "NASA Eyes Crop Candidates for Future Menus",
+    "link": "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/",
+    "date": "2026-11-25T17:53:42Z",
+    "description": "As NASA prepares for future missions to the Moon and Mars, researchers are studying crops that could provide astronauts with fresh food, nutrition, and variety far from Earth. Such crop variety can help with menus in deep space, something top of mind this week as the nation celebrates Thanksgiving. Recent testing points to strawberries, […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "How data centers are driving a US natural-gas boom",
+    "link": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
+    "date": "2026-11-25T17:00:00Z",
+    "description": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s technically possible to meet the world’s rising electricity demand with other power sources, including renewables like…",
+    "source": "MIT Technology Review",
+    "category": "Climate"
+  },
+  {
+    "title": "Childhood, Career Come Full Circle for Budget Analyst at NASA Goddard",
+    "link": "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard/",
+    "date": "2026-11-25T16:47:29Z",
+    "description": "Conversations about NASA were the norm around the dinner table during Ashley Knight’s childhood. Her parents worked at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, and discussions about happenings at the agency continued even when they came home from the office. “I remember a poignant dialogue we had after the space shuttle Challenger disaster,” […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Eye of the Sahara",
+    "link": "https://www.nasa.gov/image-article/eye-of-the-sahara/",
+    "date": "2026-11-25T16:21:04Z",
+    "description": "The Richat Structure, also known as the “Eye of the Sahara,” is seen from the International Space Station as it orbited above on Nov. 14, 2026. It is an eroded geological dome about 100 million years old created by igneous activity and uplift in the nation of Mauritania. In this type of geologic structure, rocks […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
+    "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
+    "date": "2026-11-25T14:56:54Z",
+    "description": "These Hubble observations are part of a survey that will help researchers better interpret upcoming Nancy Grace Roman Space Telescope observations as they seek to characterize the stars and search for exoplanets in this busy region of our galaxy.",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "The Download: AI swamping open records, and firefighting for permafrost",
+    "link": "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/",
+    "date": "2026-11-25T13:10:00Z",
+    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI is straining America’s open records systems AI has intensified investors’ interest in public records. Over the last few years, venture-backed startups have raised upwards of $100 million to collect data…",
+    "source": "MIT Technology Review",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "AI is straining America’s open records systems",
+    "link": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+    "date": "2026-11-25T10:00:00Z",
+    "description": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests. Recently, he…",
+    "source": "MIT Technology Review",
+    "category": "Other"
+  },
+  {
+    "title": "APOD: 2026 November 25 – SPHEREx Seeing Through Dust",
+    "link": "https://science.nasa.gov/image-article/apod-2026-november-25-spherex-seeing-through-dust/",
+    "date": "2026-11-25T05:05:00Z",
+    "description": "APOD Science APOD APOD: 2026 November 25 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. To view this […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Georgia’s Pecan Belt",
+    "link": "https://science.nasa.gov/earth/earth-observatory/georgias-pecan-belt/",
+    "date": "2026-11-25T05:00:00Z",
+    "description": "Since an early-1900s planting boom, orchards along the Flint River in southwest Georgia have become a center of U.S. pecan production.",
+    "source": "NASA",
+    "category": "Other"
+  },
+  {
     "title": "NASA+ Content Coming to Big Screen at Greenbelt, Maryland Cinema",
     "link": "https://www.nasa.gov/nasa/nasa-content-coming-to-big-screen-at-greenbelt-maryland-cinema/",
     "date": "2026-11-24T21:14:36Z",
@@ -156,86 +236,6 @@
     "link": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
     "date": "2026-11-23T15:00:00Z",
     "description": "NASA’s James Webb Space Telescope has painted a vibrant tapestry of the legendary supernova remnant Cassiopeia A (Cas A). Remnants like these are the clouds of gas and dust that remain following the explosion of a massive star and will eventually seed a new generation of stars and planets. This high-resolution, mid-infrared observation from Webb […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "Learn How 5G NTN Architecture, Mobility, and Testing Shape 6G",
-    "link": "https://content.knowledgehub.wiley.com/5g-ntn-takes-flight-a-deep-dive-into-nr-ntn-technology-and-testing-aspects/",
-    "date": "2026-11-23T14:08:53Z",
-    "description": "What you will learn about: How 3GPP standards from Release 15 to Release 19 built the foundation of NR-NTN, and why NTN extends 5G coverage to oceans, rural regions, and disaster zones. How transparent and regenerative satellite payload architectures differ, and what each choice means for round trip time, link budget, and hardware complexity. Why long distances, fast-moving satellites, and Doppler shift challenge the physical layer, including synchronization, timing advance, and HARQ operation. How mobility works in NTN, including cell selection, conditional handover, feeder link switchover, and movement between terrestrial and non-terrestrial networks. How to test NTN devices, satellites, and networks with RF, protocol, and over-the-air methods under realistic fading and propagation conditions. How NTN evolves toward 6G unified networks that combine multiple bands, layers, and dimensions, with sensing, positioning, and AI. Download this free whitepaper now!",
-    "source": "IEEE Spectrum",
-    "category": "Space"
-  },
-  {
-    "title": "The Download: AI’s judgment problem and carbon removal’s crop threat",
-    "link": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
-    "date": "2026-11-23T13:10:00Z",
-    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that some capabilities are improving exponentially—but models aren’t as good…",
-    "source": "MIT Technology Review",
-    "category": "Climate"
-  },
-  {
-    "title": "Why using rocks for carbon removal could eventually reduce crop growth",
-    "link": "https://www.technologyreview.com/2026/11/23/1149392/why-using-rocks-for-carbon-removal-could-eventually-reduce-crop-growth/",
-    "date": "2026-11-23T11:00:00Z",
-    "description": "Tech companies are investing a lot of hope and money in rocks. Google, Microsoft, and others have committed hundreds of millions of dollars to get startups to spread crushed basalt, olivine, or other alkaline materials across farms, in an effort to capture carbon from the air and lock it away. A number of influential models…",
-    "source": "MIT Technology Review",
-    "category": "Climate"
-  },
-  {
-    "title": "APOD: 2026 November 23 – The Emergence of Dark Nebula Lynds 1251",
-    "link": "https://science.nasa.gov/image-article/apod-2026-november-23-the-emergence-of-dark-nebula-lynds-1251/",
-    "date": "2026-11-23T05:05:00Z",
-    "description": "APOD Science APOD APOD: 2026 November 23 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Emergence […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "Laser Focus at the Top of the World",
-    "link": "https://science.nasa.gov/earth/earth-observatory/laser-focus-at-the-top-of-the-world/",
-    "date": "2026-11-23T05:01:00Z",
-    "description": "A next-generation geodetic instrument developed by NASA, part of a network that helps measure satellites’ orbits and the planet’s shape, has debuted in Svalbard, Norway.",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "65 Years of Human Spaceflight at NASA Johnson",
-    "link": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
-    "date": "2026-11-22T19:13:25Z",
-    "description": "For 65 years, NASA’s Johnson Space Center in Houston has helped shape human spaceflight, from the Gemini missions that demonstrated rendezvous and docking techniques needed for Apollo to the research conducted aboard the International Space Station, which has supported a continuous human presence for more than 26 years. Today, Johnson teams are preparing crews and […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
-    "link": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
-    "date": "2026-11-22T05:05:00Z",
-    "description": "APODScienceAPODAPOD: 2026 November 22 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Swirls and Colors on Jupiter from Juno Explanation: What creates the colors in Jupiter’s clouds? No one […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "APOD: 2026 November 21 – Voyager’s Neptune",
-    "link": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/",
-    "date": "2026-11-21T05:05:00Z",
-    "description": "APODScienceAPODAPOD: 2026 November 21 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Voyager’s Neptune Explanation: Cruising through the outer solar system, the Voyager 2 spacecraft made its closest approach […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "Curiosity Spots Drifting Twilight Clouds",
-    "link": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
-    "date": "2026-11-20T22:27:05Z",
-    "description": "Description NASA’s Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission. The rover uses its navigation cameras to capture post-sunset clouds, called twilight clouds, which appear for only a short time each fall over Gale Crater, which it has been exploring for more than […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
-    "link": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/",
-    "date": "2026-11-20T20:46:14Z",
-    "description": "Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) program recently selected 302 innovative projects, for a total investment of up to $171 million in seed […]",
     "source": "NASA",
     "category": "Space"
   }
