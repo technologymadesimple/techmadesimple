@@ -1,5 +1,37 @@
 [
   {
+    "title": "The Download: Better bionic hands and AI’s natural-gas boom",
+    "link": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
+    "date": "2026-11-26T13:10:00Z",
+    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The next generation of bionic hands is here—and they can feel Avi Davidson lost his left hand as a teenager. Since then, he’s cycled through a few prosthetics. But his latest…",
+    "source": "MIT Technology Review",
+    "category": "Other"
+  },
+  {
+    "title": "The next generation of bionic hands is here—and they can feel",
+    "link": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
+    "date": "2026-11-26T09:59:00Z",
+    "description": "Avi Davidson lost his left hand as a teenager. Since then, he’s cycled through a few prosthetics. But his latest is different—it’s wired up to nerves in the upper part of his forearm and allows him to feel pressure. For the first time in years, he can use his left limb to handle delicate objects…",
+    "source": "MIT Technology Review",
+    "category": "Other"
+  },
+  {
+    "title": "APOD: 2026 November 26 – Eye in the Sky: The Milky Way over Lençóis",
+    "link": "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/",
+    "date": "2026-11-26T05:05:00Z",
+    "description": "APOD Science APOD APOD: 2026 November 26 – Eye… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Eye in […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Seeking Refuge on Resolution Island",
+    "link": "https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island/",
+    "date": "2026-11-26T05:01:00Z",
+    "description": "New Zealanders have long envisioned the island as a predator-free zone for native birds, but swimming stoats have shown a resolve of their own.",
+    "source": "NASA",
+    "category": "Other"
+  },
+  {
     "title": "NASA Enhances Supplier Program, Announces Mentor-Protégé Agreement",
     "link": "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/",
     "date": "2026-11-25T19:06:56Z",
@@ -206,37 +238,5 @@
     "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral…",
     "source": "MIT Technology Review",
     "category": "Artificial Intelligence"
-  },
-  {
-    "title": "Studying Cancer Cells in Microgravity",
-    "link": "https://www.nasa.gov/image-article/studying-cancer-cells-in-microgravity/",
-    "date": "2026-11-23T17:28:37Z",
-    "description": "This Nov. 19, 2026, image shows gastric microtumors grown within an Encapsulates biochip. The Encapsulate-1 investigation studies patient-derived tumor samples aboard the International Space Station to better understand how cancer cells move and interact in microgravity. The results could help researchers develop further testing to predict a patient’s risk of metastasis and support more personalized […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "NASA Seeks Partners to Design First Nuclear Reactor for the Moon",
-    "link": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/",
-    "date": "2026-11-23T17:23:50Z",
-    "description": "NASA is seeking industry partners to develop and test the first nuclear reactor designed to provide electricity on the Moon, a major step toward establishing a sustained human presence on the lunar surface. Lunar Reactor-1 (LR-1) will be a small fission power system that will generate 20 kilowatts of electricity, enough to power approximately 16 […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "NASA+ Documentary Captures Europa Clipper’s Journey Into Deep Space",
-    "link": "https://www.nasa.gov/missions/europa-clipper/nasa-documentary-captures-europa-clippers-journey-into-deep-space/",
-    "date": "2026-11-23T16:08:23Z",
-    "description": "NASA invites the world behind the scenes to witness the story of Europa Clipper’s journey from a far-off vision to a cutting-edge deep space exploration mission with the release of the agency’s newest documentary, “The Europa Concept.” The documentary will air on NASA+, the NASA app, and the agency’s website starting Monday, Nov. 23, and […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "NASA’s Webb Shows How Supernova Dust Chronicles Star Evolution",
-    "link": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/",
-    "date": "2026-11-23T15:00:00Z",
-    "description": "NASA’s James Webb Space Telescope has painted a vibrant tapestry of the legendary supernova remnant Cassiopeia A (Cas A). Remnants like these are the clouds of gas and dust that remain following the explosion of a massive star and will eventually seed a new generation of stars and planets. This high-resolution, mid-infrared observation from Webb […]",
-    "source": "NASA",
-    "category": "Space"
   }
 ]
