@@ -1,5 +1,77 @@
 [
   {
+    "title": "Artemis III Astronaut Andre Douglas Visits VAB",
+    "link": "https://www.nasa.gov/image-article/artemis-iii-astronaut-andre-douglas-visits-vab/",
+    "date": "2026-11-27T15:01:00Z",
+    "description": "NASA astronaut Andre Douglas, Artemis III mission specialist, stands inside an RS-25 engine test article during a visit to the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Tuesday, Nov. 17, 2026. During Artemis III, four RS-25 engines will power the SLS (Space Launch System) rocket core stage to send the Orion […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "NASA’s NG-25 Mission to Launch Pioneering Space Crops Research",
+    "link": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/",
+    "date": "2026-11-27T14:22:00Z",
+    "description": "NASA experiments, including a first-of-its-kind space crop production system, will travel to the International Space Station aboard Northrop Grumman’s 25th Commercial Resupply Services mission for the agency. Investigations from NASA’s Biological and Physical Sciences Division will advance research that benefits life on Earth and future exploration, expanding knowledge of space crops and human health. Groundbreaking […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "This ER Doctor Became a Hospital’s First Clinical AI Engineer",
+    "link": "https://spectrum.ieee.org/clinical-ai-engineer-dinesh-rai",
+    "date": "2026-11-27T14:00:01Z",
+    "description": "When Boston Children’s Hospital posted a job listing for a prompt engineer in 2023, Dinesh Rai decided to apply. He didn’t expect to get the job. At the time, prompt engineering was being touted as one of the hot new jobs created by generative AI. Companies wanted people who knew how to coax the best answers from large language models (LLMs) by carefully wording instructions, supplying examples, and giving the systems personas or other context. Dinesh Rai Employer: Boston Children’s Hospital Occupation: Clinical AI Engineer Education: Bachelor’s degree in supply-chain management and marketing sciences, Rutgers Business School; Doctor of Medicine, Albert Einstein College of Medicine It was an unusual role for a hospital, but Rai had an unusual résumé. While he was trained as an emergency physician, he had also taught himself to code just before entering medical school. After completing a fellowship in clinical informatics—which focuses on the intersection of clinical practice and IT systems—he moved into health technology. Boston Children’s brought him on board in August 2023. Three years later, Rai still works there. Prompt engineering, however, has become a much less important part of the job . When he joined, the expectation was that prompting would become a job in itself. “Knowing how to prompt AI properly was going to be the job function of the future,” says John Brownstein , chief innovation officer at Boston Children’s. Early on, the hospital needed internal expertise about how to begin using AI, Brownstein says. Now, better models have made elaborate prompting less important, so the harder work is building AI into actual health care systems—and determining whether its answers can be trusted. Brownstein says the questions they focus on these days have shifted: “How do you embed these tools in your day-to-day operations? How do you build agents to manage literally everything that you do?” For Rai, that has meant embracing a job broader than the role that brought him to Boston. “I’m more like a clinical AI engineer now,” he says. Between medicine and engineering Rai originally studied business as an undergraduate and began teaching himself to code in 2014 (the same year he entered medical school), as neural networks and image recognition were starting to attract wider attention. He kept building software while training as a doctor. In medical school, for instance, he created a platform called Academius for students to track residency interviews and assemble their rank lists. For Rai, the appeal of coding was its scale. In emergency medicine, he could make a direct difference for the individual patient in front of him. Software offered the possibility of building something that thousands of clinicians might use for many more patients. His 2021–22 informatics fellowship made the possibility of doing that full-time feel real. In 2022, Rai took a job at Pieces , a health care AI company, where he led work to bring LLM-based medical summarization into clinical use. That meant taking a break from practicing medicine altogether. “Stepping away was definitely a hard decision,” Rai says. But he wanted to give the technology work his full attention. He has since reactivated his medical license and hopes to return to clinical practice in some capacity within the next year. At Boston Children’s, roughly half his day now looks like an engineer’s: working with developers, writing code, and advancing projects from the technical side. The other half is spent with clinicians, figuring out what they actually need. That combination has become the point of the job. Uncovering “clinical doppelgangers” One project, called clinical doppelgangers , is designed to help doctors treating complicated patients find similar cases buried in the hospital’s historical data. Medical guidelines are generally based on large populations, but at a hospital that handles rare and complex diseases, an individual child may not fit neatly into the populations represented in published studies. The system is being developed to let clinicians identify previous patients with relevant similarities, examine their trajectories, and see how different interventions turned out. It is not meant to replace randomized clinical trials. Instead, it could provide another source of evidence when a physician is facing a case for which the published literature offers little guidance. Projects like that require more than knowing how to ask an LLM the right question. They require understanding what hospital data means, how a clinician will use an answer, and how an AI system can go wrong. Rai recently encountered some of those challenges while working on another project with a clinical team and a development team. They were deciding how much of a patient’s medical record to give an AI model when asking it to identify findings relevant to a particular clinical outcome. Better models have made elaborate prompting less important, so the harder work is building AI into actual health care systems. Both groups initially favored giving the model access to more information, but for different reasons. The developers assumed any data point could be useful. The clinicians assumed the model would recognize irrelevant findings and ignore them. Rai saw a problem with both assumptions. Clinically, an abnormal lab result or vital sign is not necessarily relevant to the question being asked. And from a technical perspective, an LLM cannot be counted on to recognize that irrelevance. If the system asks the model whether a given abnormality matters, it may construct a plausible explanation for why it does, even when the record does not support the connection. “That’s where the dual perspective has been valuable,” Rai says, “not just translating between teams, but recognizing when an approach that looks reasonable from either perspective rests on assumptions we shouldn’t make.” After the prompt In medicine, the challenges surrounding the prompt are now more important than polishing the prompt itself. Is the model’s output consistent with the underlying data? How should its results be evaluated? Will the clinician using it be able to recognize a mistake? That also means listening to clinicians’ experience. For the platform Rai’s team built to draft clinical notes, the clinicians who would go on to use the tool reviewed a batch of generated notes before anything was finalized. Someone who had cared for a complicated patient in the cardiac intensive care unit for weeks would catch an error far more easily than someone skimming the chart afterward, Rai says. Although AI adoption in medicine is surging, some health care professionals still have concerns about its use . “I think some skepticism is healthy, and we don’t try to talk people out of it,” he says. The team told clinicians up front that it was a generative AI tool meant to support their judgment, not replace their own review of the chart. “People trust it more when they’ve seen its mistakes than when we just tell them it’s good.” An evolving career The evolution of Rai’s role reflects how quickly AI-focused jobs can change, so Rai is wary of telling people interested in careers like his to master any particular tool. For people who want hands-on engineering jobs, fundamental programming skills still matter . Some understanding of machine learning is useful, as is experience building and testing systems. But not every clinician who wants to work with AI needs to become a database architect or take a deep dive into algorithms. What Rai considers indispensable is domain knowledge. In the medical field, that means understanding how health care workflows operate, how electronic health record data is created, what that data actually represents, and where care breaks down. That may be the more durable lesson from a career that briefly carried one of AI’s buzziest job titles. “The value isn’t just knowing how to get an answer from a model,” Rai says. “It’s knowing what context it needs and whether that context supports the answer we’re asking it to give.”",
+    "source": "IEEE Spectrum",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "The Download: Innovators Under 35 nominations are open, and a bionic window into the mind",
+    "link": "https://www.technologyreview.com/2026/11/27/1149960/the-download-the-download-innovators-under-35-nominations-bionic-hand/",
+    "date": "2026-11-27T13:00:00Z",
+    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Our 2027 Innovators Under 35 competition is now open Every year, MIT Technology Review honors 35 of the world’s brightest young scientists, entrepreneurs, and inventors in our Innovators Under 35 list.…",
+    "source": "MIT Technology Review",
+    "category": "Other"
+  },
+  {
+    "title": "Our 2027 Innovators Under 35 competition is now open",
+    "link": "https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/",
+    "date": "2026-11-27T10:48:47Z",
+    "description": "Every year, the editors at MIT Technology Review select 35 of the world’s top young scientists, entrepreneurs, and inventors to honor as our newest class of Innovators Under 35. And starting today, our 2027 competition is officially open for nominations. We’re on the hunt for researchers and founders who are engineering solutions to some of…",
+    "source": "MIT Technology Review",
+    "category": "Science"
+  },
+  {
+    "title": "How cutting-edge prosthetics can help probe the human mind",
+    "link": "https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/",
+    "date": "2026-11-27T10:00:00Z",
+    "description": "Over the last few weeks, I’ve been talking to Alexander (Avi) Davidson. There are a lot of remarkable things about Avi. He sustained a horrific injury as a teenager, which left him paralyzed and without a left hand. Today, he uses his own experience to guide his practice as a trauma therapist. He’s also taking…",
+    "source": "MIT Technology Review",
+    "category": "Other"
+  },
+  {
+    "title": "APOD: 2026 November 27 – The Moon Watchers",
+    "link": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/",
+    "date": "2026-11-27T05:05:00Z",
+    "description": "APOD Science APOD APOD: 2026 November 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Moon Watchers […]",
+    "source": "NASA",
+    "category": "Space"
+  },
+  {
+    "title": "Shivelyuch Socked In",
+    "link": "https://science.nasa.gov/earth/earth-observatory/shivelyuch-socked-in/",
+    "date": "2026-11-27T05:01:00Z",
+    "description": "A cloud layer encircled the flanks of the volcano on the Kamchatka Peninsula but left its restless summit caldera in view.",
+    "source": "NASA",
+    "category": "Other"
+  },
+  {
+    "title": "How Engineers Designed a Mission to One of Jupiter’s Icy Moons",
+    "link": "https://spectrum.ieee.org/jupiter-europa-clipper-mission-jpl",
+    "date": "2026-11-26T14:00:02Z",
+    "description": "On 3 December 2026, a 30.5-meter-wide space probe will slingshot past Earth, picking up the speed it needs to reach Jupiter in 2030. The Europa Clipper is designed to investigate Jupiter’s enigmatic moon Europa and look for places that could support life in the ocean beneath the moon’s thick shell of ice. Tim Larson is the project manager for the mission at the Jet Propulsion Laboratory, and he spoke to IEEE Spectrum about designing and flying the Europa Clipper . Tim Larson Tim Larson is the project manager for NASA’s Europa Clipper mission. He has been at the Jet Propulsion Laboratory in Pasadena, Calif., for over 35 years. Why take such a roundabout route to Jupiter? Tim Larson: That’s all driven by the energy that we got from our launch vehicle, the Falcon Heavy . It set a MEGA trajectory: Mars-Earth Gravity Assist. So about 4 months after launch, we flew by Mars, got an assist there. Now we’re coming back in for a final assist from Earth to get on our outbound trajectory to Jupiter. The Europa Clipper is set to orbit Jupiter and fly by Europa about 50 times to study it. Why not just orbit it directly? Larson: The big challenge is the radiation environment. It is so intense that any spacecraft orbiting Europa wouldn’t last very long. So the mission designers came through with this concept of the flybys. We will be in a three-week orbit around Jupiter, but the orbit is synchronized so that every time we fly by Jupiter, Europa is right there. Over time, you build up the coverage of the surface that we’re ultimately after. We spend a relatively short time in the high-radiation environment, and then the rest of the orbit is in a more benign environment where we can relay data back down to Earth, et cetera. The Europa Clipper relies on solar panels to generate power. Why not use a compact radioisotope thermoelectric generator (RTG)? Larson: It’s a national policy to only use RTGs if it is absolutely essential. A lot of the early concepts that focused on orbiting Europa had to go with RTG approaches, because you’d spend so much time in the shadow of Jupiter. Once we shifted over to the flyby mission approach, it turned out solar arrays would be feasible. How are Europa Clipper ’s electronics different from other probes? Larson: One of the things that we dealt with in our design was the level of radiation tolerance that we had to get in all our parts. In our main avionics module—we call it the vault —everything in there is designed to an exposure of 150 kilorads (1,500 sieverts ). To get our usual factor-of-two margin , we were buying parts that rated to 300 kilorads. That brings up side challenges, because when you buy high-radiation-tolerance versions of parts, you can’t always get the exact same part functionality. You might have to change your circuits a little bit. And they don’t always have the same form factor, so you have to accommodate that. How do you preserve fine-grained technical knowledge about the spacecraft over its yearslong mission lifetime? Larson: By the time we launch, we try to get everything documented. As we learn about the idiosyncrasies of the spacecraft, we capture that in databases. When we have personnel turnover, we try to have a lot of overlap. We’re looking at how AI can take in this broad array of information we have in multiple different formats and locations, and extract information. This article appears in the December 2026 print issue as “Tim Larson.”",
+    "source": "IEEE Spectrum",
+    "category": "Climate"
+  },
+  {
     "title": "The Download: Better bionic hands and AI’s natural-gas boom",
     "link": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
     "date": "2026-11-26T13:10:00Z",
@@ -166,77 +238,5 @@
     "description": "NASA’s James Webb Space Telescope reveals the hot dust that makes up Cassiopeia A (Cas A) in this high-resolution, mid-infrared image released on Nov. 23, 2026. Remnants like these are the clouds of gas and dust that remain following the explosion of a massive star and will eventually seed a new generation of stars and […]",
     "source": "NASA",
     "category": "Space"
-  },
-  {
-    "title": "NASA’s Titan-Bound Dragonfly Rotorcraft Gets Its Eyes",
-    "link": "https://science.nasa.gov/missions/dragonfly/nasas-titan-bound-dragonfly-rotorcraft-gets-its-eyes/",
-    "date": "2026-11-24T15:44:38Z",
-    "description": "Science instruments for NASA’s Dragonfly are starting to arrive at the Johns Hopkins Applied Physics Laboratory (APL) in Laurel, Maryland, where the car-sized rotorcraft is coming together for its mission to explore Saturn’s largest moon, Titan. First to check in: DragonCam, which consists of seven cameras designed to characterize Titan’s surface at multiple scales during […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "Raising the stakes for enterprise networks with AI modernization",
-    "link": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
-    "date": "2026-11-24T15:15:16Z",
-    "description": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an estimated 450% more network traffic than the same tasks done by human workers. As…",
-    "source": "MIT Technology Review",
-    "category": "Artificial Intelligence"
-  },
-  {
-    "title": "NASA Hubble’s New View of NGC 4394 Raises the Bar",
-    "link": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar/",
-    "date": "2026-11-24T13:58:28Z",
-    "description": "The brilliant galaxy NGC 4394 with its distinct galactic bar takes center stage in this Hubble Space Telescope image",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "The Download: AI’s gas power boom and a consciousness reality check",
-    "link": "https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/",
-    "date": "2026-11-24T13:10:00Z",
-    "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Data centers are getting their own natural gas power plants One of the biggest obstacles to building a data center is getting approval to connect to the grid, a wait that…",
-    "source": "MIT Technology Review",
-    "category": "Other"
-  },
-  {
-    "title": "Data centers are getting their own natural gas power plants",
-    "link": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
-    "date": "2026-11-24T11:00:00Z",
-    "description": "One of the biggest roadblocks to starting up a data center is getting approval to connect to the electric grid—a wait that could last as long as a decade. Some developers aren’t willing to wait and are instead opting to build their own off-grid, or behind-the-meter, gas power plants to fuel the AI boom. xAI’s…",
-    "source": "MIT Technology Review",
-    "category": "Artificial Intelligence"
-  },
-  {
-    "title": "APOD: 2026 November 24 – Galaxies Battle in the NGC 7771 Group",
-    "link": "https://science.nasa.gov/image-article/apod-2026-november-24-galaxies-battle-in-the-ngc-7771-group/",
-    "date": "2026-11-24T05:05:00Z",
-    "description": "APOD Science APOD APOD: 2026 November 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Galaxies Battle in […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "Eruption Extends Iwo Jima’s Beach",
-    "link": "https://science.nasa.gov/earth/earth-observatory/eruption-extends-iwo-jimas-beach/",
-    "date": "2026-11-24T05:01:00Z",
-    "description": "A volcanic eruption just off the southeast shore of the Pacific island has reshaped the coast, but it’s unclear how long the new land will survive.",
-    "source": "NASA",
-    "category": "Other"
-  },
-  {
-    "title": "NASA Awards Contract for NOAA’s Near Earth Orbit Network Program",
-    "link": "https://www.nasa.gov/news-release/nasa-awards-contract-for-noaas-near-earth-orbit-network-program/",
-    "date": "2026-11-23T21:10:03Z",
-    "description": "NASA, on behalf of the National Oceanic and Atmospheric Administration (NOAA), has awarded a contract to Northrop Grumman Systems Corporation for the Sounder for Microwave-Based Applications (SMBA) instruments on NOAA’s Near Earth Orbit Network (NEON) satellites. The cost-plus-fixed-fee, firm-fixed-price, and time-and-materials hybrid contract has a value of $290.6 million. The period of performance runs from […]",
-    "source": "NASA",
-    "category": "Space"
-  },
-  {
-    "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
-    "link": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
-    "date": "2026-11-23T17:36:08Z",
-    "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral…",
-    "source": "MIT Technology Review",
-    "category": "Artificial Intelligence"
   }
 ]
